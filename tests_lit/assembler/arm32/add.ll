@@ -14,11 +14,11 @@ define internal i32 @add1ToR0(i32 %p) {
 }
 
 ; ASM-LABEL: add1ToR0:
-; ASM:	add	r0, r0, #1
-; ASM:	bx	lr
+; ASM:  add     r0, r0, #1
+; ASM:  bx      lr
 
 ; IASM-LABEL: add1ToR0:
-; IASM:	     .byte 0x1
+; IASM:      .byte 0x1
 ; IASM-NEXT: .byte 0x0
 ; IASM-NEXT: .byte 0x80
 ; IASM-NEXT: .byte 0xe2
