@@ -14,7 +14,7 @@
 
 #include "Routine.hpp"
 
-#include "Common/Thread.hpp"
+#include "Thread.hpp"
 
 #include <cassert>
 
@@ -27,12 +27,12 @@ namespace rr
 
 	void Routine::bind()
 	{
-		sw::atomicIncrement(&bindCount);
+		atomicIncrement(&bindCount);
 	}
 
 	void Routine::unbind()
 	{
-		long count = sw::atomicDecrement(&bindCount);
+		long count = atomicDecrement(&bindCount);
 
 		if(count == 0)
 		{
