@@ -1,0 +1,8 @@
+*.json text
+*.h text
+*.hpp text
+*.hpp11 text
+*.lua text
+*.py text
+*.xml
+/tests/regres/testlists/vk-master-NOT_SUPPORTED.txt filter=lfs diff=lfs merge=lfs -text
