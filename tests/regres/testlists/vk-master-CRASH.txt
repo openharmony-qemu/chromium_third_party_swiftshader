@@ -36214,13 +36214,12 @@ dEQP-VK.pipeline.depth.format.d16_unorm.compare_ops.greater_or_equal_less_or_equ
 dEQP-VK.pipeline.depth.format.d16_unorm.compare_ops.greater_or_equal_never_greater_never
 dEQP-VK.pipeline.depth.format.d16_unorm.compare_ops.greater_or_equal_not_equal_greater_or_equal_greater
 dEQP-VK.pipeline.depth.format.d16_unorm.compare_ops.less_always_greater_or_equal_less
-dEQP-VK.pipeline.depth.format.d16_unorm.compare_ops.less_greater_less_or_equal_never
+dEQP-VK.pipeline.depth.format.d16_unorm.compare_ops.less_greater_equal_equal
+dEQP-VK.pipeline.depth.format.d16_unorm.compare_ops.less_greater_or_equal_less_greater
 dEQP-VK.pipeline.depth.format.d16_unorm.compare_ops.less_less_always_not_equal
 dEQP-VK.pipeline.depth.format.d16_unorm.compare_ops.less_less_or_equal_greater_equal
 dEQP-VK.pipeline.depth.format.d16_unorm.compare_ops.less_not_equal_less_greater_or_equal
 dEQP-VK.pipeline.depth.format.d16_unorm.compare_ops.less_or_equal_always_less_or_equal_greater
-dEQP-VK.pipeline.depth.format.d16_unorm.compare_ops.less_or_equal_greater_always_greater
-dEQP-VK.pipeline.depth.format.d16_unorm.compare_ops.less_or_equal_greater_never_less
 dEQP-VK.pipeline.depth.format.d16_unorm.compare_ops.less_or_equal_less_not_equal_greater_or_equal
 dEQP-VK.pipeline.depth.format.d16_unorm.compare_ops.less_or_equal_less_or_equal_greater_or_equal_never
 dEQP-VK.pipeline.depth.format.d16_unorm.compare_ops.less_or_equal_not_equal_less_or_equal_less_or_equal
@@ -38104,6 +38103,7 @@ dEQP-VK.pipeline.image.suballocation.sampling_type.combined.view_type.2d_array.f
 dEQP-VK.pipeline.image.suballocation.sampling_type.combined.view_type.2d_array.format.etc2_r8g8b8_unorm_block.count_1.size.32x16_array_of_3
 dEQP-VK.pipeline.image.suballocation.sampling_type.combined.view_type.2d_array.format.etc2_r8g8b8_unorm_block.count_1.size.32x16_array_of_6
 dEQP-VK.pipeline.image.suballocation.sampling_type.combined.view_type.2d_array.format.etc2_r8g8b8_unorm_block.count_1.size.32x32_array_of_3
+dEQP-VK.pipeline.image.suballocation.sampling_type.combined.view_type.2d_array.format.etc2_r8g8b8_unorm_block.count_1.size.32x32_array_of_6
 dEQP-VK.pipeline.image.suballocation.sampling_type.combined.view_type.2d_array.format.etc2_r8g8b8_unorm_block.count_1.size.3x3_array_of_3
 dEQP-VK.pipeline.image.suballocation.sampling_type.combined.view_type.2d_array.format.etc2_r8g8b8_unorm_block.count_1.size.3x3_array_of_6
 dEQP-VK.pipeline.image.suballocation.sampling_type.combined.view_type.2d_array.format.etc2_r8g8b8_unorm_block.count_1.size.8x16_array_of_3
@@ -50113,7 +50113,6 @@ dEQP-VK.pipeline.sampler.view_type.2d_array.format.etc2_r8g8b8a1_srgb_block.mag_
 dEQP-VK.pipeline.sampler.view_type.2d_array.format.etc2_r8g8b8a1_srgb_block.mipmap.linear.lod.equal_min_3_max_3
 dEQP-VK.pipeline.sampler.view_type.2d_array.format.etc2_r8g8b8a1_srgb_block.mipmap.linear.lod.select_bias_2_1
 dEQP-VK.pipeline.sampler.view_type.2d_array.format.etc2_r8g8b8a1_srgb_block.mipmap.linear.lod.select_bias_2_5
-dEQP-VK.pipeline.sampler.view_type.2d_array.format.etc2_r8g8b8a1_srgb_block.mipmap.linear.lod.select_bias_3_1
 dEQP-VK.pipeline.sampler.view_type.2d_array.format.etc2_r8g8b8a1_srgb_block.mipmap.linear.lod.select_bias_3_7
 dEQP-VK.pipeline.sampler.view_type.2d_array.format.etc2_r8g8b8a1_srgb_block.mipmap.linear.lod.select_max_4
 dEQP-VK.pipeline.sampler.view_type.2d_array.format.etc2_r8g8b8a1_srgb_block.mipmap.linear.lod.select_min_1
@@ -50145,6 +50144,7 @@ dEQP-VK.pipeline.sampler.view_type.2d_array.format.etc2_r8g8b8a1_unorm_block.mag
 dEQP-VK.pipeline.sampler.view_type.2d_array.format.etc2_r8g8b8a1_unorm_block.mipmap.linear.lod.equal_min_3_max_3
 dEQP-VK.pipeline.sampler.view_type.2d_array.format.etc2_r8g8b8a1_unorm_block.mipmap.linear.lod.select_bias_2_1
 dEQP-VK.pipeline.sampler.view_type.2d_array.format.etc2_r8g8b8a1_unorm_block.mipmap.linear.lod.select_bias_2_5
+dEQP-VK.pipeline.sampler.view_type.2d_array.format.etc2_r8g8b8a1_unorm_block.mipmap.linear.lod.select_bias_3_1
 dEQP-VK.pipeline.sampler.view_type.2d_array.format.etc2_r8g8b8a1_unorm_block.mipmap.linear.lod.select_bias_3_7
 dEQP-VK.pipeline.sampler.view_type.2d_array.format.etc2_r8g8b8a1_unorm_block.mipmap.linear.lod.select_max_4
 dEQP-VK.pipeline.sampler.view_type.2d_array.format.etc2_r8g8b8a1_unorm_block.mipmap.linear.lod.select_min_1
