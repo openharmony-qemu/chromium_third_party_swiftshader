@@ -53442,8 +53442,6 @@ dEQP-VK.spirv_assembly.instruction.compute.opatomic.iadd
 dEQP-VK.spirv_assembly.instruction.compute.opatomic.idec
 dEQP-VK.spirv_assembly.instruction.compute.opatomic.iinc
 dEQP-VK.spirv_assembly.instruction.compute.opatomic.isub
-dEQP-VK.spirv_assembly.instruction.compute.opatomic.load
-dEQP-VK.spirv_assembly.instruction.compute.opatomic.store
 dEQP-VK.spirv_assembly.instruction.compute.opatomic_return_values.compex
 dEQP-VK.spirv_assembly.instruction.compute.opatomic_return_values.iadd
 dEQP-VK.spirv_assembly.instruction.compute.opatomic_return_values.idec
@@ -55381,6 +55379,7 @@ dEQP-VK.subgroups.builtin_var.framebuffer.subgroupinvocationid_vertex
 dEQP-VK.subgroups.builtin_var.framebuffer.subgroupsize_vertex
 dEQP-VK.subgroups.builtin_var.graphics.subgroupinvocationid
 dEQP-VK.subgroups.builtin_var.graphics.subgroupsize
+dEQP-VK.synchronization.internally_synchronized_objects.pipeline_cache_compute
 dEQP-VK.synchronization.op.single_queue.barrier.write_blit_image_read_image_compute.image_128_r32_uint
 dEQP-VK.synchronization.op.single_queue.barrier.write_blit_image_read_image_compute.image_128x128_r16g16b16a16_uint
 dEQP-VK.synchronization.op.single_queue.barrier.write_blit_image_read_image_compute.image_128x128_r32g32b32a32_sfloat
