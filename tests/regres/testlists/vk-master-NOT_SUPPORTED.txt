@@ -102090,10 +102090,6 @@ dEQP-VK.draw.indirect_draw.indexed.indirect_draw_count_instanced.first_instance.
 dEQP-VK.draw.indirect_draw.indexed.indirect_draw_count_instanced.first_instance.triangle_strip
 dEQP-VK.draw.indirect_draw.indexed.indirect_draw_count_instanced.no_first_instance.triangle_list
 dEQP-VK.draw.indirect_draw.indexed.indirect_draw_count_instanced.no_first_instance.triangle_strip
-dEQP-VK.draw.indirect_draw.indexed.indirect_draw_first_instance.triangle_list
-dEQP-VK.draw.indirect_draw.indexed.indirect_draw_first_instance.triangle_strip
-dEQP-VK.draw.indirect_draw.indexed.indirect_draw_instanced.first_instance.triangle_list
-dEQP-VK.draw.indirect_draw.indexed.indirect_draw_instanced.first_instance.triangle_strip
 dEQP-VK.draw.indirect_draw.sequential.indirect_draw_count.triangle_list
 dEQP-VK.draw.indirect_draw.sequential.indirect_draw_count.triangle_strip
 dEQP-VK.draw.indirect_draw.sequential.indirect_draw_count_first_instance.triangle_list
@@ -102102,10 +102098,6 @@ dEQP-VK.draw.indirect_draw.sequential.indirect_draw_count_instanced.first_instan
 dEQP-VK.draw.indirect_draw.sequential.indirect_draw_count_instanced.first_instance.triangle_strip
 dEQP-VK.draw.indirect_draw.sequential.indirect_draw_count_instanced.no_first_instance.triangle_list
 dEQP-VK.draw.indirect_draw.sequential.indirect_draw_count_instanced.no_first_instance.triangle_strip
-dEQP-VK.draw.indirect_draw.sequential.indirect_draw_first_instance.triangle_list
-dEQP-VK.draw.indirect_draw.sequential.indirect_draw_first_instance.triangle_strip
-dEQP-VK.draw.indirect_draw.sequential.indirect_draw_instanced.first_instance.triangle_list
-dEQP-VK.draw.indirect_draw.sequential.indirect_draw_instanced.first_instance.triangle_strip
 dEQP-VK.draw.instanced.draw_indexed_indirect_vk_primitive_topology_line_list_attrib_divisor_0
 dEQP-VK.draw.instanced.draw_indexed_indirect_vk_primitive_topology_line_list_attrib_divisor_1
 dEQP-VK.draw.instanced.draw_indexed_indirect_vk_primitive_topology_line_list_attrib_divisor_2
