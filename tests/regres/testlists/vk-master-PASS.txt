@@ -32903,6 +32903,7 @@ dEQP-VK.pipeline.push_constant.graphics_pipeline.data_update_multiple
 dEQP-VK.pipeline.push_constant.graphics_pipeline.data_update_partial_1
 dEQP-VK.pipeline.push_constant.graphics_pipeline.data_update_partial_2
 dEQP-VK.pipeline.push_constant.graphics_pipeline.dynamic_index_frag
+dEQP-VK.pipeline.push_constant.graphics_pipeline.dynamic_index_vert
 dEQP-VK.pipeline.push_constant.graphics_pipeline.overlap_2_shaders_vert_frag
 dEQP-VK.pipeline.push_constant.graphics_pipeline.range_size_128
 dEQP-VK.pipeline.push_constant.graphics_pipeline.range_size_16
@@ -43780,6 +43781,7 @@ dEQP-VK.ssbo.layout.2_level_array.std140.ivec3
 dEQP-VK.ssbo.layout.2_level_array.std140.ivec4
 dEQP-VK.ssbo.layout.2_level_array.std140.mat2x4
 dEQP-VK.ssbo.layout.2_level_array.std140.mat3x4
+dEQP-VK.ssbo.layout.2_level_array.std140.mat4
 dEQP-VK.ssbo.layout.2_level_array.std140.uint
 dEQP-VK.ssbo.layout.2_level_array.std140.uvec2
 dEQP-VK.ssbo.layout.2_level_array.std140.uvec3
@@ -43845,6 +43847,7 @@ dEQP-VK.ssbo.layout.3_level_array.std430.bvec4
 dEQP-VK.ssbo.layout.3_level_array.std430.column_major_mat2
 dEQP-VK.ssbo.layout.3_level_array.std430.column_major_mat2_comp_access
 dEQP-VK.ssbo.layout.3_level_array.std430.column_major_mat3x2
+dEQP-VK.ssbo.layout.3_level_array.std430.column_major_mat3x2_comp_access
 dEQP-VK.ssbo.layout.3_level_array.std430.float
 dEQP-VK.ssbo.layout.3_level_array.std430.int
 dEQP-VK.ssbo.layout.3_level_array.std430.ivec2
@@ -43863,7 +43866,6 @@ dEQP-VK.ssbo.layout.3_level_unsized_array.std140.bool
 dEQP-VK.ssbo.layout.3_level_unsized_array.std140.bvec2
 dEQP-VK.ssbo.layout.3_level_unsized_array.std140.bvec3
 dEQP-VK.ssbo.layout.3_level_unsized_array.std140.bvec4
-dEQP-VK.ssbo.layout.3_level_unsized_array.std140.column_major_mat2x4_comp_access
 dEQP-VK.ssbo.layout.3_level_unsized_array.std140.float
 dEQP-VK.ssbo.layout.3_level_unsized_array.std140.int
 dEQP-VK.ssbo.layout.3_level_unsized_array.std140.ivec2
@@ -43882,6 +43884,7 @@ dEQP-VK.ssbo.layout.3_level_unsized_array.std430.bvec3
 dEQP-VK.ssbo.layout.3_level_unsized_array.std430.bvec4
 dEQP-VK.ssbo.layout.3_level_unsized_array.std430.column_major_mat2
 dEQP-VK.ssbo.layout.3_level_unsized_array.std430.column_major_mat2_comp_access
+dEQP-VK.ssbo.layout.3_level_unsized_array.std430.column_major_mat3x2
 dEQP-VK.ssbo.layout.3_level_unsized_array.std430.column_major_mat3x2_comp_access
 dEQP-VK.ssbo.layout.3_level_unsized_array.std430.float
 dEQP-VK.ssbo.layout.3_level_unsized_array.std430.int
@@ -43889,6 +43892,7 @@ dEQP-VK.ssbo.layout.3_level_unsized_array.std430.ivec2
 dEQP-VK.ssbo.layout.3_level_unsized_array.std430.ivec3
 dEQP-VK.ssbo.layout.3_level_unsized_array.std430.ivec4
 dEQP-VK.ssbo.layout.3_level_unsized_array.std430.mat2
+dEQP-VK.ssbo.layout.3_level_unsized_array.std430.mat3x2
 dEQP-VK.ssbo.layout.3_level_unsized_array.std430.uint
 dEQP-VK.ssbo.layout.3_level_unsized_array.std430.uvec2
 dEQP-VK.ssbo.layout.3_level_unsized_array.std430.uvec3
@@ -43933,6 +43937,7 @@ dEQP-VK.ssbo.layout.basic_unsized_array.std430.ivec2
 dEQP-VK.ssbo.layout.basic_unsized_array.std430.ivec3
 dEQP-VK.ssbo.layout.basic_unsized_array.std430.ivec4
 dEQP-VK.ssbo.layout.basic_unsized_array.std430.mat2
+dEQP-VK.ssbo.layout.basic_unsized_array.std430.mat2x4
 dEQP-VK.ssbo.layout.basic_unsized_array.std430.mat3x2
 dEQP-VK.ssbo.layout.basic_unsized_array.std430.mat4x2
 dEQP-VK.ssbo.layout.basic_unsized_array.std430.uint
@@ -46399,6 +46404,7 @@ dEQP-VK.ubo.single_basic_type.std140.lowp.row_major_mat4.fragment_comp_access
 dEQP-VK.ubo.single_basic_type.std140.lowp.row_major_mat4.vertex
 dEQP-VK.ubo.single_basic_type.std140.lowp.row_major_mat4.vertex_comp_access
 dEQP-VK.ubo.single_basic_type.std140.lowp.row_major_mat4x2.both
+dEQP-VK.ubo.single_basic_type.std140.lowp.row_major_mat4x2.both_comp_access
 dEQP-VK.ubo.single_basic_type.std140.lowp.row_major_mat4x2.fragment
 dEQP-VK.ubo.single_basic_type.std140.lowp.row_major_mat4x2.vertex
 dEQP-VK.ubo.single_basic_type.std140.lowp.row_major_mat4x3.both
