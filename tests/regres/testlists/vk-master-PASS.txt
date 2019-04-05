@@ -47775,11 +47775,11 @@ dEQP-VK.ubo.single_basic_type.std140.lowp.row_major_mat4.vertex
 dEQP-VK.ubo.single_basic_type.std140.lowp.row_major_mat4.vertex_comp_access
 dEQP-VK.ubo.single_basic_type.std140.lowp.row_major_mat4x2.both
 dEQP-VK.ubo.single_basic_type.std140.lowp.row_major_mat4x2.fragment
+dEQP-VK.ubo.single_basic_type.std140.lowp.row_major_mat4x2.fragment_comp_access
 dEQP-VK.ubo.single_basic_type.std140.lowp.row_major_mat4x2.vertex
 dEQP-VK.ubo.single_basic_type.std140.lowp.row_major_mat4x3.both
 dEQP-VK.ubo.single_basic_type.std140.lowp.row_major_mat4x3.fragment
 dEQP-VK.ubo.single_basic_type.std140.lowp.row_major_mat4x3.vertex
-dEQP-VK.ubo.single_basic_type.std140.lowp.row_major_mat4x3.vertex_comp_access
 dEQP-VK.ubo.single_basic_type.std140.lowp.uint.both
 dEQP-VK.ubo.single_basic_type.std140.lowp.uint.both_comp_access
 dEQP-VK.ubo.single_basic_type.std140.lowp.uint.fragment
@@ -48004,6 +48004,7 @@ dEQP-VK.ubo.single_basic_type.std140.mediump.row_major_mat4.vertex
 dEQP-VK.ubo.single_basic_type.std140.mediump.row_major_mat4.vertex_comp_access
 dEQP-VK.ubo.single_basic_type.std140.mediump.row_major_mat4x2.both
 dEQP-VK.ubo.single_basic_type.std140.mediump.row_major_mat4x2.fragment
+dEQP-VK.ubo.single_basic_type.std140.mediump.row_major_mat4x2.fragment_comp_access
 dEQP-VK.ubo.single_basic_type.std140.mediump.row_major_mat4x2.vertex
 dEQP-VK.ubo.single_basic_type.std140.mediump.row_major_mat4x3.both
 dEQP-VK.ubo.single_basic_type.std140.mediump.row_major_mat4x3.fragment
