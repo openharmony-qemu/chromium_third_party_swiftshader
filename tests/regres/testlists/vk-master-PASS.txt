@@ -46981,7 +46981,6 @@ dEQP-VK.renderpass.dedicated_allocation.attachment.4.564
 dEQP-VK.renderpass.dedicated_allocation.attachment.4.575
 dEQP-VK.renderpass.dedicated_allocation.attachment.4.577
 dEQP-VK.renderpass.dedicated_allocation.attachment.4.585
-dEQP-VK.renderpass.dedicated_allocation.attachment_allocation.grow.10
 dEQP-VK.renderpass.dedicated_allocation.attachment_allocation.grow.4
 dEQP-VK.renderpass.dedicated_allocation.attachment_allocation.grow.49
 dEQP-VK.renderpass.dedicated_allocation.attachment_allocation.grow.52
