@@ -56046,7 +56046,6 @@ dEQP-VK.renderpass.suballocation.attachment_allocation.grow_shrink.14
 dEQP-VK.renderpass.suballocation.attachment_allocation.grow_shrink.37
 dEQP-VK.renderpass.suballocation.attachment_allocation.grow_shrink.47
 dEQP-VK.renderpass.suballocation.attachment_allocation.grow_shrink.7
-dEQP-VK.renderpass.suballocation.attachment_allocation.input_output.97
 dEQP-VK.renderpass.suballocation.attachment_allocation.input_output_chain.11
 dEQP-VK.renderpass.suballocation.attachment_allocation.input_output_chain.41
 dEQP-VK.renderpass.suballocation.attachment_allocation.input_output_chain.46
