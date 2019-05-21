@@ -2240,6 +2240,7 @@ dEQP-VK.api.copy_and_blit.core.blit_image.all_formats.color.e5b9g9r9_ufloat_pack
 dEQP-VK.api.copy_and_blit.core.blit_image.all_formats.color.e5b9g9r9_ufloat_pack32.r8_unorm.general_optimal_nearest
 dEQP-VK.api.copy_and_blit.core.blit_image.all_formats.color.e5b9g9r9_ufloat_pack32.r8_unorm.optimal_general_linear
 dEQP-VK.api.copy_and_blit.core.blit_image.all_formats.color.e5b9g9r9_ufloat_pack32.r8_unorm.optimal_general_nearest
+dEQP-VK.api.copy_and_blit.core.blit_image.all_formats.color.e5b9g9r9_ufloat_pack32.r8_unorm.optimal_optimal_linear
 dEQP-VK.api.copy_and_blit.core.blit_image.all_formats.color.e5b9g9r9_ufloat_pack32.r8_unorm.optimal_optimal_nearest
 dEQP-VK.api.copy_and_blit.core.blit_image.all_formats.color.e5b9g9r9_ufloat_pack32.r8g8_unorm.general_general_linear
 dEQP-VK.api.copy_and_blit.core.blit_image.all_formats.color.e5b9g9r9_ufloat_pack32.r8g8_unorm.general_general_nearest
@@ -14987,6 +14988,7 @@ dEQP-VK.api.object_management.multithreaded_per_thread_device.command_buffer_pri
 dEQP-VK.api.object_management.multithreaded_per_thread_device.command_buffer_secondary
 dEQP-VK.api.object_management.multithreaded_per_thread_device.command_pool
 dEQP-VK.api.object_management.multithreaded_per_thread_device.command_pool_transient
+dEQP-VK.api.object_management.multithreaded_per_thread_device.compute_pipeline
 dEQP-VK.api.object_management.multithreaded_per_thread_device.descriptor_pool
 dEQP-VK.api.object_management.multithreaded_per_thread_device.descriptor_pool_free_descriptor_set
 dEQP-VK.api.object_management.multithreaded_per_thread_device.descriptor_set
@@ -30669,6 +30671,8 @@ dEQP-VK.glsl.builtin.precision.mod.mediump_compute.scalar
 dEQP-VK.glsl.builtin.precision.mod.mediump_compute.vec2
 dEQP-VK.glsl.builtin.precision.mod.mediump_compute.vec3
 dEQP-VK.glsl.builtin.precision.mod.mediump_compute.vec4
+dEQP-VK.glsl.builtin.precision.modf.highp_compute
+dEQP-VK.glsl.builtin.precision.modf.mediump_compute
 dEQP-VK.glsl.builtin.precision.mul.highp_compute.scalar
 dEQP-VK.glsl.builtin.precision.mul.highp_compute.vec2
 dEQP-VK.glsl.builtin.precision.mul.highp_compute.vec3
@@ -42446,6 +42450,7 @@ dEQP-VK.glsl.texture_functions.texture.sampler3d_float_vertex
 dEQP-VK.glsl.texture_functions.texture.samplercube_bias_fixed_fragment
 dEQP-VK.glsl.texture_functions.texture.samplercube_bias_float_fragment
 dEQP-VK.glsl.texture_functions.texture.samplercube_fixed_fragment
+dEQP-VK.glsl.texture_functions.texture.samplercube_fixed_vertex
 dEQP-VK.glsl.texture_functions.texture.samplercube_float_fragment
 dEQP-VK.glsl.texture_functions.texture.samplercube_float_vertex
 dEQP-VK.glsl.texture_functions.texture.samplercubeshadow_bias_fragment
