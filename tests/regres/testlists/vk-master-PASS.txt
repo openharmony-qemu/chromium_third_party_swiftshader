@@ -33060,7 +33060,6 @@ dEQP-VK.glsl.derivate.fwidthcoarse.texture.float.vec4_mediump
 dEQP-VK.glsl.derivate.fwidthcoarse.texture.msaa4.float_highp
 dEQP-VK.glsl.derivate.fwidthcoarse.texture.msaa4.float_mediump
 dEQP-VK.glsl.derivate.fwidthcoarse.texture.msaa4.vec2_highp
-dEQP-VK.glsl.derivate.fwidthcoarse.texture.msaa4.vec2_mediump
 dEQP-VK.glsl.derivate.fwidthcoarse.texture.msaa4.vec3_highp
 dEQP-VK.glsl.derivate.fwidthcoarse.texture.msaa4.vec3_mediump
 dEQP-VK.glsl.derivate.fwidthcoarse.texture.msaa4.vec4_highp
