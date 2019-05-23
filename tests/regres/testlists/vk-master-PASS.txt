@@ -15069,7 +15069,6 @@ dEQP-VK.api.object_management.multithreaded_shared_resources.buffer_view_storage
 dEQP-VK.api.object_management.multithreaded_shared_resources.buffer_view_uniform_r8g8b8a8_unorm
 dEQP-VK.api.object_management.multithreaded_shared_resources.command_pool
 dEQP-VK.api.object_management.multithreaded_shared_resources.command_pool_transient
-dEQP-VK.api.object_management.multithreaded_shared_resources.compute_pipeline
 dEQP-VK.api.object_management.multithreaded_shared_resources.descriptor_pool
 dEQP-VK.api.object_management.multithreaded_shared_resources.descriptor_pool_free_descriptor_set
 dEQP-VK.api.object_management.multithreaded_shared_resources.descriptor_set_layout_empty
@@ -15196,6 +15195,7 @@ dEQP-VK.api.smoke.create_sampler
 dEQP-VK.api.smoke.create_shader
 dEQP-VK.api.smoke.triangle
 dEQP-VK.api.smoke.unused_resolve_attachment
+dEQP-VK.api.version_check.entry_points
 dEQP-VK.api.version_check.version
 dEQP-VK.binding_model.descriptor_update.empty_descriptor.uniform_buffer
 dEQP-VK.binding_model.descriptorset_random.sets4.constant.ubolimitlow.sbolimitlow.imglimitlow.noiub.comp.0
@@ -29166,6 +29166,7 @@ dEQP-VK.draw.basic_draw.draw.line_list.1
 dEQP-VK.draw.basic_draw.draw.line_list.17
 dEQP-VK.draw.basic_draw.draw.line_list.3
 dEQP-VK.draw.basic_draw.draw.line_list.45
+dEQP-VK.draw.basic_draw.draw.line_strip.1
 dEQP-VK.draw.basic_draw.draw.line_strip.17
 dEQP-VK.draw.basic_draw.draw.line_strip.3
 dEQP-VK.draw.basic_draw.draw.line_strip.45
@@ -29173,6 +29174,7 @@ dEQP-VK.draw.basic_draw.draw.point_list.1
 dEQP-VK.draw.basic_draw.draw.point_list.17
 dEQP-VK.draw.basic_draw.draw.point_list.3
 dEQP-VK.draw.basic_draw.draw.point_list.45
+dEQP-VK.draw.basic_draw.draw.triangle_fan.1
 dEQP-VK.draw.basic_draw.draw.triangle_fan.17
 dEQP-VK.draw.basic_draw.draw.triangle_fan.3
 dEQP-VK.draw.basic_draw.draw.triangle_fan.45
@@ -29187,6 +29189,7 @@ dEQP-VK.draw.basic_draw.draw_indexed.line_list.1
 dEQP-VK.draw.basic_draw.draw_indexed.line_list.17
 dEQP-VK.draw.basic_draw.draw_indexed.line_list.3
 dEQP-VK.draw.basic_draw.draw_indexed.line_list.45
+dEQP-VK.draw.basic_draw.draw_indexed.line_strip.1
 dEQP-VK.draw.basic_draw.draw_indexed.line_strip.17
 dEQP-VK.draw.basic_draw.draw_indexed.line_strip.3
 dEQP-VK.draw.basic_draw.draw_indexed.line_strip.45
@@ -29194,6 +29197,7 @@ dEQP-VK.draw.basic_draw.draw_indexed.point_list.1
 dEQP-VK.draw.basic_draw.draw_indexed.point_list.17
 dEQP-VK.draw.basic_draw.draw_indexed.point_list.3
 dEQP-VK.draw.basic_draw.draw_indexed.point_list.45
+dEQP-VK.draw.basic_draw.draw_indexed.triangle_fan.1
 dEQP-VK.draw.basic_draw.draw_indexed.triangle_fan.17
 dEQP-VK.draw.basic_draw.draw_indexed.triangle_fan.3
 dEQP-VK.draw.basic_draw.draw_indexed.triangle_fan.45
@@ -29214,6 +29218,8 @@ dEQP-VK.draw.basic_draw.draw_indexed_indirect.line_list.45_multi_command
 dEQP-VK.draw.basic_draw.draw_indexed_indirect.line_list.45_single_command
 dEQP-VK.draw.basic_draw.draw_indexed_indirect.line_strip.17_multi_command
 dEQP-VK.draw.basic_draw.draw_indexed_indirect.line_strip.17_single_command
+dEQP-VK.draw.basic_draw.draw_indexed_indirect.line_strip.1_multi_command
+dEQP-VK.draw.basic_draw.draw_indexed_indirect.line_strip.1_single_command
 dEQP-VK.draw.basic_draw.draw_indexed_indirect.line_strip.3_multi_command
 dEQP-VK.draw.basic_draw.draw_indexed_indirect.line_strip.3_single_command
 dEQP-VK.draw.basic_draw.draw_indexed_indirect.line_strip.45_multi_command
@@ -29228,6 +29234,8 @@ dEQP-VK.draw.basic_draw.draw_indexed_indirect.point_list.45_multi_command
 dEQP-VK.draw.basic_draw.draw_indexed_indirect.point_list.45_single_command
 dEQP-VK.draw.basic_draw.draw_indexed_indirect.triangle_fan.17_multi_command
 dEQP-VK.draw.basic_draw.draw_indexed_indirect.triangle_fan.17_single_command
+dEQP-VK.draw.basic_draw.draw_indexed_indirect.triangle_fan.1_multi_command
+dEQP-VK.draw.basic_draw.draw_indexed_indirect.triangle_fan.1_single_command
 dEQP-VK.draw.basic_draw.draw_indexed_indirect.triangle_fan.3_multi_command
 dEQP-VK.draw.basic_draw.draw_indexed_indirect.triangle_fan.3_single_command
 dEQP-VK.draw.basic_draw.draw_indexed_indirect.triangle_fan.45_multi_command
@@ -29256,6 +29264,8 @@ dEQP-VK.draw.basic_draw.draw_indirect.line_list.45_multi_command
 dEQP-VK.draw.basic_draw.draw_indirect.line_list.45_single_command
 dEQP-VK.draw.basic_draw.draw_indirect.line_strip.17_multi_command
 dEQP-VK.draw.basic_draw.draw_indirect.line_strip.17_single_command
+dEQP-VK.draw.basic_draw.draw_indirect.line_strip.1_multi_command
+dEQP-VK.draw.basic_draw.draw_indirect.line_strip.1_single_command
 dEQP-VK.draw.basic_draw.draw_indirect.line_strip.3_multi_command
 dEQP-VK.draw.basic_draw.draw_indirect.line_strip.3_single_command
 dEQP-VK.draw.basic_draw.draw_indirect.line_strip.45_multi_command
@@ -29270,6 +29280,8 @@ dEQP-VK.draw.basic_draw.draw_indirect.point_list.45_multi_command
 dEQP-VK.draw.basic_draw.draw_indirect.point_list.45_single_command
 dEQP-VK.draw.basic_draw.draw_indirect.triangle_fan.17_multi_command
 dEQP-VK.draw.basic_draw.draw_indirect.triangle_fan.17_single_command
+dEQP-VK.draw.basic_draw.draw_indirect.triangle_fan.1_multi_command
+dEQP-VK.draw.basic_draw.draw_indirect.triangle_fan.1_single_command
 dEQP-VK.draw.basic_draw.draw_indirect.triangle_fan.3_multi_command
 dEQP-VK.draw.basic_draw.draw_indirect.triangle_fan.3_single_command
 dEQP-VK.draw.basic_draw.draw_indirect.triangle_fan.45_multi_command
@@ -33060,6 +33072,7 @@ dEQP-VK.glsl.derivate.fwidthcoarse.texture.float.vec4_mediump
 dEQP-VK.glsl.derivate.fwidthcoarse.texture.msaa4.float_highp
 dEQP-VK.glsl.derivate.fwidthcoarse.texture.msaa4.float_mediump
 dEQP-VK.glsl.derivate.fwidthcoarse.texture.msaa4.vec2_highp
+dEQP-VK.glsl.derivate.fwidthcoarse.texture.msaa4.vec2_mediump
 dEQP-VK.glsl.derivate.fwidthcoarse.texture.msaa4.vec3_highp
 dEQP-VK.glsl.derivate.fwidthcoarse.texture.msaa4.vec3_mediump
 dEQP-VK.glsl.derivate.fwidthcoarse.texture.msaa4.vec4_highp
@@ -42507,7 +42520,6 @@ dEQP-VK.glsl.texture_functions.texturegrad.sampler3d_fixed_fragment
 dEQP-VK.glsl.texture_functions.texturegrad.sampler3d_fixed_vertex
 dEQP-VK.glsl.texture_functions.texturegrad.sampler3d_float_fragment
 dEQP-VK.glsl.texture_functions.texturegrad.samplercube_fixed_fragment
-dEQP-VK.glsl.texture_functions.texturegrad.samplercube_fixed_vertex
 dEQP-VK.glsl.texture_functions.texturegrad.samplercube_float_fragment
 dEQP-VK.glsl.texture_functions.texturegrad.samplercube_float_vertex
 dEQP-VK.glsl.texture_functions.texturegrad.usampler1d_fragment
@@ -74851,7 +74863,6 @@ dEQP-VK.query_pool.occlusion_query.get_results_conservative_size_32_wait_queue_w
 dEQP-VK.query_pool.occlusion_query.get_results_conservative_size_64_wait_query_with_availability_draw_points
 dEQP-VK.query_pool.occlusion_query.get_results_conservative_size_64_wait_query_with_availability_draw_triangles
 dEQP-VK.query_pool.occlusion_query.get_results_conservative_size_64_wait_query_with_availability_draw_triangles_discard
-dEQP-VK.query_pool.occlusion_query.get_results_conservative_size_64_wait_query_without_availability_draw_points
 dEQP-VK.query_pool.occlusion_query.get_results_conservative_size_64_wait_query_without_availability_draw_triangles
 dEQP-VK.query_pool.occlusion_query.get_results_conservative_size_64_wait_query_without_availability_draw_triangles_discard
 dEQP-VK.query_pool.occlusion_query.get_results_conservative_size_64_wait_queue_with_availability_draw_points
