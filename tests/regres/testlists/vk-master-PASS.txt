@@ -15069,6 +15069,7 @@ dEQP-VK.api.object_management.multithreaded_shared_resources.buffer_view_storage
 dEQP-VK.api.object_management.multithreaded_shared_resources.buffer_view_uniform_r8g8b8a8_unorm
 dEQP-VK.api.object_management.multithreaded_shared_resources.command_pool
 dEQP-VK.api.object_management.multithreaded_shared_resources.command_pool_transient
+dEQP-VK.api.object_management.multithreaded_shared_resources.compute_pipeline
 dEQP-VK.api.object_management.multithreaded_shared_resources.descriptor_pool
 dEQP-VK.api.object_management.multithreaded_shared_resources.descriptor_pool_free_descriptor_set
 dEQP-VK.api.object_management.multithreaded_shared_resources.descriptor_set_layout_empty
@@ -29182,6 +29183,7 @@ dEQP-VK.draw.basic_draw.draw.triangle_list.1
 dEQP-VK.draw.basic_draw.draw.triangle_list.17
 dEQP-VK.draw.basic_draw.draw.triangle_list.3
 dEQP-VK.draw.basic_draw.draw.triangle_list.45
+dEQP-VK.draw.basic_draw.draw.triangle_strip.1
 dEQP-VK.draw.basic_draw.draw.triangle_strip.17
 dEQP-VK.draw.basic_draw.draw.triangle_strip.3
 dEQP-VK.draw.basic_draw.draw.triangle_strip.45
@@ -29205,6 +29207,7 @@ dEQP-VK.draw.basic_draw.draw_indexed.triangle_list.1
 dEQP-VK.draw.basic_draw.draw_indexed.triangle_list.17
 dEQP-VK.draw.basic_draw.draw_indexed.triangle_list.3
 dEQP-VK.draw.basic_draw.draw_indexed.triangle_list.45
+dEQP-VK.draw.basic_draw.draw_indexed.triangle_strip.1
 dEQP-VK.draw.basic_draw.draw_indexed.triangle_strip.17
 dEQP-VK.draw.basic_draw.draw_indexed.triangle_strip.3
 dEQP-VK.draw.basic_draw.draw_indexed.triangle_strip.45
@@ -29250,6 +29253,8 @@ dEQP-VK.draw.basic_draw.draw_indexed_indirect.triangle_list.45_multi_command
 dEQP-VK.draw.basic_draw.draw_indexed_indirect.triangle_list.45_single_command
 dEQP-VK.draw.basic_draw.draw_indexed_indirect.triangle_strip.17_multi_command
 dEQP-VK.draw.basic_draw.draw_indexed_indirect.triangle_strip.17_single_command
+dEQP-VK.draw.basic_draw.draw_indexed_indirect.triangle_strip.1_multi_command
+dEQP-VK.draw.basic_draw.draw_indexed_indirect.triangle_strip.1_single_command
 dEQP-VK.draw.basic_draw.draw_indexed_indirect.triangle_strip.3_multi_command
 dEQP-VK.draw.basic_draw.draw_indexed_indirect.triangle_strip.3_single_command
 dEQP-VK.draw.basic_draw.draw_indexed_indirect.triangle_strip.45_multi_command
@@ -29296,6 +29301,8 @@ dEQP-VK.draw.basic_draw.draw_indirect.triangle_list.45_multi_command
 dEQP-VK.draw.basic_draw.draw_indirect.triangle_list.45_single_command
 dEQP-VK.draw.basic_draw.draw_indirect.triangle_strip.17_multi_command
 dEQP-VK.draw.basic_draw.draw_indirect.triangle_strip.17_single_command
+dEQP-VK.draw.basic_draw.draw_indirect.triangle_strip.1_multi_command
+dEQP-VK.draw.basic_draw.draw_indirect.triangle_strip.1_single_command
 dEQP-VK.draw.basic_draw.draw_indirect.triangle_strip.3_multi_command
 dEQP-VK.draw.basic_draw.draw_indirect.triangle_strip.3_single_command
 dEQP-VK.draw.basic_draw.draw_indirect.triangle_strip.45_multi_command
@@ -29415,6 +29422,7 @@ dEQP-VK.glsl.440.linkage.varying.component.frag_out.vec4.as_vec2_float_float
 dEQP-VK.glsl.440.linkage.varying.component.frag_out.vec4.as_vec2_vec2
 dEQP-VK.glsl.440.linkage.varying.component.frag_out.vec4.as_vec3_float
 dEQP-VK.glsl.440.linkage.varying.component.vert_in.ivec2.as_int_int
+dEQP-VK.glsl.440.linkage.varying.component.vert_in.ivec2.as_int_int_unused
 dEQP-VK.glsl.440.linkage.varying.component.vert_in.ivec4.as_int_int_int_int
 dEQP-VK.glsl.440.linkage.varying.component.vert_in.ivec4.as_int_int_ivec2
 dEQP-VK.glsl.440.linkage.varying.component.vert_in.ivec4.as_int_ivec2_int
@@ -29571,7 +29579,9 @@ dEQP-VK.glsl.atomic_operations.comp_swap_unsigned_compute
 dEQP-VK.glsl.atomic_operations.exchange_signed_compute
 dEQP-VK.glsl.atomic_operations.exchange_unsigned_compute
 dEQP-VK.glsl.atomic_operations.max_signed_compute
+dEQP-VK.glsl.atomic_operations.max_unsigned_compute
 dEQP-VK.glsl.atomic_operations.min_signed_compute
+dEQP-VK.glsl.atomic_operations.min_unsigned_compute
 dEQP-VK.glsl.atomic_operations.or_signed_compute
 dEQP-VK.glsl.atomic_operations.or_unsigned_compute
 dEQP-VK.glsl.atomic_operations.xor_signed_compute
@@ -49650,14 +49660,32 @@ dEQP-VK.memory.pipeline_barrier.transfer_dst_index_buffer.1024
 dEQP-VK.memory.pipeline_barrier.transfer_dst_index_buffer.1048576
 dEQP-VK.memory.pipeline_barrier.transfer_dst_index_buffer.65536
 dEQP-VK.memory.pipeline_barrier.transfer_dst_index_buffer.8192
+dEQP-VK.memory.pipeline_barrier.transfer_dst_storage_buffer.1024
+dEQP-VK.memory.pipeline_barrier.transfer_dst_storage_buffer.1048576
+dEQP-VK.memory.pipeline_barrier.transfer_dst_storage_buffer.65536
+dEQP-VK.memory.pipeline_barrier.transfer_dst_storage_buffer.8192
 dEQP-VK.memory.pipeline_barrier.transfer_dst_storage_image.1024
 dEQP-VK.memory.pipeline_barrier.transfer_dst_storage_image.1048576
 dEQP-VK.memory.pipeline_barrier.transfer_dst_storage_image.65536
 dEQP-VK.memory.pipeline_barrier.transfer_dst_storage_image.8192
+dEQP-VK.memory.pipeline_barrier.transfer_dst_storage_texel_buffer.1024
+dEQP-VK.memory.pipeline_barrier.transfer_dst_storage_texel_buffer.1048576
+dEQP-VK.memory.pipeline_barrier.transfer_dst_storage_texel_buffer.65536
+dEQP-VK.memory.pipeline_barrier.transfer_dst_storage_texel_buffer.8192
+dEQP-VK.memory.pipeline_barrier.transfer_dst_uniform_buffer.1024
+dEQP-VK.memory.pipeline_barrier.transfer_dst_uniform_buffer.1048576
+dEQP-VK.memory.pipeline_barrier.transfer_dst_uniform_buffer.65536
+dEQP-VK.memory.pipeline_barrier.transfer_dst_uniform_buffer.8192
+dEQP-VK.memory.pipeline_barrier.transfer_dst_uniform_texel_buffer.1024
+dEQP-VK.memory.pipeline_barrier.transfer_dst_uniform_texel_buffer.8192
 dEQP-VK.memory.pipeline_barrier.transfer_dst_vertex_buffer.1024
 dEQP-VK.memory.pipeline_barrier.transfer_dst_vertex_buffer.1048576
 dEQP-VK.memory.pipeline_barrier.transfer_dst_vertex_buffer.65536
 dEQP-VK.memory.pipeline_barrier.transfer_dst_vertex_buffer.8192
+dEQP-VK.memory.pipeline_barrier.transfer_src_transfer_dst.1024
+dEQP-VK.memory.pipeline_barrier.transfer_src_transfer_dst.1048576
+dEQP-VK.memory.pipeline_barrier.transfer_src_transfer_dst.65536
+dEQP-VK.memory.pipeline_barrier.transfer_src_transfer_dst.8192
 dEQP-VK.memory.requirements.core.buffer.regular
 dEQP-VK.memory.requirements.core.image.regular_tiling_linear
 dEQP-VK.memory.requirements.core.image.regular_tiling_optimal
@@ -74863,6 +74891,7 @@ dEQP-VK.query_pool.occlusion_query.get_results_conservative_size_32_wait_queue_w
 dEQP-VK.query_pool.occlusion_query.get_results_conservative_size_64_wait_query_with_availability_draw_points
 dEQP-VK.query_pool.occlusion_query.get_results_conservative_size_64_wait_query_with_availability_draw_triangles
 dEQP-VK.query_pool.occlusion_query.get_results_conservative_size_64_wait_query_with_availability_draw_triangles_discard
+dEQP-VK.query_pool.occlusion_query.get_results_conservative_size_64_wait_query_without_availability_draw_points
 dEQP-VK.query_pool.occlusion_query.get_results_conservative_size_64_wait_query_without_availability_draw_triangles
 dEQP-VK.query_pool.occlusion_query.get_results_conservative_size_64_wait_query_without_availability_draw_triangles_discard
 dEQP-VK.query_pool.occlusion_query.get_results_conservative_size_64_wait_queue_with_availability_draw_points
@@ -82257,8 +82286,10 @@ dEQP-VK.renderpass.suballocation.multisample.r8g8b8a8_unorm.samples_4
 dEQP-VK.renderpass.suballocation.multisample_resolve.a2b10g10r10_uint_pack32.samples_4
 dEQP-VK.renderpass.suballocation.multisample_resolve.a2b10g10r10_unorm_pack32.samples_4
 dEQP-VK.renderpass.suballocation.multisample_resolve.a8b8g8r8_sint_pack32.samples_4
+dEQP-VK.renderpass.suballocation.multisample_resolve.a8b8g8r8_srgb_pack32.samples_4
 dEQP-VK.renderpass.suballocation.multisample_resolve.a8b8g8r8_uint_pack32.samples_4
 dEQP-VK.renderpass.suballocation.multisample_resolve.a8b8g8r8_unorm_pack32.samples_4
+dEQP-VK.renderpass.suballocation.multisample_resolve.b8g8r8a8_srgb.samples_4
 dEQP-VK.renderpass.suballocation.multisample_resolve.b8g8r8a8_unorm.samples_4
 dEQP-VK.renderpass.suballocation.multisample_resolve.r16_sfloat.samples_4
 dEQP-VK.renderpass.suballocation.multisample_resolve.r16_sint.samples_4
@@ -82286,6 +82317,7 @@ dEQP-VK.renderpass.suballocation.multisample_resolve.r8g8_sint.samples_4
 dEQP-VK.renderpass.suballocation.multisample_resolve.r8g8_uint.samples_4
 dEQP-VK.renderpass.suballocation.multisample_resolve.r8g8_unorm.samples_4
 dEQP-VK.renderpass.suballocation.multisample_resolve.r8g8b8a8_sint.samples_4
+dEQP-VK.renderpass.suballocation.multisample_resolve.r8g8b8a8_srgb.samples_4
 dEQP-VK.renderpass.suballocation.multisample_resolve.r8g8b8a8_uint.samples_4
 dEQP-VK.renderpass.suballocation.multisample_resolve.r8g8b8a8_unorm.samples_4
 dEQP-VK.renderpass.suballocation.simple.color
@@ -85268,6 +85300,7 @@ dEQP-VK.synchronization.basic.fence.multi_waitall_false
 dEQP-VK.synchronization.basic.fence.one
 dEQP-VK.synchronization.basic.semaphore.chain
 dEQP-VK.synchronization.basic.semaphore.one_queue
+dEQP-VK.synchronization.internally_synchronized_objects.pipeline_cache_compute
 dEQP-VK.synchronization.op.single_queue.barrier.write_blit_image_read_blit_image.image_128_r32_uint
 dEQP-VK.synchronization.op.single_queue.barrier.write_blit_image_read_blit_image.image_128x128_r16_uint
 dEQP-VK.synchronization.op.single_queue.barrier.write_blit_image_read_blit_image.image_128x128_r16g16b16a16_uint
