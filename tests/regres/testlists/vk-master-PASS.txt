@@ -30960,6 +30960,7 @@ dEQP-VK.glsl.builtin_var.input_variations.input_constant
 dEQP-VK.glsl.builtin_var.input_variations.input_none
 dEQP-VK.glsl.builtin_var.input_variations.input_varying
 dEQP-VK.glsl.builtin_var.input_variations.input_varying_constant
+dEQP-VK.glsl.builtin_var.simple.pointcoord
 dEQP-VK.glsl.conditionals.if.complex_condition_fragment
 dEQP-VK.glsl.conditionals.if.complex_condition_vertex
 dEQP-VK.glsl.conditionals.if.compound_statement_fragment
@@ -85671,7 +85672,6 @@ dEQP-VK.synchronization.basic.fence.multi_waitall_false
 dEQP-VK.synchronization.basic.fence.one
 dEQP-VK.synchronization.basic.semaphore.chain
 dEQP-VK.synchronization.basic.semaphore.one_queue
-dEQP-VK.synchronization.internally_synchronized_objects.pipeline_cache_compute
 dEQP-VK.synchronization.op.single_queue.barrier.write_blit_image_read_blit_image.image_128_r32_uint
 dEQP-VK.synchronization.op.single_queue.barrier.write_blit_image_read_blit_image.image_128x128_r16_uint
 dEQP-VK.synchronization.op.single_queue.barrier.write_blit_image_read_blit_image.image_128x128_r16g16b16a16_uint
