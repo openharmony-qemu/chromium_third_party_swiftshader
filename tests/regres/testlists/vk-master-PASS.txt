@@ -85672,6 +85672,7 @@ dEQP-VK.synchronization.basic.fence.multi_waitall_false
 dEQP-VK.synchronization.basic.fence.one
 dEQP-VK.synchronization.basic.semaphore.chain
 dEQP-VK.synchronization.basic.semaphore.one_queue
+dEQP-VK.synchronization.internally_synchronized_objects.pipeline_cache_compute
 dEQP-VK.synchronization.op.single_queue.barrier.write_blit_image_read_blit_image.image_128_r32_uint
 dEQP-VK.synchronization.op.single_queue.barrier.write_blit_image_read_blit_image.image_128x128_r16_uint
 dEQP-VK.synchronization.op.single_queue.barrier.write_blit_image_read_blit_image.image_128x128_r16g16b16a16_uint
