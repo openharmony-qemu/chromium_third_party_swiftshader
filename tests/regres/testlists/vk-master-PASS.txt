@@ -60802,6 +60802,8 @@ dEQP-VK.pipeline.multisample.sample_mask.mask_random.samples_4.primitive_point_1
 dEQP-VK.pipeline.multisample.sample_mask.mask_random.samples_4.primitive_triangle
 dEQP-VK.pipeline.multisample_interpolation.centroid_qualifier_inside_primitive.128_128_1.samples_4
 dEQP-VK.pipeline.multisample_interpolation.centroid_qualifier_inside_primitive.137_191_1.samples_4
+dEQP-VK.pipeline.multisample_shader_builtin.sample_mask.pattern.128_128_1.samples_4
+dEQP-VK.pipeline.multisample_shader_builtin.sample_mask.pattern.137_191_1.samples_4
 dEQP-VK.pipeline.push_constant.compute_pipeline.simple_test
 dEQP-VK.pipeline.push_constant.graphics_pipeline.count_1_shader_vert_frag
 dEQP-VK.pipeline.push_constant.graphics_pipeline.count_2_shaders_vert_frag
