@@ -34505,6 +34505,7 @@ dEQP-VK.glsl.loops.special.do_while_dynamic_iterations.conditional_continue_vert
 dEQP-VK.glsl.loops.special.do_while_dynamic_iterations.double_continue_fragment
 dEQP-VK.glsl.loops.special.do_while_dynamic_iterations.double_continue_vertex
 dEQP-VK.glsl.loops.special.do_while_dynamic_iterations.dowhile_trap_fragment
+dEQP-VK.glsl.loops.special.do_while_dynamic_iterations.dowhile_trap_vertex
 dEQP-VK.glsl.loops.special.do_while_dynamic_iterations.elseblock_fragment
 dEQP-VK.glsl.loops.special.do_while_dynamic_iterations.elseblock_vertex
 dEQP-VK.glsl.loops.special.do_while_dynamic_iterations.empty_body_fragment
@@ -82747,9 +82748,12 @@ dEQP-VK.renderpass.suballocation.formats.r8g8b8a8_unorm.load.clear
 dEQP-VK.renderpass.suballocation.formats.r8g8b8a8_unorm.load.clear_draw
 dEQP-VK.renderpass.suballocation.formats.r8g8b8a8_unorm.load.draw
 dEQP-VK.renderpass.suballocation.multisample.a2b10g10r10_uint_pack32.samples_4
+dEQP-VK.renderpass.suballocation.multisample.a2b10g10r10_unorm_pack32.samples_4
 dEQP-VK.renderpass.suballocation.multisample.a8b8g8r8_sint_pack32.samples_4
+dEQP-VK.renderpass.suballocation.multisample.a8b8g8r8_srgb_pack32.samples_4
 dEQP-VK.renderpass.suballocation.multisample.a8b8g8r8_uint_pack32.samples_4
 dEQP-VK.renderpass.suballocation.multisample.a8b8g8r8_unorm_pack32.samples_4
+dEQP-VK.renderpass.suballocation.multisample.b8g8r8a8_srgb.samples_4
 dEQP-VK.renderpass.suballocation.multisample.b8g8r8a8_unorm.samples_4
 dEQP-VK.renderpass.suballocation.multisample.d16_unorm.samples_4
 dEQP-VK.renderpass.suballocation.multisample.d32_sfloat.samples_4
@@ -82780,6 +82784,7 @@ dEQP-VK.renderpass.suballocation.multisample.r8g8_sint.samples_4
 dEQP-VK.renderpass.suballocation.multisample.r8g8_uint.samples_4
 dEQP-VK.renderpass.suballocation.multisample.r8g8_unorm.samples_4
 dEQP-VK.renderpass.suballocation.multisample.r8g8b8a8_sint.samples_4
+dEQP-VK.renderpass.suballocation.multisample.r8g8b8a8_srgb.samples_4
 dEQP-VK.renderpass.suballocation.multisample.r8g8b8a8_uint.samples_4
 dEQP-VK.renderpass.suballocation.multisample.r8g8b8a8_unorm.samples_4
 dEQP-VK.renderpass.suballocation.multisample_resolve.a2b10g10r10_uint_pack32.samples_4
