@@ -50113,6 +50113,10 @@ dEQP-VK.memory.mapping.suballocation.sub.8095.offset_255.size_4085.subflush_sepa
 dEQP-VK.memory.mapping.suballocation.sub.8095.offset_255.size_4085.subinvalidate
 dEQP-VK.memory.mapping.suballocation.sub.8095.offset_255.size_4085.subinvalidate_overlapping
 dEQP-VK.memory.mapping.suballocation.sub.8095.offset_255.size_4085.subinvalidate_separate
+dEQP-VK.memory.pipeline_barrier.all.1024
+dEQP-VK.memory.pipeline_barrier.all.1048576
+dEQP-VK.memory.pipeline_barrier.all.65536
+dEQP-VK.memory.pipeline_barrier.all.8192
 dEQP-VK.memory.pipeline_barrier.all_device.1024
 dEQP-VK.memory.pipeline_barrier.all_device.1048576
 dEQP-VK.memory.pipeline_barrier.all_device.65536
