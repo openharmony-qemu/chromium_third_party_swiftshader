@@ -20,7 +20,7 @@
 #include "VkSurfaceKHR.hpp"
 #include "vulkan/vulkan_xlib.h"
 
-#include <map>
+#include <unordered_map>
 
 namespace vk {
 
@@ -43,7 +43,7 @@ private:
 	const Window window;
 	GC gc;
 	Visual *visual = nullptr;
-	std::map<PresentImage*, XImage*> imageMap;
+	std::unordered_map<PresentImage*, XImage*> imageMap;
 };
 
 }
