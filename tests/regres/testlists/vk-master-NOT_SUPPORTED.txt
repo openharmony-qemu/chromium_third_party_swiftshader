@@ -195155,17 +195155,11 @@ dEQP-VK.rasterization.fill_rules_multisample_8_bit.basic_quad_reverse
 dEQP-VK.rasterization.fill_rules_multisample_8_bit.clipped_full
 dEQP-VK.rasterization.fill_rules_multisample_8_bit.clipped_partly
 dEQP-VK.rasterization.fill_rules_multisample_8_bit.projected
-dEQP-VK.rasterization.flatshading.line_strip
 dEQP-VK.rasterization.flatshading.line_strip_wide
-dEQP-VK.rasterization.flatshading.lines
 dEQP-VK.rasterization.flatshading.lines_wide
-dEQP-VK.rasterization.interpolation.basic.line_strip
 dEQP-VK.rasterization.interpolation.basic.line_strip_wide
-dEQP-VK.rasterization.interpolation.basic.lines
 dEQP-VK.rasterization.interpolation.basic.lines_wide
-dEQP-VK.rasterization.interpolation.projected.line_strip
 dEQP-VK.rasterization.interpolation.projected.line_strip_wide
-dEQP-VK.rasterization.interpolation.projected.lines
 dEQP-VK.rasterization.interpolation.projected.lines_wide
 dEQP-VK.rasterization.interpolation_multisample_16_bit.lines
 dEQP-VK.rasterization.interpolation_multisample_16_bit.lines_wide
@@ -195176,7 +195170,6 @@ dEQP-VK.rasterization.interpolation_multisample_2_bit.triangles
 dEQP-VK.rasterization.interpolation_multisample_32_bit.lines
 dEQP-VK.rasterization.interpolation_multisample_32_bit.lines_wide
 dEQP-VK.rasterization.interpolation_multisample_32_bit.triangles
-dEQP-VK.rasterization.interpolation_multisample_4_bit.lines
 dEQP-VK.rasterization.interpolation_multisample_4_bit.lines_wide
 dEQP-VK.rasterization.interpolation_multisample_64_bit.lines
 dEQP-VK.rasterization.interpolation_multisample_64_bit.lines_wide
@@ -195184,9 +195177,7 @@ dEQP-VK.rasterization.interpolation_multisample_64_bit.triangles
 dEQP-VK.rasterization.interpolation_multisample_8_bit.lines
 dEQP-VK.rasterization.interpolation_multisample_8_bit.lines_wide
 dEQP-VK.rasterization.interpolation_multisample_8_bit.triangles
-dEQP-VK.rasterization.primitives.line_strip
 dEQP-VK.rasterization.primitives.line_strip_wide
-dEQP-VK.rasterization.primitives.lines
 dEQP-VK.rasterization.primitives.lines_wide
 dEQP-VK.rasterization.primitives.points
 dEQP-VK.rasterization.primitives_multisample_16_bit.lines
@@ -195201,7 +195192,6 @@ dEQP-VK.rasterization.primitives_multisample_32_bit.lines
 dEQP-VK.rasterization.primitives_multisample_32_bit.lines_wide
 dEQP-VK.rasterization.primitives_multisample_32_bit.points
 dEQP-VK.rasterization.primitives_multisample_32_bit.triangles
-dEQP-VK.rasterization.primitives_multisample_4_bit.lines
 dEQP-VK.rasterization.primitives_multisample_4_bit.lines_wide
 dEQP-VK.rasterization.primitives_multisample_4_bit.points
 dEQP-VK.rasterization.primitives_multisample_64_bit.lines
