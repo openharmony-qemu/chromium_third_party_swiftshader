@@ -19873,6 +19873,7 @@ dEQP-VK.api.smoke.create_sampler
 dEQP-VK.api.smoke.create_shader
 dEQP-VK.api.smoke.triangle
 dEQP-VK.api.smoke.unused_resolve_attachment
+dEQP-VK.api.version_check.entry_points
 dEQP-VK.api.version_check.version
 dEQP-VK.binding_model.descriptor_copy.compute.combined_image_sampler_0
 dEQP-VK.binding_model.descriptor_copy.compute.combined_image_sampler_1
@@ -48293,7 +48294,6 @@ dEQP-VK.glsl.texture_gather.offset.min_required_offset.2d_array.rgba8ui.size_pot
 dEQP-VK.graphicsfuzz.continue-and-merge
 dEQP-VK.graphicsfuzz.dead-struct-init
 dEQP-VK.graphicsfuzz.pow-vec4
-dEQP-VK.graphicsfuzz.swizzle-struct-init-min
 dEQP-VK.graphicsfuzz.while-inside-switch
 dEQP-VK.image.atomic_operations.add.1d.r32i_end_result
 dEQP-VK.image.atomic_operations.add.1d.r32i_intermediate_values
@@ -86741,9 +86741,7 @@ dEQP-VK.rasterization.primitives.triangle_strip
 dEQP-VK.rasterization.primitives.triangles
 dEQP-VK.rasterization.primitives_multisample_4_bit.lines
 dEQP-VK.rasterization.primitives_multisample_4_bit.triangles
-dEQP-VK.rasterization.provoking_vertex.line_list
 dEQP-VK.rasterization.provoking_vertex.line_strip
-dEQP-VK.rasterization.provoking_vertex.triangle_list
 dEQP-VK.rasterization.provoking_vertex.triangle_strip
 dEQP-VK.renderpass.dedicated_allocation.attachment.1.0
 dEQP-VK.renderpass.dedicated_allocation.attachment.1.12
