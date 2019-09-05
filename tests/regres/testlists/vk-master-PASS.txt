@@ -36068,6 +36068,10 @@ dEQP-VK.glsl.builtin.precision.cos.highp.scalar
 dEQP-VK.glsl.builtin.precision.cos.highp.vec2
 dEQP-VK.glsl.builtin.precision.cos.highp.vec3
 dEQP-VK.glsl.builtin.precision.cos.highp.vec4
+dEQP-VK.glsl.builtin.precision.cosh.highp.scalar
+dEQP-VK.glsl.builtin.precision.cosh.highp.vec2
+dEQP-VK.glsl.builtin.precision.cosh.highp.vec3
+dEQP-VK.glsl.builtin.precision.cosh.highp.vec4
 dEQP-VK.glsl.builtin.precision.cosh.mediump.scalar
 dEQP-VK.glsl.builtin.precision.cosh.mediump.vec2
 dEQP-VK.glsl.builtin.precision.cosh.mediump.vec3
@@ -36314,6 +36318,10 @@ dEQP-VK.glsl.builtin.precision.sin.highp.scalar
 dEQP-VK.glsl.builtin.precision.sin.highp.vec2
 dEQP-VK.glsl.builtin.precision.sin.highp.vec3
 dEQP-VK.glsl.builtin.precision.sin.highp.vec4
+dEQP-VK.glsl.builtin.precision.sinh.highp.scalar
+dEQP-VK.glsl.builtin.precision.sinh.highp.vec2
+dEQP-VK.glsl.builtin.precision.sinh.highp.vec3
+dEQP-VK.glsl.builtin.precision.sinh.highp.vec4
 dEQP-VK.glsl.builtin.precision.sinh.mediump.scalar
 dEQP-VK.glsl.builtin.precision.sinh.mediump.vec2
 dEQP-VK.glsl.builtin.precision.sinh.mediump.vec3
@@ -48292,9 +48300,10 @@ dEQP-VK.glsl.texture_gather.offset.min_required_offset.2d_array.rgba8ui.size_pot
 dEQP-VK.glsl.texture_gather.offset.min_required_offset.2d_array.rgba8ui.size_pot.mirrored_repeat_clamp_to_edge
 dEQP-VK.glsl.texture_gather.offset.min_required_offset.2d_array.rgba8ui.size_pot.repeat_mirrored_repeat
 dEQP-VK.graphicsfuzz.continue-and-merge
+dEQP-VK.graphicsfuzz.control-flow-switch
 dEQP-VK.graphicsfuzz.dead-struct-init
 dEQP-VK.graphicsfuzz.pow-vec4
-dEQP-VK.graphicsfuzz.while-inside-switch
+dEQP-VK.graphicsfuzz.swizzle-struct-init-min
 dEQP-VK.image.atomic_operations.add.1d.r32i_end_result
 dEQP-VK.image.atomic_operations.add.1d.r32i_intermediate_values
 dEQP-VK.image.atomic_operations.add.1d.r32ui_end_result
