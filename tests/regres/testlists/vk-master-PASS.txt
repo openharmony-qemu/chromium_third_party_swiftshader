@@ -40807,7 +40807,6 @@ dEQP-VK.glsl.matrix.add.uniform.highp_mat3_float_vertex
 dEQP-VK.glsl.matrix.add.uniform.highp_mat3_mat3_fragment
 dEQP-VK.glsl.matrix.add.uniform.highp_mat3_mat3_vertex
 dEQP-VK.glsl.matrix.add.uniform.highp_mat3x2_float_fragment
-dEQP-VK.glsl.matrix.add.uniform.highp_mat3x2_float_vertex
 dEQP-VK.glsl.matrix.add.uniform.highp_mat3x2_mat3x2_fragment
 dEQP-VK.glsl.matrix.add.uniform.highp_mat3x2_mat3x2_vertex
 dEQP-VK.glsl.matrix.add.uniform.highp_mat3x4_float_fragment
@@ -48304,6 +48303,7 @@ dEQP-VK.graphicsfuzz.control-flow-switch
 dEQP-VK.graphicsfuzz.dead-struct-init
 dEQP-VK.graphicsfuzz.pow-vec4
 dEQP-VK.graphicsfuzz.swizzle-struct-init-min
+dEQP-VK.graphicsfuzz.while-inside-switch
 dEQP-VK.image.atomic_operations.add.1d.r32i_end_result
 dEQP-VK.image.atomic_operations.add.1d.r32i_intermediate_values
 dEQP-VK.image.atomic_operations.add.1d.r32ui_end_result
@@ -86750,8 +86750,9 @@ dEQP-VK.rasterization.primitives.triangle_strip
 dEQP-VK.rasterization.primitives.triangles
 dEQP-VK.rasterization.primitives_multisample_4_bit.lines
 dEQP-VK.rasterization.primitives_multisample_4_bit.triangles
+dEQP-VK.rasterization.provoking_vertex.line_list
 dEQP-VK.rasterization.provoking_vertex.line_strip
-dEQP-VK.rasterization.provoking_vertex.triangle_strip
+dEQP-VK.rasterization.provoking_vertex.triangle_fan
 dEQP-VK.renderpass.dedicated_allocation.attachment.1.0
 dEQP-VK.renderpass.dedicated_allocation.attachment.1.12
 dEQP-VK.renderpass.dedicated_allocation.attachment.1.14
