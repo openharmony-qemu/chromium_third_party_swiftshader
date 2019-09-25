@@ -67936,10 +67936,6 @@ dEQP-VK.api.copy_and_blit.dedicated_allocation.resolve_image.with_regions.8_bit
 dEQP-VK.api.descriptor_set.descriptor_set_layout.empty_set.push_descriptor
 dEQP-VK.api.device_init.create_device_queue2
 dEQP-VK.api.device_init.create_device_queue2_unmatched_flags
-dEQP-VK.api.driver_properties.driver_id_match
-dEQP-VK.api.driver_properties.info_zero_terminated
-dEQP-VK.api.driver_properties.name_is_not_empty
-dEQP-VK.api.driver_properties.name_zero_terminated
 dEQP-VK.api.external.fence.opaque_fd.dup2_permanent
 dEQP-VK.api.external.fence.opaque_fd.dup2_temporary
 dEQP-VK.api.external.fence.opaque_fd.dup3_permanent
