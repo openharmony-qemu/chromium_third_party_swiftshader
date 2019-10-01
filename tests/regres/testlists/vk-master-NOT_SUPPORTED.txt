@@ -118291,11 +118291,6 @@ dEQP-VK.glsl.derivate.fwidthfine.fbo_msaa2.vec3_highp
 dEQP-VK.glsl.derivate.fwidthfine.fbo_msaa2.vec3_mediump
 dEQP-VK.glsl.derivate.fwidthfine.fbo_msaa2.vec4_highp
 dEQP-VK.glsl.derivate.fwidthfine.fbo_msaa2.vec4_mediump
-dEQP-VK.glsl.limits.near_max.fragment_input.components_123
-dEQP-VK.glsl.limits.near_max.fragment_input.components_124
-dEQP-VK.glsl.limits.near_max.fragment_input.components_125
-dEQP-VK.glsl.limits.near_max.fragment_input.components_126
-dEQP-VK.glsl.limits.near_max.fragment_input.components_127
 dEQP-VK.glsl.limits.near_max.fragment_input.components_251
 dEQP-VK.glsl.limits.near_max.fragment_input.components_252
 dEQP-VK.glsl.limits.near_max.fragment_input.components_253

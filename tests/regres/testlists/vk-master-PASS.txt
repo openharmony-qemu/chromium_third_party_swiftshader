@@ -42192,6 +42192,11 @@ dEQP-VK.glsl.indexing.vector_subscript.vec4_static_subscript_write_static_loop_s
 dEQP-VK.glsl.indexing.vector_subscript.vec4_static_subscript_write_static_loop_subscript_read_vertex
 dEQP-VK.glsl.indexing.vector_subscript.vec4_static_subscript_write_static_subscript_read_fragment
 dEQP-VK.glsl.indexing.vector_subscript.vec4_static_subscript_write_static_subscript_read_vertex
+dEQP-VK.glsl.limits.near_max.fragment_input.components_123
+dEQP-VK.glsl.limits.near_max.fragment_input.components_124
+dEQP-VK.glsl.limits.near_max.fragment_input.components_125
+dEQP-VK.glsl.limits.near_max.fragment_input.components_126
+dEQP-VK.glsl.limits.near_max.fragment_input.components_127
 dEQP-VK.glsl.limits.near_max.fragment_input.components_59
 dEQP-VK.glsl.limits.near_max.fragment_input.components_60
 dEQP-VK.glsl.limits.near_max.fragment_input.components_61
