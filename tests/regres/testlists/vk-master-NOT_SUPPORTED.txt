@@ -87958,13 +87958,9 @@ dEQP-VK.binding_model.descriptor_copy.compute.combined_image_sampler_6
 dEQP-VK.binding_model.descriptor_copy.compute.mix_array0
 dEQP-VK.binding_model.descriptor_copy.compute.storage_buffer_3
 dEQP-VK.binding_model.descriptor_copy.compute.storage_buffer_6
-dEQP-VK.binding_model.descriptor_copy.compute.storage_buffer_array0
-dEQP-VK.binding_model.descriptor_copy.compute.storage_buffer_array1
-dEQP-VK.binding_model.descriptor_copy.compute.storage_buffer_array2
 dEQP-VK.binding_model.descriptor_copy.compute.storage_buffer_dynamic_3
 dEQP-VK.binding_model.descriptor_copy.compute.storage_buffer_dynamic_6
 dEQP-VK.binding_model.descriptor_copy.compute.storage_buffer_dynamic_array0
-dEQP-VK.binding_model.descriptor_copy.compute.storage_buffer_dynamic_array1
 dEQP-VK.binding_model.descriptor_copy.compute.storage_buffer_dynamic_array2
 dEQP-VK.binding_model.descriptor_copy.compute.storage_image_3
 dEQP-VK.binding_model.descriptor_copy.compute.storage_image_6
@@ -87993,13 +87989,9 @@ dEQP-VK.binding_model.descriptor_copy.graphics.input_attachment_array2
 dEQP-VK.binding_model.descriptor_copy.graphics.mix_array0
 dEQP-VK.binding_model.descriptor_copy.graphics.storage_buffer_3
 dEQP-VK.binding_model.descriptor_copy.graphics.storage_buffer_6
-dEQP-VK.binding_model.descriptor_copy.graphics.storage_buffer_array0
-dEQP-VK.binding_model.descriptor_copy.graphics.storage_buffer_array1
-dEQP-VK.binding_model.descriptor_copy.graphics.storage_buffer_array2
 dEQP-VK.binding_model.descriptor_copy.graphics.storage_buffer_dynamic_3
 dEQP-VK.binding_model.descriptor_copy.graphics.storage_buffer_dynamic_6
 dEQP-VK.binding_model.descriptor_copy.graphics.storage_buffer_dynamic_array0
-dEQP-VK.binding_model.descriptor_copy.graphics.storage_buffer_dynamic_array1
 dEQP-VK.binding_model.descriptor_copy.graphics.storage_buffer_dynamic_array2
 dEQP-VK.binding_model.descriptor_copy.graphics.storage_image_3
 dEQP-VK.binding_model.descriptor_copy.graphics.storage_image_6
