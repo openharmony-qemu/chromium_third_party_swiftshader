@@ -286618,6 +286618,7 @@ dEQP-VK.spirv_assembly.instruction.compute.float_controls.independence_settings.
 dEQP-VK.spirv_assembly.instruction.compute.float_controls.independence_settings.rounding_ind_all_fp16_rtz_fp64_rte
 dEQP-VK.spirv_assembly.instruction.compute.float_controls.independence_settings.rounding_ind_all_fp32_rte_fp64_rtz
 dEQP-VK.spirv_assembly.instruction.compute.float_controls.independence_settings.rounding_ind_all_fp32_rtz_fp64_rte
+dEQP-VK.spirv_assembly.instruction.compute.hlsl_cases.cbuffer_packing
 dEQP-VK.spirv_assembly.instruction.compute.indexing.input.non16basealignment.opaccesschain
 dEQP-VK.spirv_assembly.instruction.compute.indexing.input.non16basealignment.opptraccesschain
 dEQP-VK.spirv_assembly.instruction.compute.indexing.input.struct.opaccesschain_s16
