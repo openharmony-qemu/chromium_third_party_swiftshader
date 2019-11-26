@@ -20587,7 +20587,9 @@ dEQP-VK.api.smoke.asm_triangle_no_opname
 dEQP-VK.api.smoke.create_sampler
 dEQP-VK.api.smoke.create_shader
 dEQP-VK.api.smoke.triangle
+dEQP-VK.api.smoke.triangle_ext_structs
 dEQP-VK.api.smoke.unused_resolve_attachment
+dEQP-VK.api.version_check.entry_points
 dEQP-VK.api.version_check.version
 dEQP-VK.binding_model.descriptor_copy.compute.combined_image_sampler_0
 dEQP-VK.binding_model.descriptor_copy.compute.combined_image_sampler_1
