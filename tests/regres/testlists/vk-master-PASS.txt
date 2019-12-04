@@ -51140,6 +51140,7 @@ dEQP-VK.graphicsfuzz.control-flow-in-function
 dEQP-VK.graphicsfuzz.control-flow-switch
 dEQP-VK.graphicsfuzz.dead-barriers-in-loops
 dEQP-VK.graphicsfuzz.dead-struct-init
+dEQP-VK.graphicsfuzz.discard-continue-return
 dEQP-VK.graphicsfuzz.do-while-loop-in-conditionals
 dEQP-VK.graphicsfuzz.early-return-and-barrier
 dEQP-VK.graphicsfuzz.for-condition-always-false
@@ -51166,6 +51167,7 @@ dEQP-VK.graphicsfuzz.two-loops-matrix
 dEQP-VK.graphicsfuzz.two-loops-set-struct
 dEQP-VK.graphicsfuzz.two-loops-with-break
 dEQP-VK.graphicsfuzz.unreachable-barrier-in-loops
+dEQP-VK.graphicsfuzz.unreachable-continue-statement
 dEQP-VK.graphicsfuzz.unreachable-loops
 dEQP-VK.graphicsfuzz.unreachable-loops-in-switch
 dEQP-VK.graphicsfuzz.while-inside-switch
