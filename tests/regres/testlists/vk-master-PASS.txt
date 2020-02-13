@@ -1194,7 +1194,6 @@ dEQP-VK.api.command_buffers.submit_twice_secondary
 dEQP-VK.api.command_buffers.submit_two_buffers_one_buffer_null_with_fence
 dEQP-VK.api.command_buffers.submit_wait_many_semaphores
 dEQP-VK.api.command_buffers.submit_wait_single_semaphore
-dEQP-VK.api.command_buffers.trim_command_pool
 dEQP-VK.api.command_buffers.trim_command_pool_secondary
 dEQP-VK.api.copy_and_blit.core.blit_image.all_formats.color.a1r5g5b5_unorm_pack16.a1r5g5b5_unorm_pack16.general_general_linear
 dEQP-VK.api.copy_and_blit.core.blit_image.all_formats.color.a1r5g5b5_unorm_pack16.a1r5g5b5_unorm_pack16.general_general_nearest
