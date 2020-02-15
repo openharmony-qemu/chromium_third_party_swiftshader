@@ -140659,8 +140659,6 @@ dEQP-VK.memory.external_memory_host.bind_image_memory_and_render.with_zero_offse
 dEQP-VK.memory.external_memory_host.bind_image_memory_and_render.with_zero_offset.r16g16b16a16_unorm
 dEQP-VK.memory.external_memory_host.bind_image_memory_and_render.with_zero_offset.r32g32b32a32_sfloat
 dEQP-VK.memory.external_memory_host.bind_image_memory_and_render.with_zero_offset.r8g8b8a8_unorm
-dEQP-VK.memory.external_memory_host.simple_allocation.minImportedHostPointerAlignment_x1
-dEQP-VK.memory.external_memory_host.simple_allocation.minImportedHostPointerAlignment_x3
 dEQP-VK.memory.external_memory_host.synchronization.synchronization
 dEQP-VK.memory.requirements.core.buffer.sparse
 dEQP-VK.memory.requirements.core.buffer.sparse_aliased
