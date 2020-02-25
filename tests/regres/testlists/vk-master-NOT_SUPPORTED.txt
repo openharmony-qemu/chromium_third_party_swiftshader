@@ -201338,7 +201338,6 @@ dEQP-VK.pipeline.sampler.view_type.cube_array.format.x8_d24_unorm_pack32.mipmap.
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.x8_d24_unorm_pack32.mipmap.nearest.lod.select_bias_3_7
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.x8_d24_unorm_pack32.mipmap.nearest.lod.select_max_4
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.x8_d24_unorm_pack32.mipmap.nearest.lod.select_min_1
-dEQP-VK.pipeline.shader_stencil_export.op_replace
 dEQP-VK.pipeline.spec_constant.compute.basic.double
 dEQP-VK.pipeline.spec_constant.compute.composite.array.array_dmat2
 dEQP-VK.pipeline.spec_constant.compute.composite.array.array_dmat2x3

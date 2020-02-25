@@ -23635,7 +23635,6 @@ dEQP-VK.api.smoke.triangle
 dEQP-VK.api.smoke.triangle_ext_structs
 dEQP-VK.api.smoke.unused_resolve_attachment
 dEQP-VK.api.version_check.entry_points
-dEQP-VK.api.version_check.version
 dEQP-VK.binding_model.descriptor_copy.compute.combined_image_sampler_0
 dEQP-VK.binding_model.descriptor_copy.compute.combined_image_sampler_1
 dEQP-VK.binding_model.descriptor_copy.compute.combined_image_sampler_2
@@ -85970,6 +85969,7 @@ dEQP-VK.pipeline.sampler.view_type.cube_array.format.r8g8b8a8_unorm.mipmap.neare
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.r8g8b8a8_unorm.mipmap.nearest.lod.select_bias_3_7
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.r8g8b8a8_unorm.mipmap.nearest.lod.select_max_4
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.r8g8b8a8_unorm.mipmap.nearest.lod.select_min_1
+dEQP-VK.pipeline.shader_stencil_export.op_replace
 dEQP-VK.pipeline.spec_constant.compute.basic.bool
 dEQP-VK.pipeline.spec_constant.compute.basic.float
 dEQP-VK.pipeline.spec_constant.compute.basic.int
