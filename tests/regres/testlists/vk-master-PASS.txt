@@ -58417,6 +58417,10 @@ dEQP-VK.image.extended_usage_bit.attachment_write.r8g8_unorm
 dEQP-VK.image.extended_usage_bit.attachment_write.r8g8b8a8_sint
 dEQP-VK.image.extended_usage_bit.attachment_write.r8g8b8a8_uint
 dEQP-VK.image.extended_usage_bit.attachment_write.r8g8b8a8_unorm
+dEQP-VK.image.extended_usage_bit.texture_write.a8b8g8r8_sint_pack32
+dEQP-VK.image.extended_usage_bit.texture_write.a8b8g8r8_snorm_pack32
+dEQP-VK.image.extended_usage_bit.texture_write.a8b8g8r8_uint_pack32
+dEQP-VK.image.extended_usage_bit.texture_write.a8b8g8r8_unorm_pack32
 dEQP-VK.image.extended_usage_bit.texture_write.r16_sfloat
 dEQP-VK.image.extended_usage_bit.texture_write.r16_sint
 dEQP-VK.image.extended_usage_bit.texture_write.r16_uint
