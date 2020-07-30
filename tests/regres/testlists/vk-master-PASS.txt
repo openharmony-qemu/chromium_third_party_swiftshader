@@ -14777,6 +14777,7 @@ dEQP-VK.api.device_init.create_device_various_queue_counts
 dEQP-VK.api.device_init.create_instance_device_intentional_alloc_fail
 dEQP-VK.api.device_init.create_instance_extension_name_abuse
 dEQP-VK.api.device_init.create_instance_invalid_api_version
+dEQP-VK.api.device_init.create_instance_layer_name_abuse
 dEQP-VK.api.device_init.create_instance_name_version
 dEQP-VK.api.device_init.create_instance_null_appinfo
 dEQP-VK.api.device_init.create_instance_unsupported_extensions
