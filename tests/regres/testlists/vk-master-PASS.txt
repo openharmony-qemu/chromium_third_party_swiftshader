@@ -70318,6 +70318,7 @@ dEQP-VK.info.device
 dEQP-VK.info.device_extensions
 dEQP-VK.info.device_features
 dEQP-VK.info.device_layers
+dEQP-VK.info.device_mandatory_features
 dEQP-VK.info.device_memory_properties
 dEQP-VK.info.device_no_khx_extensions
 dEQP-VK.info.device_properties
