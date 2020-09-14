@@ -139189,11 +139189,15 @@ dEQP-VK.rasterization.flatshading.strict_lines
 dEQP-VK.rasterization.flatshading.triangle_fan
 dEQP-VK.rasterization.flatshading.triangle_strip
 dEQP-VK.rasterization.flatshading.triangles
+dEQP-VK.rasterization.frag_side_effects.color_at_beginning.alpha_coverage_after
+dEQP-VK.rasterization.frag_side_effects.color_at_beginning.alpha_coverage_before
 dEQP-VK.rasterization.frag_side_effects.color_at_beginning.depth_never
 dEQP-VK.rasterization.frag_side_effects.color_at_beginning.kill
 dEQP-VK.rasterization.frag_side_effects.color_at_beginning.sample_mask_after
 dEQP-VK.rasterization.frag_side_effects.color_at_beginning.sample_mask_before
 dEQP-VK.rasterization.frag_side_effects.color_at_beginning.stencil_never
+dEQP-VK.rasterization.frag_side_effects.color_at_end.alpha_coverage_after
+dEQP-VK.rasterization.frag_side_effects.color_at_end.alpha_coverage_before
 dEQP-VK.rasterization.frag_side_effects.color_at_end.depth_never
 dEQP-VK.rasterization.frag_side_effects.color_at_end.kill
 dEQP-VK.rasterization.frag_side_effects.color_at_end.sample_mask_after
@@ -170644,6 +170648,7 @@ dEQP-VK.texture.texel_buffer.uniform.packed.a8b8g8r8-sint-pack32
 dEQP-VK.texture.texel_buffer.uniform.packed.a8b8g8r8-snorm-pack32
 dEQP-VK.texture.texel_buffer.uniform.packed.a8b8g8r8-uint-pack32
 dEQP-VK.texture.texel_buffer.uniform.packed.a8b8g8r8-unorm-pack32
+dEQP-VK.texture.texel_buffer.uniform.packed.b10g11r11-ufloat-pack32
 dEQP-VK.texture.texel_offset.texel_offset
 dEQP-VK.ubo.2_level_array.std140.bool.both
 dEQP-VK.ubo.2_level_array.std140.bool.both_comp_access
