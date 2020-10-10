@@ -51831,7 +51831,6 @@ dEQP-VK.dynamic_state.general_state.bind_order
 dEQP-VK.dynamic_state.general_state.state_persistence
 dEQP-VK.dynamic_state.general_state.state_switch
 dEQP-VK.dynamic_state.rs_state.depth_bias
-dEQP-VK.dynamic_state.rs_state.depth_bias_clamp
 dEQP-VK.dynamic_state.vp_state.scissor
 dEQP-VK.dynamic_state.vp_state.viewport
 dEQP-VK.fragment_operations.early_fragment.early_fragment_tests_depth
