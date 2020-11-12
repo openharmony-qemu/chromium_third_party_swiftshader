@@ -157728,6 +157728,7 @@ dEQP-VK.spirv_assembly.instruction.compute.float32.comparison_1.modfstruct
 dEQP-VK.spirv_assembly.instruction.compute.float32.comparison_2.modfstruct
 dEQP-VK.spirv_assembly.instruction.compute.float32.comparison_3.modfstruct
 dEQP-VK.spirv_assembly.instruction.compute.float32.comparison_4.modfstruct
+dEQP-VK.spirv_assembly.instruction.compute.float_controls.independence_settings.independence_settings
 dEQP-VK.spirv_assembly.instruction.compute.function_control.const
 dEQP-VK.spirv_assembly.instruction.compute.function_control.inline
 dEQP-VK.spirv_assembly.instruction.compute.function_control.inline_pure
