@@ -69809,7 +69809,6 @@ dEQP-VK.graphicsfuzz.cov-value-tracking-uniform-incident
 dEQP-VK.graphicsfuzz.cov-variable-copy-in-function-tex-sample
 dEQP-VK.graphicsfuzz.cov-vector-dce-inc-unused-comp
 dEQP-VK.graphicsfuzz.cov-vector-dce-unused-component
-dEQP-VK.graphicsfuzz.cov-vector-illegal-index-never-executed
 dEQP-VK.graphicsfuzz.cov-vector-log2-cosh
 dEQP-VK.graphicsfuzz.cov-wrap-op-kill-for-loop
 dEQP-VK.graphicsfuzz.cov-wrap-op-kill-two-branches
@@ -171001,8 +171000,11 @@ dEQP-VK.spirv_assembly.instruction.graphics.decoration_group.same_decoration_gro
 dEQP-VK.spirv_assembly.instruction.graphics.decoration_group.same_decoration_group_on_multiple_types_frag
 dEQP-VK.spirv_assembly.instruction.graphics.decoration_group.same_decoration_group_on_multiple_types_vert
 dEQP-VK.spirv_assembly.instruction.graphics.early_fragment.depth_equal
+dEQP-VK.spirv_assembly.instruction.graphics.early_fragment.depth_greater
 dEQP-VK.spirv_assembly.instruction.graphics.early_fragment.depth_greater_or_equal
+dEQP-VK.spirv_assembly.instruction.graphics.early_fragment.depth_less
 dEQP-VK.spirv_assembly.instruction.graphics.early_fragment.depth_less_or_equal
+dEQP-VK.spirv_assembly.instruction.graphics.early_fragment.depth_not_equal
 dEQP-VK.spirv_assembly.instruction.graphics.float32.comparison_1.frexpstruct_frag
 dEQP-VK.spirv_assembly.instruction.graphics.float32.comparison_1.frexpstruct_vert
 dEQP-VK.spirv_assembly.instruction.graphics.float32.comparison_1.modfstruct_frag
@@ -189934,6 +189936,7 @@ dEQP-VK.texture.shadow.cube_array.nearest_mipmap_nearest.never_d32_sfloat_s8_uin
 dEQP-VK.texture.shadow.cube_array.nearest_mipmap_nearest.not_equal_d16_unorm
 dEQP-VK.texture.shadow.cube_array.nearest_mipmap_nearest.not_equal_d32_sfloat
 dEQP-VK.texture.shadow.cube_array.nearest_mipmap_nearest.not_equal_d32_sfloat_s8_uint
+dEQP-VK.texture.subgroup_lod.texelfetch
 dEQP-VK.texture.subgroup_lod.texturegrad
 dEQP-VK.texture.subgroup_lod.texturelod
 dEQP-VK.texture.swizzle.component_mapping.a2r10g10b10_uint_pack32_2d_npot_aaaa
