@@ -69809,6 +69809,7 @@ dEQP-VK.graphicsfuzz.cov-value-tracking-uniform-incident
 dEQP-VK.graphicsfuzz.cov-variable-copy-in-function-tex-sample
 dEQP-VK.graphicsfuzz.cov-vector-dce-inc-unused-comp
 dEQP-VK.graphicsfuzz.cov-vector-dce-unused-component
+dEQP-VK.graphicsfuzz.cov-vector-illegal-index-never-executed
 dEQP-VK.graphicsfuzz.cov-vector-log2-cosh
 dEQP-VK.graphicsfuzz.cov-wrap-op-kill-for-loop
 dEQP-VK.graphicsfuzz.cov-wrap-op-kill-two-branches
