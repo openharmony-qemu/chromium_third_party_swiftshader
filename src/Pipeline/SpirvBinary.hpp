@@ -1,4 +1,4 @@
-// Copyright 2018 The SwiftShader Authors. All Rights Reserved.
+// Copyright 2021 The SwiftShader Authors. All Rights Reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -15,6 +15,7 @@
 #ifndef sw_SpirvBinary_hpp
 #define sw_SpirvBinary_hpp
 
+#include <atomic>
 #include <cstdint>
 #include <vector>
 
@@ -23,12 +24,17 @@ namespace sw {
 class SpirvBinary : public std::vector<uint32_t>
 {
 public:
-	SpirvBinary() = default;
+	SpirvBinary();
+	SpirvBinary(const uint32_t *binary, uint32_t wordCount);
 
-	SpirvBinary(const uint32_t *binary, uint32_t wordCount)
-	    : std::vector<uint32_t>(binary, binary + wordCount)
-	{
-	}
+	inline uint32_t getIdentifier() const { return identifier; };
+
+	void inheritIdentifier(const SpirvBinary &binary);
+
+private:
+	static std::atomic<uint32_t> serialCounter;
+
+	uint32_t identifier;
 };
 
 }  // namespace sw
