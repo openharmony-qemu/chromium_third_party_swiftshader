@@ -76622,6 +76622,8 @@ dEQP-VK.dynamic_state.compute_transfer.single.compute.depth_bias.after
 dEQP-VK.dynamic_state.compute_transfer.single.compute.depth_bias.before
 dEQP-VK.dynamic_state.compute_transfer.single.compute.depth_bounds.after
 dEQP-VK.dynamic_state.compute_transfer.single.compute.depth_bounds.before
+dEQP-VK.dynamic_state.compute_transfer.single.compute.line_stipple_ext.after
+dEQP-VK.dynamic_state.compute_transfer.single.compute.line_stipple_ext.before
 dEQP-VK.dynamic_state.compute_transfer.single.compute.line_width.after
 dEQP-VK.dynamic_state.compute_transfer.single.compute.line_width.before
 dEQP-VK.dynamic_state.compute_transfer.single.compute.scissor.after
@@ -76640,6 +76642,8 @@ dEQP-VK.dynamic_state.compute_transfer.single.transfer.depth_bias.after
 dEQP-VK.dynamic_state.compute_transfer.single.transfer.depth_bias.before
 dEQP-VK.dynamic_state.compute_transfer.single.transfer.depth_bounds.after
 dEQP-VK.dynamic_state.compute_transfer.single.transfer.depth_bounds.before
+dEQP-VK.dynamic_state.compute_transfer.single.transfer.line_stipple_ext.after
+dEQP-VK.dynamic_state.compute_transfer.single.transfer.line_stipple_ext.before
 dEQP-VK.dynamic_state.compute_transfer.single.transfer.line_width.after
 dEQP-VK.dynamic_state.compute_transfer.single.transfer.line_width.before
 dEQP-VK.dynamic_state.compute_transfer.single.transfer.scissor.after
