@@ -168421,9 +168421,6 @@ dEQP-VK.api.object_management.private_data.semaphore
 dEQP-VK.api.object_management.private_data.shader_module
 dEQP-VK.api.pipeline.pipeline_layout.lifetime.destroy_after_compute_pipeline_construction
 dEQP-VK.api.pipeline.pipeline_layout.lifetime.destroy_after_graphics_pipeline_construction
-dEQP-VK.api.tooling_info.validate_getter
-dEQP-VK.api.tooling_info.validate_instance_layers
-dEQP-VK.api.tooling_info.validate_tools_properties
 dEQP-VK.binding_model.buffer_device_address.capture_replay_stress.seed_0
 dEQP-VK.binding_model.buffer_device_address.capture_replay_stress.seed_1
 dEQP-VK.binding_model.buffer_device_address.capture_replay_stress.seed_2
