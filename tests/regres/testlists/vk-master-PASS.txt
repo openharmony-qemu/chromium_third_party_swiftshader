@@ -228563,6 +228563,14 @@ dEQP-VK.spirv_assembly.instruction.compute.multiple_shaders.shader2
 dEQP-VK.spirv_assembly.instruction.compute.nocontraction.addition
 dEQP-VK.spirv_assembly.instruction.compute.nocontraction.both
 dEQP-VK.spirv_assembly.instruction.compute.nocontraction.multiplication
+dEQP-VK.spirv_assembly.instruction.compute.non_semantic_info.any_constant_type
+dEQP-VK.spirv_assembly.instruction.compute.non_semantic_info.any_constant_type_used
+dEQP-VK.spirv_assembly.instruction.compute.non_semantic_info.any_non_constant_type
+dEQP-VK.spirv_assembly.instruction.compute.non_semantic_info.basic
+dEQP-VK.spirv_assembly.instruction.compute.non_semantic_info.dummy_instruction_set
+dEQP-VK.spirv_assembly.instruction.compute.non_semantic_info.large_instruction_number
+dEQP-VK.spirv_assembly.instruction.compute.non_semantic_info.many_parameters
+dEQP-VK.spirv_assembly.instruction.compute.non_semantic_info.placement
 dEQP-VK.spirv_assembly.instruction.compute.oparraylength.array-stride-larger-than-element-size
 dEQP-VK.spirv_assembly.instruction.compute.opatomic.compex
 dEQP-VK.spirv_assembly.instruction.compute.opatomic.iadd
