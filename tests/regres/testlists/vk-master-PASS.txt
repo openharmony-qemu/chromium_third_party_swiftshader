@@ -96002,6 +96002,7 @@ dEQP-VK.image.extended_usage_bit_compatibility.image_format_properties2.s8_uint_
 dEQP-VK.image.extended_usage_bit_compatibility.image_format_properties2.s8_uint_optimal_transient_attachment_bit
 dEQP-VK.image.format_reinterpret.1d.a2b10g10r10_uint_pack32_a2b10g10r10_unorm_pack32
 dEQP-VK.image.format_reinterpret.1d.a2b10g10r10_uint_pack32_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.1d.a2b10g10r10_uint_pack32_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.1d.a2b10g10r10_uint_pack32_r16g16_sint
 dEQP-VK.image.format_reinterpret.1d.a2b10g10r10_uint_pack32_r16g16_snorm
 dEQP-VK.image.format_reinterpret.1d.a2b10g10r10_uint_pack32_r16g16_uint
@@ -96093,6 +96094,7 @@ dEQP-VK.image.format_reinterpret.1d.r16_unorm_r16_sint
 dEQP-VK.image.format_reinterpret.1d.r16_unorm_r16_snorm
 dEQP-VK.image.format_reinterpret.1d.r16_unorm_r16_uint
 dEQP-VK.image.format_reinterpret.1d.r16_unorm_r8g8_sint
+dEQP-VK.image.format_reinterpret.1d.r16_unorm_r8g8_snorm
 dEQP-VK.image.format_reinterpret.1d.r16_unorm_r8g8_uint
 dEQP-VK.image.format_reinterpret.1d.r16_unorm_r8g8_unorm
 dEQP-VK.image.format_reinterpret.1d.r16g16_sfloat_a2b10g10r10_uint_pack32
@@ -96111,6 +96113,7 @@ dEQP-VK.image.format_reinterpret.1d.r16g16_sfloat_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.1d.r16g16_sfloat_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.1d.r16g16_sint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.1d.r16g16_sint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.1d.r16g16_sint_b10g11r11_ufloat_pack32
 dEQP-VK.image.format_reinterpret.1d.r16g16_sint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.1d.r16g16_sint_r16g16_snorm
 dEQP-VK.image.format_reinterpret.1d.r16g16_sint_r16g16_uint
@@ -96124,6 +96127,7 @@ dEQP-VK.image.format_reinterpret.1d.r16g16_sint_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.1d.r16g16_sint_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.1d.r16g16_snorm_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.1d.r16g16_snorm_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.1d.r16g16_snorm_b10g11r11_ufloat_pack32
 dEQP-VK.image.format_reinterpret.1d.r16g16_snorm_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.1d.r16g16_snorm_r16g16_sint
 dEQP-VK.image.format_reinterpret.1d.r16g16_snorm_r16g16_uint
@@ -96137,6 +96141,7 @@ dEQP-VK.image.format_reinterpret.1d.r16g16_snorm_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.1d.r16g16_snorm_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.1d.r16g16_uint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.1d.r16g16_uint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.1d.r16g16_uint_b10g11r11_ufloat_pack32
 dEQP-VK.image.format_reinterpret.1d.r16g16_uint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.1d.r16g16_uint_r16g16_sint
 dEQP-VK.image.format_reinterpret.1d.r16g16_uint_r16g16_snorm
@@ -96159,6 +96164,7 @@ dEQP-VK.image.format_reinterpret.1d.r16g16_unorm_r32_sfloat
 dEQP-VK.image.format_reinterpret.1d.r16g16_unorm_r32_sint
 dEQP-VK.image.format_reinterpret.1d.r16g16_unorm_r32_uint
 dEQP-VK.image.format_reinterpret.1d.r16g16_unorm_r8g8b8a8_sint
+dEQP-VK.image.format_reinterpret.1d.r16g16_unorm_r8g8b8a8_snorm
 dEQP-VK.image.format_reinterpret.1d.r16g16_unorm_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.1d.r16g16_unorm_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.1d.r16g16b16a16_sfloat_r16g16b16a16_sint
@@ -96212,6 +96218,8 @@ dEQP-VK.image.format_reinterpret.1d.r32_sfloat_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.1d.r32_sfloat_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.1d.r32_sint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.1d.r32_sint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.1d.r32_sint_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.1d.r32_sint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.1d.r32_sint_r16g16_sint
 dEQP-VK.image.format_reinterpret.1d.r32_sint_r16g16_snorm
 dEQP-VK.image.format_reinterpret.1d.r32_sint_r16g16_uint
@@ -96219,10 +96227,13 @@ dEQP-VK.image.format_reinterpret.1d.r32_sint_r16g16_unorm
 dEQP-VK.image.format_reinterpret.1d.r32_sint_r32_sfloat
 dEQP-VK.image.format_reinterpret.1d.r32_sint_r32_uint
 dEQP-VK.image.format_reinterpret.1d.r32_sint_r8g8b8a8_sint
+dEQP-VK.image.format_reinterpret.1d.r32_sint_r8g8b8a8_snorm
 dEQP-VK.image.format_reinterpret.1d.r32_sint_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.1d.r32_sint_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.1d.r32_uint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.1d.r32_uint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.1d.r32_uint_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.1d.r32_uint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.1d.r32_uint_r16g16_sint
 dEQP-VK.image.format_reinterpret.1d.r32_uint_r16g16_snorm
 dEQP-VK.image.format_reinterpret.1d.r32_uint_r16g16_uint
@@ -96230,6 +96241,7 @@ dEQP-VK.image.format_reinterpret.1d.r32_uint_r16g16_unorm
 dEQP-VK.image.format_reinterpret.1d.r32_uint_r32_sfloat
 dEQP-VK.image.format_reinterpret.1d.r32_uint_r32_sint
 dEQP-VK.image.format_reinterpret.1d.r32_uint_r8g8b8a8_sint
+dEQP-VK.image.format_reinterpret.1d.r32_uint_r8g8b8a8_snorm
 dEQP-VK.image.format_reinterpret.1d.r32_uint_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.1d.r32_uint_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.1d.r32g32_sfloat_r16g16b16a16_sfloat
@@ -96239,12 +96251,14 @@ dEQP-VK.image.format_reinterpret.1d.r32g32_sfloat_r16g16b16a16_uint
 dEQP-VK.image.format_reinterpret.1d.r32g32_sfloat_r16g16b16a16_unorm
 dEQP-VK.image.format_reinterpret.1d.r32g32_sfloat_r32g32_sint
 dEQP-VK.image.format_reinterpret.1d.r32g32_sfloat_r32g32_uint
+dEQP-VK.image.format_reinterpret.1d.r32g32_sint_r16g16b16a16_sfloat
 dEQP-VK.image.format_reinterpret.1d.r32g32_sint_r16g16b16a16_sint
 dEQP-VK.image.format_reinterpret.1d.r32g32_sint_r16g16b16a16_snorm
 dEQP-VK.image.format_reinterpret.1d.r32g32_sint_r16g16b16a16_uint
 dEQP-VK.image.format_reinterpret.1d.r32g32_sint_r16g16b16a16_unorm
 dEQP-VK.image.format_reinterpret.1d.r32g32_sint_r32g32_sfloat
 dEQP-VK.image.format_reinterpret.1d.r32g32_sint_r32g32_uint
+dEQP-VK.image.format_reinterpret.1d.r32g32_uint_r16g16b16a16_sfloat
 dEQP-VK.image.format_reinterpret.1d.r32g32_uint_r16g16b16a16_sint
 dEQP-VK.image.format_reinterpret.1d.r32g32_uint_r16g16b16a16_snorm
 dEQP-VK.image.format_reinterpret.1d.r32g32_uint_r16g16b16a16_uint
@@ -96269,6 +96283,7 @@ dEQP-VK.image.format_reinterpret.1d.r8_uint_r8_unorm
 dEQP-VK.image.format_reinterpret.1d.r8_unorm_r8_sint
 dEQP-VK.image.format_reinterpret.1d.r8_unorm_r8_snorm
 dEQP-VK.image.format_reinterpret.1d.r8_unorm_r8_uint
+dEQP-VK.image.format_reinterpret.1d.r8g8_sint_r16_sfloat
 dEQP-VK.image.format_reinterpret.1d.r8g8_sint_r16_sint
 dEQP-VK.image.format_reinterpret.1d.r8g8_sint_r16_snorm
 dEQP-VK.image.format_reinterpret.1d.r8g8_sint_r16_uint
@@ -96276,6 +96291,7 @@ dEQP-VK.image.format_reinterpret.1d.r8g8_sint_r16_unorm
 dEQP-VK.image.format_reinterpret.1d.r8g8_sint_r8g8_snorm
 dEQP-VK.image.format_reinterpret.1d.r8g8_sint_r8g8_uint
 dEQP-VK.image.format_reinterpret.1d.r8g8_sint_r8g8_unorm
+dEQP-VK.image.format_reinterpret.1d.r8g8_snorm_r16_sfloat
 dEQP-VK.image.format_reinterpret.1d.r8g8_snorm_r16_sint
 dEQP-VK.image.format_reinterpret.1d.r8g8_snorm_r16_snorm
 dEQP-VK.image.format_reinterpret.1d.r8g8_snorm_r16_uint
@@ -96283,6 +96299,7 @@ dEQP-VK.image.format_reinterpret.1d.r8g8_snorm_r16_unorm
 dEQP-VK.image.format_reinterpret.1d.r8g8_snorm_r8g8_sint
 dEQP-VK.image.format_reinterpret.1d.r8g8_snorm_r8g8_uint
 dEQP-VK.image.format_reinterpret.1d.r8g8_snorm_r8g8_unorm
+dEQP-VK.image.format_reinterpret.1d.r8g8_uint_r16_sfloat
 dEQP-VK.image.format_reinterpret.1d.r8g8_uint_r16_sint
 dEQP-VK.image.format_reinterpret.1d.r8g8_uint_r16_snorm
 dEQP-VK.image.format_reinterpret.1d.r8g8_uint_r16_uint
@@ -96300,6 +96317,8 @@ dEQP-VK.image.format_reinterpret.1d.r8g8_unorm_r8g8_snorm
 dEQP-VK.image.format_reinterpret.1d.r8g8_unorm_r8g8_uint
 dEQP-VK.image.format_reinterpret.1d.r8g8b8a8_sint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.1d.r8g8b8a8_sint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.1d.r8g8b8a8_sint_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.1d.r8g8b8a8_sint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.1d.r8g8b8a8_sint_r16g16_sint
 dEQP-VK.image.format_reinterpret.1d.r8g8b8a8_sint_r16g16_snorm
 dEQP-VK.image.format_reinterpret.1d.r8g8b8a8_sint_r16g16_uint
@@ -96312,6 +96331,8 @@ dEQP-VK.image.format_reinterpret.1d.r8g8b8a8_sint_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.1d.r8g8b8a8_sint_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.1d.r8g8b8a8_snorm_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.1d.r8g8b8a8_snorm_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.1d.r8g8b8a8_snorm_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.1d.r8g8b8a8_snorm_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.1d.r8g8b8a8_snorm_r16g16_sint
 dEQP-VK.image.format_reinterpret.1d.r8g8b8a8_snorm_r16g16_snorm
 dEQP-VK.image.format_reinterpret.1d.r8g8b8a8_snorm_r16g16_uint
@@ -96324,6 +96345,8 @@ dEQP-VK.image.format_reinterpret.1d.r8g8b8a8_snorm_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.1d.r8g8b8a8_snorm_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.1d.r8g8b8a8_uint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.1d.r8g8b8a8_uint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.1d.r8g8b8a8_uint_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.1d.r8g8b8a8_uint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.1d.r8g8b8a8_uint_r16g16_sint
 dEQP-VK.image.format_reinterpret.1d.r8g8b8a8_uint_r16g16_snorm
 dEQP-VK.image.format_reinterpret.1d.r8g8b8a8_uint_r16g16_uint
@@ -96350,6 +96373,7 @@ dEQP-VK.image.format_reinterpret.1d.r8g8b8a8_unorm_r8g8b8a8_snorm
 dEQP-VK.image.format_reinterpret.1d.r8g8b8a8_unorm_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.1d_array.a2b10g10r10_uint_pack32_a2b10g10r10_unorm_pack32
 dEQP-VK.image.format_reinterpret.1d_array.a2b10g10r10_uint_pack32_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.1d_array.a2b10g10r10_uint_pack32_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.1d_array.a2b10g10r10_uint_pack32_r16g16_sint
 dEQP-VK.image.format_reinterpret.1d_array.a2b10g10r10_uint_pack32_r16g16_snorm
 dEQP-VK.image.format_reinterpret.1d_array.a2b10g10r10_uint_pack32_r16g16_uint
@@ -96441,6 +96465,7 @@ dEQP-VK.image.format_reinterpret.1d_array.r16_unorm_r16_sint
 dEQP-VK.image.format_reinterpret.1d_array.r16_unorm_r16_snorm
 dEQP-VK.image.format_reinterpret.1d_array.r16_unorm_r16_uint
 dEQP-VK.image.format_reinterpret.1d_array.r16_unorm_r8g8_sint
+dEQP-VK.image.format_reinterpret.1d_array.r16_unorm_r8g8_snorm
 dEQP-VK.image.format_reinterpret.1d_array.r16_unorm_r8g8_uint
 dEQP-VK.image.format_reinterpret.1d_array.r16_unorm_r8g8_unorm
 dEQP-VK.image.format_reinterpret.1d_array.r16g16_sfloat_a2b10g10r10_uint_pack32
@@ -96459,6 +96484,7 @@ dEQP-VK.image.format_reinterpret.1d_array.r16g16_sfloat_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.1d_array.r16g16_sfloat_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.1d_array.r16g16_sint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.1d_array.r16g16_sint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.1d_array.r16g16_sint_b10g11r11_ufloat_pack32
 dEQP-VK.image.format_reinterpret.1d_array.r16g16_sint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.1d_array.r16g16_sint_r16g16_snorm
 dEQP-VK.image.format_reinterpret.1d_array.r16g16_sint_r16g16_uint
@@ -96472,6 +96498,7 @@ dEQP-VK.image.format_reinterpret.1d_array.r16g16_sint_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.1d_array.r16g16_sint_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.1d_array.r16g16_snorm_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.1d_array.r16g16_snorm_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.1d_array.r16g16_snorm_b10g11r11_ufloat_pack32
 dEQP-VK.image.format_reinterpret.1d_array.r16g16_snorm_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.1d_array.r16g16_snorm_r16g16_sint
 dEQP-VK.image.format_reinterpret.1d_array.r16g16_snorm_r16g16_uint
@@ -96485,6 +96512,7 @@ dEQP-VK.image.format_reinterpret.1d_array.r16g16_snorm_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.1d_array.r16g16_snorm_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.1d_array.r16g16_uint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.1d_array.r16g16_uint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.1d_array.r16g16_uint_b10g11r11_ufloat_pack32
 dEQP-VK.image.format_reinterpret.1d_array.r16g16_uint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.1d_array.r16g16_uint_r16g16_sint
 dEQP-VK.image.format_reinterpret.1d_array.r16g16_uint_r16g16_snorm
@@ -96507,6 +96535,7 @@ dEQP-VK.image.format_reinterpret.1d_array.r16g16_unorm_r32_sfloat
 dEQP-VK.image.format_reinterpret.1d_array.r16g16_unorm_r32_sint
 dEQP-VK.image.format_reinterpret.1d_array.r16g16_unorm_r32_uint
 dEQP-VK.image.format_reinterpret.1d_array.r16g16_unorm_r8g8b8a8_sint
+dEQP-VK.image.format_reinterpret.1d_array.r16g16_unorm_r8g8b8a8_snorm
 dEQP-VK.image.format_reinterpret.1d_array.r16g16_unorm_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.1d_array.r16g16_unorm_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.1d_array.r16g16b16a16_sfloat_r16g16b16a16_sint
@@ -96560,6 +96589,8 @@ dEQP-VK.image.format_reinterpret.1d_array.r32_sfloat_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.1d_array.r32_sfloat_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.1d_array.r32_sint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.1d_array.r32_sint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.1d_array.r32_sint_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.1d_array.r32_sint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.1d_array.r32_sint_r16g16_sint
 dEQP-VK.image.format_reinterpret.1d_array.r32_sint_r16g16_snorm
 dEQP-VK.image.format_reinterpret.1d_array.r32_sint_r16g16_uint
@@ -96567,10 +96598,13 @@ dEQP-VK.image.format_reinterpret.1d_array.r32_sint_r16g16_unorm
 dEQP-VK.image.format_reinterpret.1d_array.r32_sint_r32_sfloat
 dEQP-VK.image.format_reinterpret.1d_array.r32_sint_r32_uint
 dEQP-VK.image.format_reinterpret.1d_array.r32_sint_r8g8b8a8_sint
+dEQP-VK.image.format_reinterpret.1d_array.r32_sint_r8g8b8a8_snorm
 dEQP-VK.image.format_reinterpret.1d_array.r32_sint_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.1d_array.r32_sint_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.1d_array.r32_uint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.1d_array.r32_uint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.1d_array.r32_uint_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.1d_array.r32_uint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.1d_array.r32_uint_r16g16_sint
 dEQP-VK.image.format_reinterpret.1d_array.r32_uint_r16g16_snorm
 dEQP-VK.image.format_reinterpret.1d_array.r32_uint_r16g16_uint
@@ -96578,6 +96612,7 @@ dEQP-VK.image.format_reinterpret.1d_array.r32_uint_r16g16_unorm
 dEQP-VK.image.format_reinterpret.1d_array.r32_uint_r32_sfloat
 dEQP-VK.image.format_reinterpret.1d_array.r32_uint_r32_sint
 dEQP-VK.image.format_reinterpret.1d_array.r32_uint_r8g8b8a8_sint
+dEQP-VK.image.format_reinterpret.1d_array.r32_uint_r8g8b8a8_snorm
 dEQP-VK.image.format_reinterpret.1d_array.r32_uint_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.1d_array.r32_uint_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.1d_array.r32g32_sfloat_r16g16b16a16_sfloat
@@ -96587,12 +96622,14 @@ dEQP-VK.image.format_reinterpret.1d_array.r32g32_sfloat_r16g16b16a16_uint
 dEQP-VK.image.format_reinterpret.1d_array.r32g32_sfloat_r16g16b16a16_unorm
 dEQP-VK.image.format_reinterpret.1d_array.r32g32_sfloat_r32g32_sint
 dEQP-VK.image.format_reinterpret.1d_array.r32g32_sfloat_r32g32_uint
+dEQP-VK.image.format_reinterpret.1d_array.r32g32_sint_r16g16b16a16_sfloat
 dEQP-VK.image.format_reinterpret.1d_array.r32g32_sint_r16g16b16a16_sint
 dEQP-VK.image.format_reinterpret.1d_array.r32g32_sint_r16g16b16a16_snorm
 dEQP-VK.image.format_reinterpret.1d_array.r32g32_sint_r16g16b16a16_uint
 dEQP-VK.image.format_reinterpret.1d_array.r32g32_sint_r16g16b16a16_unorm
 dEQP-VK.image.format_reinterpret.1d_array.r32g32_sint_r32g32_sfloat
 dEQP-VK.image.format_reinterpret.1d_array.r32g32_sint_r32g32_uint
+dEQP-VK.image.format_reinterpret.1d_array.r32g32_uint_r16g16b16a16_sfloat
 dEQP-VK.image.format_reinterpret.1d_array.r32g32_uint_r16g16b16a16_sint
 dEQP-VK.image.format_reinterpret.1d_array.r32g32_uint_r16g16b16a16_snorm
 dEQP-VK.image.format_reinterpret.1d_array.r32g32_uint_r16g16b16a16_uint
@@ -96617,6 +96654,7 @@ dEQP-VK.image.format_reinterpret.1d_array.r8_uint_r8_unorm
 dEQP-VK.image.format_reinterpret.1d_array.r8_unorm_r8_sint
 dEQP-VK.image.format_reinterpret.1d_array.r8_unorm_r8_snorm
 dEQP-VK.image.format_reinterpret.1d_array.r8_unorm_r8_uint
+dEQP-VK.image.format_reinterpret.1d_array.r8g8_sint_r16_sfloat
 dEQP-VK.image.format_reinterpret.1d_array.r8g8_sint_r16_sint
 dEQP-VK.image.format_reinterpret.1d_array.r8g8_sint_r16_snorm
 dEQP-VK.image.format_reinterpret.1d_array.r8g8_sint_r16_uint
@@ -96624,6 +96662,7 @@ dEQP-VK.image.format_reinterpret.1d_array.r8g8_sint_r16_unorm
 dEQP-VK.image.format_reinterpret.1d_array.r8g8_sint_r8g8_snorm
 dEQP-VK.image.format_reinterpret.1d_array.r8g8_sint_r8g8_uint
 dEQP-VK.image.format_reinterpret.1d_array.r8g8_sint_r8g8_unorm
+dEQP-VK.image.format_reinterpret.1d_array.r8g8_snorm_r16_sfloat
 dEQP-VK.image.format_reinterpret.1d_array.r8g8_snorm_r16_sint
 dEQP-VK.image.format_reinterpret.1d_array.r8g8_snorm_r16_snorm
 dEQP-VK.image.format_reinterpret.1d_array.r8g8_snorm_r16_uint
@@ -96631,6 +96670,7 @@ dEQP-VK.image.format_reinterpret.1d_array.r8g8_snorm_r16_unorm
 dEQP-VK.image.format_reinterpret.1d_array.r8g8_snorm_r8g8_sint
 dEQP-VK.image.format_reinterpret.1d_array.r8g8_snorm_r8g8_uint
 dEQP-VK.image.format_reinterpret.1d_array.r8g8_snorm_r8g8_unorm
+dEQP-VK.image.format_reinterpret.1d_array.r8g8_uint_r16_sfloat
 dEQP-VK.image.format_reinterpret.1d_array.r8g8_uint_r16_sint
 dEQP-VK.image.format_reinterpret.1d_array.r8g8_uint_r16_snorm
 dEQP-VK.image.format_reinterpret.1d_array.r8g8_uint_r16_uint
@@ -96648,6 +96688,8 @@ dEQP-VK.image.format_reinterpret.1d_array.r8g8_unorm_r8g8_snorm
 dEQP-VK.image.format_reinterpret.1d_array.r8g8_unorm_r8g8_uint
 dEQP-VK.image.format_reinterpret.1d_array.r8g8b8a8_sint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.1d_array.r8g8b8a8_sint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.1d_array.r8g8b8a8_sint_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.1d_array.r8g8b8a8_sint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.1d_array.r8g8b8a8_sint_r16g16_sint
 dEQP-VK.image.format_reinterpret.1d_array.r8g8b8a8_sint_r16g16_snorm
 dEQP-VK.image.format_reinterpret.1d_array.r8g8b8a8_sint_r16g16_uint
@@ -96660,6 +96702,8 @@ dEQP-VK.image.format_reinterpret.1d_array.r8g8b8a8_sint_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.1d_array.r8g8b8a8_sint_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.1d_array.r8g8b8a8_snorm_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.1d_array.r8g8b8a8_snorm_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.1d_array.r8g8b8a8_snorm_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.1d_array.r8g8b8a8_snorm_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.1d_array.r8g8b8a8_snorm_r16g16_sint
 dEQP-VK.image.format_reinterpret.1d_array.r8g8b8a8_snorm_r16g16_snorm
 dEQP-VK.image.format_reinterpret.1d_array.r8g8b8a8_snorm_r16g16_uint
@@ -96672,6 +96716,8 @@ dEQP-VK.image.format_reinterpret.1d_array.r8g8b8a8_snorm_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.1d_array.r8g8b8a8_snorm_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.1d_array.r8g8b8a8_uint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.1d_array.r8g8b8a8_uint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.1d_array.r8g8b8a8_uint_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.1d_array.r8g8b8a8_uint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.1d_array.r8g8b8a8_uint_r16g16_sint
 dEQP-VK.image.format_reinterpret.1d_array.r8g8b8a8_uint_r16g16_snorm
 dEQP-VK.image.format_reinterpret.1d_array.r8g8b8a8_uint_r16g16_uint
@@ -96698,6 +96744,7 @@ dEQP-VK.image.format_reinterpret.1d_array.r8g8b8a8_unorm_r8g8b8a8_snorm
 dEQP-VK.image.format_reinterpret.1d_array.r8g8b8a8_unorm_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.2d.a2b10g10r10_uint_pack32_a2b10g10r10_unorm_pack32
 dEQP-VK.image.format_reinterpret.2d.a2b10g10r10_uint_pack32_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.2d.a2b10g10r10_uint_pack32_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.2d.a2b10g10r10_uint_pack32_r16g16_sint
 dEQP-VK.image.format_reinterpret.2d.a2b10g10r10_uint_pack32_r16g16_snorm
 dEQP-VK.image.format_reinterpret.2d.a2b10g10r10_uint_pack32_r16g16_uint
@@ -96789,6 +96836,7 @@ dEQP-VK.image.format_reinterpret.2d.r16_unorm_r16_sint
 dEQP-VK.image.format_reinterpret.2d.r16_unorm_r16_snorm
 dEQP-VK.image.format_reinterpret.2d.r16_unorm_r16_uint
 dEQP-VK.image.format_reinterpret.2d.r16_unorm_r8g8_sint
+dEQP-VK.image.format_reinterpret.2d.r16_unorm_r8g8_snorm
 dEQP-VK.image.format_reinterpret.2d.r16_unorm_r8g8_uint
 dEQP-VK.image.format_reinterpret.2d.r16_unorm_r8g8_unorm
 dEQP-VK.image.format_reinterpret.2d.r16g16_sfloat_a2b10g10r10_uint_pack32
@@ -96807,6 +96855,7 @@ dEQP-VK.image.format_reinterpret.2d.r16g16_sfloat_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.2d.r16g16_sfloat_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.2d.r16g16_sint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.2d.r16g16_sint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.2d.r16g16_sint_b10g11r11_ufloat_pack32
 dEQP-VK.image.format_reinterpret.2d.r16g16_sint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.2d.r16g16_sint_r16g16_snorm
 dEQP-VK.image.format_reinterpret.2d.r16g16_sint_r16g16_uint
@@ -96820,6 +96869,7 @@ dEQP-VK.image.format_reinterpret.2d.r16g16_sint_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.2d.r16g16_sint_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.2d.r16g16_snorm_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.2d.r16g16_snorm_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.2d.r16g16_snorm_b10g11r11_ufloat_pack32
 dEQP-VK.image.format_reinterpret.2d.r16g16_snorm_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.2d.r16g16_snorm_r16g16_sint
 dEQP-VK.image.format_reinterpret.2d.r16g16_snorm_r16g16_uint
@@ -96833,6 +96883,7 @@ dEQP-VK.image.format_reinterpret.2d.r16g16_snorm_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.2d.r16g16_snorm_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.2d.r16g16_uint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.2d.r16g16_uint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.2d.r16g16_uint_b10g11r11_ufloat_pack32
 dEQP-VK.image.format_reinterpret.2d.r16g16_uint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.2d.r16g16_uint_r16g16_sint
 dEQP-VK.image.format_reinterpret.2d.r16g16_uint_r16g16_snorm
@@ -96855,6 +96906,7 @@ dEQP-VK.image.format_reinterpret.2d.r16g16_unorm_r32_sfloat
 dEQP-VK.image.format_reinterpret.2d.r16g16_unorm_r32_sint
 dEQP-VK.image.format_reinterpret.2d.r16g16_unorm_r32_uint
 dEQP-VK.image.format_reinterpret.2d.r16g16_unorm_r8g8b8a8_sint
+dEQP-VK.image.format_reinterpret.2d.r16g16_unorm_r8g8b8a8_snorm
 dEQP-VK.image.format_reinterpret.2d.r16g16_unorm_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.2d.r16g16_unorm_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.2d.r16g16b16a16_sfloat_r16g16b16a16_sint
@@ -96908,6 +96960,8 @@ dEQP-VK.image.format_reinterpret.2d.r32_sfloat_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.2d.r32_sfloat_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.2d.r32_sint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.2d.r32_sint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.2d.r32_sint_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.2d.r32_sint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.2d.r32_sint_r16g16_sint
 dEQP-VK.image.format_reinterpret.2d.r32_sint_r16g16_snorm
 dEQP-VK.image.format_reinterpret.2d.r32_sint_r16g16_uint
@@ -96915,10 +96969,13 @@ dEQP-VK.image.format_reinterpret.2d.r32_sint_r16g16_unorm
 dEQP-VK.image.format_reinterpret.2d.r32_sint_r32_sfloat
 dEQP-VK.image.format_reinterpret.2d.r32_sint_r32_uint
 dEQP-VK.image.format_reinterpret.2d.r32_sint_r8g8b8a8_sint
+dEQP-VK.image.format_reinterpret.2d.r32_sint_r8g8b8a8_snorm
 dEQP-VK.image.format_reinterpret.2d.r32_sint_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.2d.r32_sint_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.2d.r32_uint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.2d.r32_uint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.2d.r32_uint_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.2d.r32_uint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.2d.r32_uint_r16g16_sint
 dEQP-VK.image.format_reinterpret.2d.r32_uint_r16g16_snorm
 dEQP-VK.image.format_reinterpret.2d.r32_uint_r16g16_uint
@@ -96926,6 +96983,7 @@ dEQP-VK.image.format_reinterpret.2d.r32_uint_r16g16_unorm
 dEQP-VK.image.format_reinterpret.2d.r32_uint_r32_sfloat
 dEQP-VK.image.format_reinterpret.2d.r32_uint_r32_sint
 dEQP-VK.image.format_reinterpret.2d.r32_uint_r8g8b8a8_sint
+dEQP-VK.image.format_reinterpret.2d.r32_uint_r8g8b8a8_snorm
 dEQP-VK.image.format_reinterpret.2d.r32_uint_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.2d.r32_uint_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.2d.r32g32_sfloat_r16g16b16a16_sfloat
@@ -96935,12 +96993,14 @@ dEQP-VK.image.format_reinterpret.2d.r32g32_sfloat_r16g16b16a16_uint
 dEQP-VK.image.format_reinterpret.2d.r32g32_sfloat_r16g16b16a16_unorm
 dEQP-VK.image.format_reinterpret.2d.r32g32_sfloat_r32g32_sint
 dEQP-VK.image.format_reinterpret.2d.r32g32_sfloat_r32g32_uint
+dEQP-VK.image.format_reinterpret.2d.r32g32_sint_r16g16b16a16_sfloat
 dEQP-VK.image.format_reinterpret.2d.r32g32_sint_r16g16b16a16_sint
 dEQP-VK.image.format_reinterpret.2d.r32g32_sint_r16g16b16a16_snorm
 dEQP-VK.image.format_reinterpret.2d.r32g32_sint_r16g16b16a16_uint
 dEQP-VK.image.format_reinterpret.2d.r32g32_sint_r16g16b16a16_unorm
 dEQP-VK.image.format_reinterpret.2d.r32g32_sint_r32g32_sfloat
 dEQP-VK.image.format_reinterpret.2d.r32g32_sint_r32g32_uint
+dEQP-VK.image.format_reinterpret.2d.r32g32_uint_r16g16b16a16_sfloat
 dEQP-VK.image.format_reinterpret.2d.r32g32_uint_r16g16b16a16_sint
 dEQP-VK.image.format_reinterpret.2d.r32g32_uint_r16g16b16a16_snorm
 dEQP-VK.image.format_reinterpret.2d.r32g32_uint_r16g16b16a16_uint
@@ -96965,6 +97025,7 @@ dEQP-VK.image.format_reinterpret.2d.r8_uint_r8_unorm
 dEQP-VK.image.format_reinterpret.2d.r8_unorm_r8_sint
 dEQP-VK.image.format_reinterpret.2d.r8_unorm_r8_snorm
 dEQP-VK.image.format_reinterpret.2d.r8_unorm_r8_uint
+dEQP-VK.image.format_reinterpret.2d.r8g8_sint_r16_sfloat
 dEQP-VK.image.format_reinterpret.2d.r8g8_sint_r16_sint
 dEQP-VK.image.format_reinterpret.2d.r8g8_sint_r16_snorm
 dEQP-VK.image.format_reinterpret.2d.r8g8_sint_r16_uint
@@ -96972,6 +97033,7 @@ dEQP-VK.image.format_reinterpret.2d.r8g8_sint_r16_unorm
 dEQP-VK.image.format_reinterpret.2d.r8g8_sint_r8g8_snorm
 dEQP-VK.image.format_reinterpret.2d.r8g8_sint_r8g8_uint
 dEQP-VK.image.format_reinterpret.2d.r8g8_sint_r8g8_unorm
+dEQP-VK.image.format_reinterpret.2d.r8g8_snorm_r16_sfloat
 dEQP-VK.image.format_reinterpret.2d.r8g8_snorm_r16_sint
 dEQP-VK.image.format_reinterpret.2d.r8g8_snorm_r16_snorm
 dEQP-VK.image.format_reinterpret.2d.r8g8_snorm_r16_uint
@@ -96979,6 +97041,7 @@ dEQP-VK.image.format_reinterpret.2d.r8g8_snorm_r16_unorm
 dEQP-VK.image.format_reinterpret.2d.r8g8_snorm_r8g8_sint
 dEQP-VK.image.format_reinterpret.2d.r8g8_snorm_r8g8_uint
 dEQP-VK.image.format_reinterpret.2d.r8g8_snorm_r8g8_unorm
+dEQP-VK.image.format_reinterpret.2d.r8g8_uint_r16_sfloat
 dEQP-VK.image.format_reinterpret.2d.r8g8_uint_r16_sint
 dEQP-VK.image.format_reinterpret.2d.r8g8_uint_r16_snorm
 dEQP-VK.image.format_reinterpret.2d.r8g8_uint_r16_uint
@@ -96996,6 +97059,8 @@ dEQP-VK.image.format_reinterpret.2d.r8g8_unorm_r8g8_snorm
 dEQP-VK.image.format_reinterpret.2d.r8g8_unorm_r8g8_uint
 dEQP-VK.image.format_reinterpret.2d.r8g8b8a8_sint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.2d.r8g8b8a8_sint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.2d.r8g8b8a8_sint_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.2d.r8g8b8a8_sint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.2d.r8g8b8a8_sint_r16g16_sint
 dEQP-VK.image.format_reinterpret.2d.r8g8b8a8_sint_r16g16_snorm
 dEQP-VK.image.format_reinterpret.2d.r8g8b8a8_sint_r16g16_uint
@@ -97008,6 +97073,8 @@ dEQP-VK.image.format_reinterpret.2d.r8g8b8a8_sint_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.2d.r8g8b8a8_sint_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.2d.r8g8b8a8_snorm_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.2d.r8g8b8a8_snorm_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.2d.r8g8b8a8_snorm_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.2d.r8g8b8a8_snorm_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.2d.r8g8b8a8_snorm_r16g16_sint
 dEQP-VK.image.format_reinterpret.2d.r8g8b8a8_snorm_r16g16_snorm
 dEQP-VK.image.format_reinterpret.2d.r8g8b8a8_snorm_r16g16_uint
@@ -97020,6 +97087,8 @@ dEQP-VK.image.format_reinterpret.2d.r8g8b8a8_snorm_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.2d.r8g8b8a8_snorm_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.2d.r8g8b8a8_uint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.2d.r8g8b8a8_uint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.2d.r8g8b8a8_uint_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.2d.r8g8b8a8_uint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.2d.r8g8b8a8_uint_r16g16_sint
 dEQP-VK.image.format_reinterpret.2d.r8g8b8a8_uint_r16g16_snorm
 dEQP-VK.image.format_reinterpret.2d.r8g8b8a8_uint_r16g16_uint
@@ -97046,6 +97115,7 @@ dEQP-VK.image.format_reinterpret.2d.r8g8b8a8_unorm_r8g8b8a8_snorm
 dEQP-VK.image.format_reinterpret.2d.r8g8b8a8_unorm_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.2d_array.a2b10g10r10_uint_pack32_a2b10g10r10_unorm_pack32
 dEQP-VK.image.format_reinterpret.2d_array.a2b10g10r10_uint_pack32_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.2d_array.a2b10g10r10_uint_pack32_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.2d_array.a2b10g10r10_uint_pack32_r16g16_sint
 dEQP-VK.image.format_reinterpret.2d_array.a2b10g10r10_uint_pack32_r16g16_snorm
 dEQP-VK.image.format_reinterpret.2d_array.a2b10g10r10_uint_pack32_r16g16_uint
@@ -97137,6 +97207,7 @@ dEQP-VK.image.format_reinterpret.2d_array.r16_unorm_r16_sint
 dEQP-VK.image.format_reinterpret.2d_array.r16_unorm_r16_snorm
 dEQP-VK.image.format_reinterpret.2d_array.r16_unorm_r16_uint
 dEQP-VK.image.format_reinterpret.2d_array.r16_unorm_r8g8_sint
+dEQP-VK.image.format_reinterpret.2d_array.r16_unorm_r8g8_snorm
 dEQP-VK.image.format_reinterpret.2d_array.r16_unorm_r8g8_uint
 dEQP-VK.image.format_reinterpret.2d_array.r16_unorm_r8g8_unorm
 dEQP-VK.image.format_reinterpret.2d_array.r16g16_sfloat_a2b10g10r10_uint_pack32
@@ -97155,6 +97226,7 @@ dEQP-VK.image.format_reinterpret.2d_array.r16g16_sfloat_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.2d_array.r16g16_sfloat_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.2d_array.r16g16_sint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.2d_array.r16g16_sint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.2d_array.r16g16_sint_b10g11r11_ufloat_pack32
 dEQP-VK.image.format_reinterpret.2d_array.r16g16_sint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.2d_array.r16g16_sint_r16g16_snorm
 dEQP-VK.image.format_reinterpret.2d_array.r16g16_sint_r16g16_uint
@@ -97168,6 +97240,7 @@ dEQP-VK.image.format_reinterpret.2d_array.r16g16_sint_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.2d_array.r16g16_sint_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.2d_array.r16g16_snorm_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.2d_array.r16g16_snorm_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.2d_array.r16g16_snorm_b10g11r11_ufloat_pack32
 dEQP-VK.image.format_reinterpret.2d_array.r16g16_snorm_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.2d_array.r16g16_snorm_r16g16_sint
 dEQP-VK.image.format_reinterpret.2d_array.r16g16_snorm_r16g16_uint
@@ -97181,6 +97254,7 @@ dEQP-VK.image.format_reinterpret.2d_array.r16g16_snorm_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.2d_array.r16g16_snorm_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.2d_array.r16g16_uint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.2d_array.r16g16_uint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.2d_array.r16g16_uint_b10g11r11_ufloat_pack32
 dEQP-VK.image.format_reinterpret.2d_array.r16g16_uint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.2d_array.r16g16_uint_r16g16_sint
 dEQP-VK.image.format_reinterpret.2d_array.r16g16_uint_r16g16_snorm
@@ -97203,6 +97277,7 @@ dEQP-VK.image.format_reinterpret.2d_array.r16g16_unorm_r32_sfloat
 dEQP-VK.image.format_reinterpret.2d_array.r16g16_unorm_r32_sint
 dEQP-VK.image.format_reinterpret.2d_array.r16g16_unorm_r32_uint
 dEQP-VK.image.format_reinterpret.2d_array.r16g16_unorm_r8g8b8a8_sint
+dEQP-VK.image.format_reinterpret.2d_array.r16g16_unorm_r8g8b8a8_snorm
 dEQP-VK.image.format_reinterpret.2d_array.r16g16_unorm_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.2d_array.r16g16_unorm_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.2d_array.r16g16b16a16_sfloat_r16g16b16a16_sint
@@ -97256,6 +97331,8 @@ dEQP-VK.image.format_reinterpret.2d_array.r32_sfloat_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.2d_array.r32_sfloat_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.2d_array.r32_sint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.2d_array.r32_sint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.2d_array.r32_sint_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.2d_array.r32_sint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.2d_array.r32_sint_r16g16_sint
 dEQP-VK.image.format_reinterpret.2d_array.r32_sint_r16g16_snorm
 dEQP-VK.image.format_reinterpret.2d_array.r32_sint_r16g16_uint
@@ -97263,10 +97340,13 @@ dEQP-VK.image.format_reinterpret.2d_array.r32_sint_r16g16_unorm
 dEQP-VK.image.format_reinterpret.2d_array.r32_sint_r32_sfloat
 dEQP-VK.image.format_reinterpret.2d_array.r32_sint_r32_uint
 dEQP-VK.image.format_reinterpret.2d_array.r32_sint_r8g8b8a8_sint
+dEQP-VK.image.format_reinterpret.2d_array.r32_sint_r8g8b8a8_snorm
 dEQP-VK.image.format_reinterpret.2d_array.r32_sint_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.2d_array.r32_sint_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.2d_array.r32_uint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.2d_array.r32_uint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.2d_array.r32_uint_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.2d_array.r32_uint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.2d_array.r32_uint_r16g16_sint
 dEQP-VK.image.format_reinterpret.2d_array.r32_uint_r16g16_snorm
 dEQP-VK.image.format_reinterpret.2d_array.r32_uint_r16g16_uint
@@ -97274,6 +97354,7 @@ dEQP-VK.image.format_reinterpret.2d_array.r32_uint_r16g16_unorm
 dEQP-VK.image.format_reinterpret.2d_array.r32_uint_r32_sfloat
 dEQP-VK.image.format_reinterpret.2d_array.r32_uint_r32_sint
 dEQP-VK.image.format_reinterpret.2d_array.r32_uint_r8g8b8a8_sint
+dEQP-VK.image.format_reinterpret.2d_array.r32_uint_r8g8b8a8_snorm
 dEQP-VK.image.format_reinterpret.2d_array.r32_uint_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.2d_array.r32_uint_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.2d_array.r32g32_sfloat_r16g16b16a16_sfloat
@@ -97283,12 +97364,14 @@ dEQP-VK.image.format_reinterpret.2d_array.r32g32_sfloat_r16g16b16a16_uint
 dEQP-VK.image.format_reinterpret.2d_array.r32g32_sfloat_r16g16b16a16_unorm
 dEQP-VK.image.format_reinterpret.2d_array.r32g32_sfloat_r32g32_sint
 dEQP-VK.image.format_reinterpret.2d_array.r32g32_sfloat_r32g32_uint
+dEQP-VK.image.format_reinterpret.2d_array.r32g32_sint_r16g16b16a16_sfloat
 dEQP-VK.image.format_reinterpret.2d_array.r32g32_sint_r16g16b16a16_sint
 dEQP-VK.image.format_reinterpret.2d_array.r32g32_sint_r16g16b16a16_snorm
 dEQP-VK.image.format_reinterpret.2d_array.r32g32_sint_r16g16b16a16_uint
 dEQP-VK.image.format_reinterpret.2d_array.r32g32_sint_r16g16b16a16_unorm
 dEQP-VK.image.format_reinterpret.2d_array.r32g32_sint_r32g32_sfloat
 dEQP-VK.image.format_reinterpret.2d_array.r32g32_sint_r32g32_uint
+dEQP-VK.image.format_reinterpret.2d_array.r32g32_uint_r16g16b16a16_sfloat
 dEQP-VK.image.format_reinterpret.2d_array.r32g32_uint_r16g16b16a16_sint
 dEQP-VK.image.format_reinterpret.2d_array.r32g32_uint_r16g16b16a16_snorm
 dEQP-VK.image.format_reinterpret.2d_array.r32g32_uint_r16g16b16a16_uint
@@ -97313,6 +97396,7 @@ dEQP-VK.image.format_reinterpret.2d_array.r8_uint_r8_unorm
 dEQP-VK.image.format_reinterpret.2d_array.r8_unorm_r8_sint
 dEQP-VK.image.format_reinterpret.2d_array.r8_unorm_r8_snorm
 dEQP-VK.image.format_reinterpret.2d_array.r8_unorm_r8_uint
+dEQP-VK.image.format_reinterpret.2d_array.r8g8_sint_r16_sfloat
 dEQP-VK.image.format_reinterpret.2d_array.r8g8_sint_r16_sint
 dEQP-VK.image.format_reinterpret.2d_array.r8g8_sint_r16_snorm
 dEQP-VK.image.format_reinterpret.2d_array.r8g8_sint_r16_uint
@@ -97320,6 +97404,7 @@ dEQP-VK.image.format_reinterpret.2d_array.r8g8_sint_r16_unorm
 dEQP-VK.image.format_reinterpret.2d_array.r8g8_sint_r8g8_snorm
 dEQP-VK.image.format_reinterpret.2d_array.r8g8_sint_r8g8_uint
 dEQP-VK.image.format_reinterpret.2d_array.r8g8_sint_r8g8_unorm
+dEQP-VK.image.format_reinterpret.2d_array.r8g8_snorm_r16_sfloat
 dEQP-VK.image.format_reinterpret.2d_array.r8g8_snorm_r16_sint
 dEQP-VK.image.format_reinterpret.2d_array.r8g8_snorm_r16_snorm
 dEQP-VK.image.format_reinterpret.2d_array.r8g8_snorm_r16_uint
@@ -97327,6 +97412,7 @@ dEQP-VK.image.format_reinterpret.2d_array.r8g8_snorm_r16_unorm
 dEQP-VK.image.format_reinterpret.2d_array.r8g8_snorm_r8g8_sint
 dEQP-VK.image.format_reinterpret.2d_array.r8g8_snorm_r8g8_uint
 dEQP-VK.image.format_reinterpret.2d_array.r8g8_snorm_r8g8_unorm
+dEQP-VK.image.format_reinterpret.2d_array.r8g8_uint_r16_sfloat
 dEQP-VK.image.format_reinterpret.2d_array.r8g8_uint_r16_sint
 dEQP-VK.image.format_reinterpret.2d_array.r8g8_uint_r16_snorm
 dEQP-VK.image.format_reinterpret.2d_array.r8g8_uint_r16_uint
@@ -97344,6 +97430,8 @@ dEQP-VK.image.format_reinterpret.2d_array.r8g8_unorm_r8g8_snorm
 dEQP-VK.image.format_reinterpret.2d_array.r8g8_unorm_r8g8_uint
 dEQP-VK.image.format_reinterpret.2d_array.r8g8b8a8_sint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.2d_array.r8g8b8a8_sint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.2d_array.r8g8b8a8_sint_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.2d_array.r8g8b8a8_sint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.2d_array.r8g8b8a8_sint_r16g16_sint
 dEQP-VK.image.format_reinterpret.2d_array.r8g8b8a8_sint_r16g16_snorm
 dEQP-VK.image.format_reinterpret.2d_array.r8g8b8a8_sint_r16g16_uint
@@ -97356,6 +97444,8 @@ dEQP-VK.image.format_reinterpret.2d_array.r8g8b8a8_sint_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.2d_array.r8g8b8a8_sint_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.2d_array.r8g8b8a8_snorm_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.2d_array.r8g8b8a8_snorm_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.2d_array.r8g8b8a8_snorm_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.2d_array.r8g8b8a8_snorm_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.2d_array.r8g8b8a8_snorm_r16g16_sint
 dEQP-VK.image.format_reinterpret.2d_array.r8g8b8a8_snorm_r16g16_snorm
 dEQP-VK.image.format_reinterpret.2d_array.r8g8b8a8_snorm_r16g16_uint
@@ -97368,6 +97458,8 @@ dEQP-VK.image.format_reinterpret.2d_array.r8g8b8a8_snorm_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.2d_array.r8g8b8a8_snorm_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.2d_array.r8g8b8a8_uint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.2d_array.r8g8b8a8_uint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.2d_array.r8g8b8a8_uint_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.2d_array.r8g8b8a8_uint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.2d_array.r8g8b8a8_uint_r16g16_sint
 dEQP-VK.image.format_reinterpret.2d_array.r8g8b8a8_uint_r16g16_snorm
 dEQP-VK.image.format_reinterpret.2d_array.r8g8b8a8_uint_r16g16_uint
@@ -97394,6 +97486,7 @@ dEQP-VK.image.format_reinterpret.2d_array.r8g8b8a8_unorm_r8g8b8a8_snorm
 dEQP-VK.image.format_reinterpret.2d_array.r8g8b8a8_unorm_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.3d.a2b10g10r10_uint_pack32_a2b10g10r10_unorm_pack32
 dEQP-VK.image.format_reinterpret.3d.a2b10g10r10_uint_pack32_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.3d.a2b10g10r10_uint_pack32_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.3d.a2b10g10r10_uint_pack32_r16g16_sint
 dEQP-VK.image.format_reinterpret.3d.a2b10g10r10_uint_pack32_r16g16_snorm
 dEQP-VK.image.format_reinterpret.3d.a2b10g10r10_uint_pack32_r16g16_uint
@@ -97485,6 +97578,7 @@ dEQP-VK.image.format_reinterpret.3d.r16_unorm_r16_sint
 dEQP-VK.image.format_reinterpret.3d.r16_unorm_r16_snorm
 dEQP-VK.image.format_reinterpret.3d.r16_unorm_r16_uint
 dEQP-VK.image.format_reinterpret.3d.r16_unorm_r8g8_sint
+dEQP-VK.image.format_reinterpret.3d.r16_unorm_r8g8_snorm
 dEQP-VK.image.format_reinterpret.3d.r16_unorm_r8g8_uint
 dEQP-VK.image.format_reinterpret.3d.r16_unorm_r8g8_unorm
 dEQP-VK.image.format_reinterpret.3d.r16g16_sfloat_a2b10g10r10_uint_pack32
@@ -97503,6 +97597,7 @@ dEQP-VK.image.format_reinterpret.3d.r16g16_sfloat_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.3d.r16g16_sfloat_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.3d.r16g16_sint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.3d.r16g16_sint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.3d.r16g16_sint_b10g11r11_ufloat_pack32
 dEQP-VK.image.format_reinterpret.3d.r16g16_sint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.3d.r16g16_sint_r16g16_snorm
 dEQP-VK.image.format_reinterpret.3d.r16g16_sint_r16g16_uint
@@ -97516,6 +97611,7 @@ dEQP-VK.image.format_reinterpret.3d.r16g16_sint_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.3d.r16g16_sint_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.3d.r16g16_snorm_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.3d.r16g16_snorm_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.3d.r16g16_snorm_b10g11r11_ufloat_pack32
 dEQP-VK.image.format_reinterpret.3d.r16g16_snorm_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.3d.r16g16_snorm_r16g16_sint
 dEQP-VK.image.format_reinterpret.3d.r16g16_snorm_r16g16_uint
@@ -97529,6 +97625,7 @@ dEQP-VK.image.format_reinterpret.3d.r16g16_snorm_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.3d.r16g16_snorm_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.3d.r16g16_uint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.3d.r16g16_uint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.3d.r16g16_uint_b10g11r11_ufloat_pack32
 dEQP-VK.image.format_reinterpret.3d.r16g16_uint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.3d.r16g16_uint_r16g16_sint
 dEQP-VK.image.format_reinterpret.3d.r16g16_uint_r16g16_snorm
@@ -97551,6 +97648,7 @@ dEQP-VK.image.format_reinterpret.3d.r16g16_unorm_r32_sfloat
 dEQP-VK.image.format_reinterpret.3d.r16g16_unorm_r32_sint
 dEQP-VK.image.format_reinterpret.3d.r16g16_unorm_r32_uint
 dEQP-VK.image.format_reinterpret.3d.r16g16_unorm_r8g8b8a8_sint
+dEQP-VK.image.format_reinterpret.3d.r16g16_unorm_r8g8b8a8_snorm
 dEQP-VK.image.format_reinterpret.3d.r16g16_unorm_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.3d.r16g16_unorm_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.3d.r16g16b16a16_sfloat_r16g16b16a16_sint
@@ -97604,6 +97702,8 @@ dEQP-VK.image.format_reinterpret.3d.r32_sfloat_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.3d.r32_sfloat_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.3d.r32_sint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.3d.r32_sint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.3d.r32_sint_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.3d.r32_sint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.3d.r32_sint_r16g16_sint
 dEQP-VK.image.format_reinterpret.3d.r32_sint_r16g16_snorm
 dEQP-VK.image.format_reinterpret.3d.r32_sint_r16g16_uint
@@ -97611,10 +97711,13 @@ dEQP-VK.image.format_reinterpret.3d.r32_sint_r16g16_unorm
 dEQP-VK.image.format_reinterpret.3d.r32_sint_r32_sfloat
 dEQP-VK.image.format_reinterpret.3d.r32_sint_r32_uint
 dEQP-VK.image.format_reinterpret.3d.r32_sint_r8g8b8a8_sint
+dEQP-VK.image.format_reinterpret.3d.r32_sint_r8g8b8a8_snorm
 dEQP-VK.image.format_reinterpret.3d.r32_sint_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.3d.r32_sint_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.3d.r32_uint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.3d.r32_uint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.3d.r32_uint_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.3d.r32_uint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.3d.r32_uint_r16g16_sint
 dEQP-VK.image.format_reinterpret.3d.r32_uint_r16g16_snorm
 dEQP-VK.image.format_reinterpret.3d.r32_uint_r16g16_uint
@@ -97622,6 +97725,7 @@ dEQP-VK.image.format_reinterpret.3d.r32_uint_r16g16_unorm
 dEQP-VK.image.format_reinterpret.3d.r32_uint_r32_sfloat
 dEQP-VK.image.format_reinterpret.3d.r32_uint_r32_sint
 dEQP-VK.image.format_reinterpret.3d.r32_uint_r8g8b8a8_sint
+dEQP-VK.image.format_reinterpret.3d.r32_uint_r8g8b8a8_snorm
 dEQP-VK.image.format_reinterpret.3d.r32_uint_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.3d.r32_uint_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.3d.r32g32_sfloat_r16g16b16a16_sfloat
@@ -97631,12 +97735,14 @@ dEQP-VK.image.format_reinterpret.3d.r32g32_sfloat_r16g16b16a16_uint
 dEQP-VK.image.format_reinterpret.3d.r32g32_sfloat_r16g16b16a16_unorm
 dEQP-VK.image.format_reinterpret.3d.r32g32_sfloat_r32g32_sint
 dEQP-VK.image.format_reinterpret.3d.r32g32_sfloat_r32g32_uint
+dEQP-VK.image.format_reinterpret.3d.r32g32_sint_r16g16b16a16_sfloat
 dEQP-VK.image.format_reinterpret.3d.r32g32_sint_r16g16b16a16_sint
 dEQP-VK.image.format_reinterpret.3d.r32g32_sint_r16g16b16a16_snorm
 dEQP-VK.image.format_reinterpret.3d.r32g32_sint_r16g16b16a16_uint
 dEQP-VK.image.format_reinterpret.3d.r32g32_sint_r16g16b16a16_unorm
 dEQP-VK.image.format_reinterpret.3d.r32g32_sint_r32g32_sfloat
 dEQP-VK.image.format_reinterpret.3d.r32g32_sint_r32g32_uint
+dEQP-VK.image.format_reinterpret.3d.r32g32_uint_r16g16b16a16_sfloat
 dEQP-VK.image.format_reinterpret.3d.r32g32_uint_r16g16b16a16_sint
 dEQP-VK.image.format_reinterpret.3d.r32g32_uint_r16g16b16a16_snorm
 dEQP-VK.image.format_reinterpret.3d.r32g32_uint_r16g16b16a16_uint
@@ -97661,6 +97767,7 @@ dEQP-VK.image.format_reinterpret.3d.r8_uint_r8_unorm
 dEQP-VK.image.format_reinterpret.3d.r8_unorm_r8_sint
 dEQP-VK.image.format_reinterpret.3d.r8_unorm_r8_snorm
 dEQP-VK.image.format_reinterpret.3d.r8_unorm_r8_uint
+dEQP-VK.image.format_reinterpret.3d.r8g8_sint_r16_sfloat
 dEQP-VK.image.format_reinterpret.3d.r8g8_sint_r16_sint
 dEQP-VK.image.format_reinterpret.3d.r8g8_sint_r16_snorm
 dEQP-VK.image.format_reinterpret.3d.r8g8_sint_r16_uint
@@ -97668,6 +97775,7 @@ dEQP-VK.image.format_reinterpret.3d.r8g8_sint_r16_unorm
 dEQP-VK.image.format_reinterpret.3d.r8g8_sint_r8g8_snorm
 dEQP-VK.image.format_reinterpret.3d.r8g8_sint_r8g8_uint
 dEQP-VK.image.format_reinterpret.3d.r8g8_sint_r8g8_unorm
+dEQP-VK.image.format_reinterpret.3d.r8g8_snorm_r16_sfloat
 dEQP-VK.image.format_reinterpret.3d.r8g8_snorm_r16_sint
 dEQP-VK.image.format_reinterpret.3d.r8g8_snorm_r16_snorm
 dEQP-VK.image.format_reinterpret.3d.r8g8_snorm_r16_uint
@@ -97675,6 +97783,7 @@ dEQP-VK.image.format_reinterpret.3d.r8g8_snorm_r16_unorm
 dEQP-VK.image.format_reinterpret.3d.r8g8_snorm_r8g8_sint
 dEQP-VK.image.format_reinterpret.3d.r8g8_snorm_r8g8_uint
 dEQP-VK.image.format_reinterpret.3d.r8g8_snorm_r8g8_unorm
+dEQP-VK.image.format_reinterpret.3d.r8g8_uint_r16_sfloat
 dEQP-VK.image.format_reinterpret.3d.r8g8_uint_r16_sint
 dEQP-VK.image.format_reinterpret.3d.r8g8_uint_r16_snorm
 dEQP-VK.image.format_reinterpret.3d.r8g8_uint_r16_uint
@@ -97692,6 +97801,8 @@ dEQP-VK.image.format_reinterpret.3d.r8g8_unorm_r8g8_snorm
 dEQP-VK.image.format_reinterpret.3d.r8g8_unorm_r8g8_uint
 dEQP-VK.image.format_reinterpret.3d.r8g8b8a8_sint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.3d.r8g8b8a8_sint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.3d.r8g8b8a8_sint_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.3d.r8g8b8a8_sint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.3d.r8g8b8a8_sint_r16g16_sint
 dEQP-VK.image.format_reinterpret.3d.r8g8b8a8_sint_r16g16_snorm
 dEQP-VK.image.format_reinterpret.3d.r8g8b8a8_sint_r16g16_uint
@@ -97704,6 +97815,8 @@ dEQP-VK.image.format_reinterpret.3d.r8g8b8a8_sint_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.3d.r8g8b8a8_sint_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.3d.r8g8b8a8_snorm_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.3d.r8g8b8a8_snorm_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.3d.r8g8b8a8_snorm_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.3d.r8g8b8a8_snorm_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.3d.r8g8b8a8_snorm_r16g16_sint
 dEQP-VK.image.format_reinterpret.3d.r8g8b8a8_snorm_r16g16_snorm
 dEQP-VK.image.format_reinterpret.3d.r8g8b8a8_snorm_r16g16_uint
@@ -97716,6 +97829,8 @@ dEQP-VK.image.format_reinterpret.3d.r8g8b8a8_snorm_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.3d.r8g8b8a8_snorm_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.3d.r8g8b8a8_uint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.3d.r8g8b8a8_uint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.3d.r8g8b8a8_uint_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.3d.r8g8b8a8_uint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.3d.r8g8b8a8_uint_r16g16_sint
 dEQP-VK.image.format_reinterpret.3d.r8g8b8a8_uint_r16g16_snorm
 dEQP-VK.image.format_reinterpret.3d.r8g8b8a8_uint_r16g16_uint
@@ -97742,6 +97857,7 @@ dEQP-VK.image.format_reinterpret.3d.r8g8b8a8_unorm_r8g8b8a8_snorm
 dEQP-VK.image.format_reinterpret.3d.r8g8b8a8_unorm_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.buffer.a2b10g10r10_uint_pack32_a2b10g10r10_unorm_pack32
 dEQP-VK.image.format_reinterpret.buffer.a2b10g10r10_uint_pack32_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.buffer.a2b10g10r10_uint_pack32_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.buffer.a2b10g10r10_uint_pack32_r16g16_sint
 dEQP-VK.image.format_reinterpret.buffer.a2b10g10r10_uint_pack32_r16g16_snorm
 dEQP-VK.image.format_reinterpret.buffer.a2b10g10r10_uint_pack32_r16g16_uint
@@ -97833,6 +97949,7 @@ dEQP-VK.image.format_reinterpret.buffer.r16_unorm_r16_sint
 dEQP-VK.image.format_reinterpret.buffer.r16_unorm_r16_snorm
 dEQP-VK.image.format_reinterpret.buffer.r16_unorm_r16_uint
 dEQP-VK.image.format_reinterpret.buffer.r16_unorm_r8g8_sint
+dEQP-VK.image.format_reinterpret.buffer.r16_unorm_r8g8_snorm
 dEQP-VK.image.format_reinterpret.buffer.r16_unorm_r8g8_uint
 dEQP-VK.image.format_reinterpret.buffer.r16_unorm_r8g8_unorm
 dEQP-VK.image.format_reinterpret.buffer.r16g16_sfloat_a2b10g10r10_uint_pack32
@@ -97851,6 +97968,7 @@ dEQP-VK.image.format_reinterpret.buffer.r16g16_sfloat_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.buffer.r16g16_sfloat_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.buffer.r16g16_sint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.buffer.r16g16_sint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.buffer.r16g16_sint_b10g11r11_ufloat_pack32
 dEQP-VK.image.format_reinterpret.buffer.r16g16_sint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.buffer.r16g16_sint_r16g16_snorm
 dEQP-VK.image.format_reinterpret.buffer.r16g16_sint_r16g16_uint
@@ -97864,6 +97982,7 @@ dEQP-VK.image.format_reinterpret.buffer.r16g16_sint_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.buffer.r16g16_sint_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.buffer.r16g16_snorm_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.buffer.r16g16_snorm_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.buffer.r16g16_snorm_b10g11r11_ufloat_pack32
 dEQP-VK.image.format_reinterpret.buffer.r16g16_snorm_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.buffer.r16g16_snorm_r16g16_sint
 dEQP-VK.image.format_reinterpret.buffer.r16g16_snorm_r16g16_uint
@@ -97877,6 +97996,7 @@ dEQP-VK.image.format_reinterpret.buffer.r16g16_snorm_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.buffer.r16g16_snorm_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.buffer.r16g16_uint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.buffer.r16g16_uint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.buffer.r16g16_uint_b10g11r11_ufloat_pack32
 dEQP-VK.image.format_reinterpret.buffer.r16g16_uint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.buffer.r16g16_uint_r16g16_sint
 dEQP-VK.image.format_reinterpret.buffer.r16g16_uint_r16g16_snorm
@@ -97899,6 +98019,7 @@ dEQP-VK.image.format_reinterpret.buffer.r16g16_unorm_r32_sfloat
 dEQP-VK.image.format_reinterpret.buffer.r16g16_unorm_r32_sint
 dEQP-VK.image.format_reinterpret.buffer.r16g16_unorm_r32_uint
 dEQP-VK.image.format_reinterpret.buffer.r16g16_unorm_r8g8b8a8_sint
+dEQP-VK.image.format_reinterpret.buffer.r16g16_unorm_r8g8b8a8_snorm
 dEQP-VK.image.format_reinterpret.buffer.r16g16_unorm_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.buffer.r16g16_unorm_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.buffer.r16g16b16a16_sfloat_r16g16b16a16_sint
@@ -97952,6 +98073,8 @@ dEQP-VK.image.format_reinterpret.buffer.r32_sfloat_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.buffer.r32_sfloat_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.buffer.r32_sint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.buffer.r32_sint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.buffer.r32_sint_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.buffer.r32_sint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.buffer.r32_sint_r16g16_sint
 dEQP-VK.image.format_reinterpret.buffer.r32_sint_r16g16_snorm
 dEQP-VK.image.format_reinterpret.buffer.r32_sint_r16g16_uint
@@ -97959,10 +98082,13 @@ dEQP-VK.image.format_reinterpret.buffer.r32_sint_r16g16_unorm
 dEQP-VK.image.format_reinterpret.buffer.r32_sint_r32_sfloat
 dEQP-VK.image.format_reinterpret.buffer.r32_sint_r32_uint
 dEQP-VK.image.format_reinterpret.buffer.r32_sint_r8g8b8a8_sint
+dEQP-VK.image.format_reinterpret.buffer.r32_sint_r8g8b8a8_snorm
 dEQP-VK.image.format_reinterpret.buffer.r32_sint_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.buffer.r32_sint_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.buffer.r32_uint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.buffer.r32_uint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.buffer.r32_uint_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.buffer.r32_uint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.buffer.r32_uint_r16g16_sint
 dEQP-VK.image.format_reinterpret.buffer.r32_uint_r16g16_snorm
 dEQP-VK.image.format_reinterpret.buffer.r32_uint_r16g16_uint
@@ -97970,6 +98096,7 @@ dEQP-VK.image.format_reinterpret.buffer.r32_uint_r16g16_unorm
 dEQP-VK.image.format_reinterpret.buffer.r32_uint_r32_sfloat
 dEQP-VK.image.format_reinterpret.buffer.r32_uint_r32_sint
 dEQP-VK.image.format_reinterpret.buffer.r32_uint_r8g8b8a8_sint
+dEQP-VK.image.format_reinterpret.buffer.r32_uint_r8g8b8a8_snorm
 dEQP-VK.image.format_reinterpret.buffer.r32_uint_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.buffer.r32_uint_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.buffer.r32g32_sfloat_r16g16b16a16_sfloat
@@ -97979,12 +98106,14 @@ dEQP-VK.image.format_reinterpret.buffer.r32g32_sfloat_r16g16b16a16_uint
 dEQP-VK.image.format_reinterpret.buffer.r32g32_sfloat_r16g16b16a16_unorm
 dEQP-VK.image.format_reinterpret.buffer.r32g32_sfloat_r32g32_sint
 dEQP-VK.image.format_reinterpret.buffer.r32g32_sfloat_r32g32_uint
+dEQP-VK.image.format_reinterpret.buffer.r32g32_sint_r16g16b16a16_sfloat
 dEQP-VK.image.format_reinterpret.buffer.r32g32_sint_r16g16b16a16_sint
 dEQP-VK.image.format_reinterpret.buffer.r32g32_sint_r16g16b16a16_snorm
 dEQP-VK.image.format_reinterpret.buffer.r32g32_sint_r16g16b16a16_uint
 dEQP-VK.image.format_reinterpret.buffer.r32g32_sint_r16g16b16a16_unorm
 dEQP-VK.image.format_reinterpret.buffer.r32g32_sint_r32g32_sfloat
 dEQP-VK.image.format_reinterpret.buffer.r32g32_sint_r32g32_uint
+dEQP-VK.image.format_reinterpret.buffer.r32g32_uint_r16g16b16a16_sfloat
 dEQP-VK.image.format_reinterpret.buffer.r32g32_uint_r16g16b16a16_sint
 dEQP-VK.image.format_reinterpret.buffer.r32g32_uint_r16g16b16a16_snorm
 dEQP-VK.image.format_reinterpret.buffer.r32g32_uint_r16g16b16a16_uint
@@ -98009,6 +98138,7 @@ dEQP-VK.image.format_reinterpret.buffer.r8_uint_r8_unorm
 dEQP-VK.image.format_reinterpret.buffer.r8_unorm_r8_sint
 dEQP-VK.image.format_reinterpret.buffer.r8_unorm_r8_snorm
 dEQP-VK.image.format_reinterpret.buffer.r8_unorm_r8_uint
+dEQP-VK.image.format_reinterpret.buffer.r8g8_sint_r16_sfloat
 dEQP-VK.image.format_reinterpret.buffer.r8g8_sint_r16_sint
 dEQP-VK.image.format_reinterpret.buffer.r8g8_sint_r16_snorm
 dEQP-VK.image.format_reinterpret.buffer.r8g8_sint_r16_uint
@@ -98016,6 +98146,7 @@ dEQP-VK.image.format_reinterpret.buffer.r8g8_sint_r16_unorm
 dEQP-VK.image.format_reinterpret.buffer.r8g8_sint_r8g8_snorm
 dEQP-VK.image.format_reinterpret.buffer.r8g8_sint_r8g8_uint
 dEQP-VK.image.format_reinterpret.buffer.r8g8_sint_r8g8_unorm
+dEQP-VK.image.format_reinterpret.buffer.r8g8_snorm_r16_sfloat
 dEQP-VK.image.format_reinterpret.buffer.r8g8_snorm_r16_sint
 dEQP-VK.image.format_reinterpret.buffer.r8g8_snorm_r16_snorm
 dEQP-VK.image.format_reinterpret.buffer.r8g8_snorm_r16_uint
@@ -98023,6 +98154,7 @@ dEQP-VK.image.format_reinterpret.buffer.r8g8_snorm_r16_unorm
 dEQP-VK.image.format_reinterpret.buffer.r8g8_snorm_r8g8_sint
 dEQP-VK.image.format_reinterpret.buffer.r8g8_snorm_r8g8_uint
 dEQP-VK.image.format_reinterpret.buffer.r8g8_snorm_r8g8_unorm
+dEQP-VK.image.format_reinterpret.buffer.r8g8_uint_r16_sfloat
 dEQP-VK.image.format_reinterpret.buffer.r8g8_uint_r16_sint
 dEQP-VK.image.format_reinterpret.buffer.r8g8_uint_r16_snorm
 dEQP-VK.image.format_reinterpret.buffer.r8g8_uint_r16_uint
@@ -98040,6 +98172,8 @@ dEQP-VK.image.format_reinterpret.buffer.r8g8_unorm_r8g8_snorm
 dEQP-VK.image.format_reinterpret.buffer.r8g8_unorm_r8g8_uint
 dEQP-VK.image.format_reinterpret.buffer.r8g8b8a8_sint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.buffer.r8g8b8a8_sint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.buffer.r8g8b8a8_sint_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.buffer.r8g8b8a8_sint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.buffer.r8g8b8a8_sint_r16g16_sint
 dEQP-VK.image.format_reinterpret.buffer.r8g8b8a8_sint_r16g16_snorm
 dEQP-VK.image.format_reinterpret.buffer.r8g8b8a8_sint_r16g16_uint
@@ -98052,6 +98186,8 @@ dEQP-VK.image.format_reinterpret.buffer.r8g8b8a8_sint_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.buffer.r8g8b8a8_sint_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.buffer.r8g8b8a8_snorm_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.buffer.r8g8b8a8_snorm_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.buffer.r8g8b8a8_snorm_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.buffer.r8g8b8a8_snorm_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.buffer.r8g8b8a8_snorm_r16g16_sint
 dEQP-VK.image.format_reinterpret.buffer.r8g8b8a8_snorm_r16g16_snorm
 dEQP-VK.image.format_reinterpret.buffer.r8g8b8a8_snorm_r16g16_uint
@@ -98064,6 +98200,8 @@ dEQP-VK.image.format_reinterpret.buffer.r8g8b8a8_snorm_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.buffer.r8g8b8a8_snorm_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.buffer.r8g8b8a8_uint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.buffer.r8g8b8a8_uint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.buffer.r8g8b8a8_uint_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.buffer.r8g8b8a8_uint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.buffer.r8g8b8a8_uint_r16g16_sint
 dEQP-VK.image.format_reinterpret.buffer.r8g8b8a8_uint_r16g16_snorm
 dEQP-VK.image.format_reinterpret.buffer.r8g8b8a8_uint_r16g16_uint
@@ -98090,6 +98228,7 @@ dEQP-VK.image.format_reinterpret.buffer.r8g8b8a8_unorm_r8g8b8a8_snorm
 dEQP-VK.image.format_reinterpret.buffer.r8g8b8a8_unorm_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.cube.a2b10g10r10_uint_pack32_a2b10g10r10_unorm_pack32
 dEQP-VK.image.format_reinterpret.cube.a2b10g10r10_uint_pack32_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.cube.a2b10g10r10_uint_pack32_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.cube.a2b10g10r10_uint_pack32_r16g16_sint
 dEQP-VK.image.format_reinterpret.cube.a2b10g10r10_uint_pack32_r16g16_snorm
 dEQP-VK.image.format_reinterpret.cube.a2b10g10r10_uint_pack32_r16g16_uint
@@ -98181,6 +98320,7 @@ dEQP-VK.image.format_reinterpret.cube.r16_unorm_r16_sint
 dEQP-VK.image.format_reinterpret.cube.r16_unorm_r16_snorm
 dEQP-VK.image.format_reinterpret.cube.r16_unorm_r16_uint
 dEQP-VK.image.format_reinterpret.cube.r16_unorm_r8g8_sint
+dEQP-VK.image.format_reinterpret.cube.r16_unorm_r8g8_snorm
 dEQP-VK.image.format_reinterpret.cube.r16_unorm_r8g8_uint
 dEQP-VK.image.format_reinterpret.cube.r16_unorm_r8g8_unorm
 dEQP-VK.image.format_reinterpret.cube.r16g16_sfloat_a2b10g10r10_uint_pack32
@@ -98199,6 +98339,7 @@ dEQP-VK.image.format_reinterpret.cube.r16g16_sfloat_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.cube.r16g16_sfloat_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.cube.r16g16_sint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.cube.r16g16_sint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.cube.r16g16_sint_b10g11r11_ufloat_pack32
 dEQP-VK.image.format_reinterpret.cube.r16g16_sint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.cube.r16g16_sint_r16g16_snorm
 dEQP-VK.image.format_reinterpret.cube.r16g16_sint_r16g16_uint
@@ -98212,6 +98353,7 @@ dEQP-VK.image.format_reinterpret.cube.r16g16_sint_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.cube.r16g16_sint_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.cube.r16g16_snorm_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.cube.r16g16_snorm_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.cube.r16g16_snorm_b10g11r11_ufloat_pack32
 dEQP-VK.image.format_reinterpret.cube.r16g16_snorm_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.cube.r16g16_snorm_r16g16_sint
 dEQP-VK.image.format_reinterpret.cube.r16g16_snorm_r16g16_uint
@@ -98225,6 +98367,7 @@ dEQP-VK.image.format_reinterpret.cube.r16g16_snorm_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.cube.r16g16_snorm_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.cube.r16g16_uint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.cube.r16g16_uint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.cube.r16g16_uint_b10g11r11_ufloat_pack32
 dEQP-VK.image.format_reinterpret.cube.r16g16_uint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.cube.r16g16_uint_r16g16_sint
 dEQP-VK.image.format_reinterpret.cube.r16g16_uint_r16g16_snorm
@@ -98247,6 +98390,7 @@ dEQP-VK.image.format_reinterpret.cube.r16g16_unorm_r32_sfloat
 dEQP-VK.image.format_reinterpret.cube.r16g16_unorm_r32_sint
 dEQP-VK.image.format_reinterpret.cube.r16g16_unorm_r32_uint
 dEQP-VK.image.format_reinterpret.cube.r16g16_unorm_r8g8b8a8_sint
+dEQP-VK.image.format_reinterpret.cube.r16g16_unorm_r8g8b8a8_snorm
 dEQP-VK.image.format_reinterpret.cube.r16g16_unorm_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.cube.r16g16_unorm_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.cube.r16g16b16a16_sfloat_r16g16b16a16_sint
@@ -98300,6 +98444,8 @@ dEQP-VK.image.format_reinterpret.cube.r32_sfloat_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.cube.r32_sfloat_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.cube.r32_sint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.cube.r32_sint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.cube.r32_sint_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.cube.r32_sint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.cube.r32_sint_r16g16_sint
 dEQP-VK.image.format_reinterpret.cube.r32_sint_r16g16_snorm
 dEQP-VK.image.format_reinterpret.cube.r32_sint_r16g16_uint
@@ -98307,10 +98453,13 @@ dEQP-VK.image.format_reinterpret.cube.r32_sint_r16g16_unorm
 dEQP-VK.image.format_reinterpret.cube.r32_sint_r32_sfloat
 dEQP-VK.image.format_reinterpret.cube.r32_sint_r32_uint
 dEQP-VK.image.format_reinterpret.cube.r32_sint_r8g8b8a8_sint
+dEQP-VK.image.format_reinterpret.cube.r32_sint_r8g8b8a8_snorm
 dEQP-VK.image.format_reinterpret.cube.r32_sint_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.cube.r32_sint_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.cube.r32_uint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.cube.r32_uint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.cube.r32_uint_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.cube.r32_uint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.cube.r32_uint_r16g16_sint
 dEQP-VK.image.format_reinterpret.cube.r32_uint_r16g16_snorm
 dEQP-VK.image.format_reinterpret.cube.r32_uint_r16g16_uint
@@ -98318,6 +98467,7 @@ dEQP-VK.image.format_reinterpret.cube.r32_uint_r16g16_unorm
 dEQP-VK.image.format_reinterpret.cube.r32_uint_r32_sfloat
 dEQP-VK.image.format_reinterpret.cube.r32_uint_r32_sint
 dEQP-VK.image.format_reinterpret.cube.r32_uint_r8g8b8a8_sint
+dEQP-VK.image.format_reinterpret.cube.r32_uint_r8g8b8a8_snorm
 dEQP-VK.image.format_reinterpret.cube.r32_uint_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.cube.r32_uint_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.cube.r32g32_sfloat_r16g16b16a16_sfloat
@@ -98327,12 +98477,14 @@ dEQP-VK.image.format_reinterpret.cube.r32g32_sfloat_r16g16b16a16_uint
 dEQP-VK.image.format_reinterpret.cube.r32g32_sfloat_r16g16b16a16_unorm
 dEQP-VK.image.format_reinterpret.cube.r32g32_sfloat_r32g32_sint
 dEQP-VK.image.format_reinterpret.cube.r32g32_sfloat_r32g32_uint
+dEQP-VK.image.format_reinterpret.cube.r32g32_sint_r16g16b16a16_sfloat
 dEQP-VK.image.format_reinterpret.cube.r32g32_sint_r16g16b16a16_sint
 dEQP-VK.image.format_reinterpret.cube.r32g32_sint_r16g16b16a16_snorm
 dEQP-VK.image.format_reinterpret.cube.r32g32_sint_r16g16b16a16_uint
 dEQP-VK.image.format_reinterpret.cube.r32g32_sint_r16g16b16a16_unorm
 dEQP-VK.image.format_reinterpret.cube.r32g32_sint_r32g32_sfloat
 dEQP-VK.image.format_reinterpret.cube.r32g32_sint_r32g32_uint
+dEQP-VK.image.format_reinterpret.cube.r32g32_uint_r16g16b16a16_sfloat
 dEQP-VK.image.format_reinterpret.cube.r32g32_uint_r16g16b16a16_sint
 dEQP-VK.image.format_reinterpret.cube.r32g32_uint_r16g16b16a16_snorm
 dEQP-VK.image.format_reinterpret.cube.r32g32_uint_r16g16b16a16_uint
@@ -98357,6 +98509,7 @@ dEQP-VK.image.format_reinterpret.cube.r8_uint_r8_unorm
 dEQP-VK.image.format_reinterpret.cube.r8_unorm_r8_sint
 dEQP-VK.image.format_reinterpret.cube.r8_unorm_r8_snorm
 dEQP-VK.image.format_reinterpret.cube.r8_unorm_r8_uint
+dEQP-VK.image.format_reinterpret.cube.r8g8_sint_r16_sfloat
 dEQP-VK.image.format_reinterpret.cube.r8g8_sint_r16_sint
 dEQP-VK.image.format_reinterpret.cube.r8g8_sint_r16_snorm
 dEQP-VK.image.format_reinterpret.cube.r8g8_sint_r16_uint
@@ -98364,6 +98517,7 @@ dEQP-VK.image.format_reinterpret.cube.r8g8_sint_r16_unorm
 dEQP-VK.image.format_reinterpret.cube.r8g8_sint_r8g8_snorm
 dEQP-VK.image.format_reinterpret.cube.r8g8_sint_r8g8_uint
 dEQP-VK.image.format_reinterpret.cube.r8g8_sint_r8g8_unorm
+dEQP-VK.image.format_reinterpret.cube.r8g8_snorm_r16_sfloat
 dEQP-VK.image.format_reinterpret.cube.r8g8_snorm_r16_sint
 dEQP-VK.image.format_reinterpret.cube.r8g8_snorm_r16_snorm
 dEQP-VK.image.format_reinterpret.cube.r8g8_snorm_r16_uint
@@ -98371,6 +98525,7 @@ dEQP-VK.image.format_reinterpret.cube.r8g8_snorm_r16_unorm
 dEQP-VK.image.format_reinterpret.cube.r8g8_snorm_r8g8_sint
 dEQP-VK.image.format_reinterpret.cube.r8g8_snorm_r8g8_uint
 dEQP-VK.image.format_reinterpret.cube.r8g8_snorm_r8g8_unorm
+dEQP-VK.image.format_reinterpret.cube.r8g8_uint_r16_sfloat
 dEQP-VK.image.format_reinterpret.cube.r8g8_uint_r16_sint
 dEQP-VK.image.format_reinterpret.cube.r8g8_uint_r16_snorm
 dEQP-VK.image.format_reinterpret.cube.r8g8_uint_r16_uint
@@ -98388,6 +98543,8 @@ dEQP-VK.image.format_reinterpret.cube.r8g8_unorm_r8g8_snorm
 dEQP-VK.image.format_reinterpret.cube.r8g8_unorm_r8g8_uint
 dEQP-VK.image.format_reinterpret.cube.r8g8b8a8_sint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.cube.r8g8b8a8_sint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.cube.r8g8b8a8_sint_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.cube.r8g8b8a8_sint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.cube.r8g8b8a8_sint_r16g16_sint
 dEQP-VK.image.format_reinterpret.cube.r8g8b8a8_sint_r16g16_snorm
 dEQP-VK.image.format_reinterpret.cube.r8g8b8a8_sint_r16g16_uint
@@ -98400,6 +98557,8 @@ dEQP-VK.image.format_reinterpret.cube.r8g8b8a8_sint_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.cube.r8g8b8a8_sint_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.cube.r8g8b8a8_snorm_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.cube.r8g8b8a8_snorm_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.cube.r8g8b8a8_snorm_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.cube.r8g8b8a8_snorm_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.cube.r8g8b8a8_snorm_r16g16_sint
 dEQP-VK.image.format_reinterpret.cube.r8g8b8a8_snorm_r16g16_snorm
 dEQP-VK.image.format_reinterpret.cube.r8g8b8a8_snorm_r16g16_uint
@@ -98412,6 +98571,8 @@ dEQP-VK.image.format_reinterpret.cube.r8g8b8a8_snorm_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.cube.r8g8b8a8_snorm_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.cube.r8g8b8a8_uint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.cube.r8g8b8a8_uint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.cube.r8g8b8a8_uint_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.cube.r8g8b8a8_uint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.cube.r8g8b8a8_uint_r16g16_sint
 dEQP-VK.image.format_reinterpret.cube.r8g8b8a8_uint_r16g16_snorm
 dEQP-VK.image.format_reinterpret.cube.r8g8b8a8_uint_r16g16_uint
@@ -98438,6 +98599,7 @@ dEQP-VK.image.format_reinterpret.cube.r8g8b8a8_unorm_r8g8b8a8_snorm
 dEQP-VK.image.format_reinterpret.cube.r8g8b8a8_unorm_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.cube_array.a2b10g10r10_uint_pack32_a2b10g10r10_unorm_pack32
 dEQP-VK.image.format_reinterpret.cube_array.a2b10g10r10_uint_pack32_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.cube_array.a2b10g10r10_uint_pack32_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.cube_array.a2b10g10r10_uint_pack32_r16g16_sint
 dEQP-VK.image.format_reinterpret.cube_array.a2b10g10r10_uint_pack32_r16g16_snorm
 dEQP-VK.image.format_reinterpret.cube_array.a2b10g10r10_uint_pack32_r16g16_uint
@@ -98529,6 +98691,7 @@ dEQP-VK.image.format_reinterpret.cube_array.r16_unorm_r16_sint
 dEQP-VK.image.format_reinterpret.cube_array.r16_unorm_r16_snorm
 dEQP-VK.image.format_reinterpret.cube_array.r16_unorm_r16_uint
 dEQP-VK.image.format_reinterpret.cube_array.r16_unorm_r8g8_sint
+dEQP-VK.image.format_reinterpret.cube_array.r16_unorm_r8g8_snorm
 dEQP-VK.image.format_reinterpret.cube_array.r16_unorm_r8g8_uint
 dEQP-VK.image.format_reinterpret.cube_array.r16_unorm_r8g8_unorm
 dEQP-VK.image.format_reinterpret.cube_array.r16g16_sfloat_a2b10g10r10_uint_pack32
@@ -98547,6 +98710,7 @@ dEQP-VK.image.format_reinterpret.cube_array.r16g16_sfloat_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.cube_array.r16g16_sfloat_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.cube_array.r16g16_sint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.cube_array.r16g16_sint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.cube_array.r16g16_sint_b10g11r11_ufloat_pack32
 dEQP-VK.image.format_reinterpret.cube_array.r16g16_sint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.cube_array.r16g16_sint_r16g16_snorm
 dEQP-VK.image.format_reinterpret.cube_array.r16g16_sint_r16g16_uint
@@ -98560,6 +98724,7 @@ dEQP-VK.image.format_reinterpret.cube_array.r16g16_sint_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.cube_array.r16g16_sint_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.cube_array.r16g16_snorm_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.cube_array.r16g16_snorm_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.cube_array.r16g16_snorm_b10g11r11_ufloat_pack32
 dEQP-VK.image.format_reinterpret.cube_array.r16g16_snorm_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.cube_array.r16g16_snorm_r16g16_sint
 dEQP-VK.image.format_reinterpret.cube_array.r16g16_snorm_r16g16_uint
@@ -98573,6 +98738,7 @@ dEQP-VK.image.format_reinterpret.cube_array.r16g16_snorm_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.cube_array.r16g16_snorm_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.cube_array.r16g16_uint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.cube_array.r16g16_uint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.cube_array.r16g16_uint_b10g11r11_ufloat_pack32
 dEQP-VK.image.format_reinterpret.cube_array.r16g16_uint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.cube_array.r16g16_uint_r16g16_sint
 dEQP-VK.image.format_reinterpret.cube_array.r16g16_uint_r16g16_snorm
@@ -98595,6 +98761,7 @@ dEQP-VK.image.format_reinterpret.cube_array.r16g16_unorm_r32_sfloat
 dEQP-VK.image.format_reinterpret.cube_array.r16g16_unorm_r32_sint
 dEQP-VK.image.format_reinterpret.cube_array.r16g16_unorm_r32_uint
 dEQP-VK.image.format_reinterpret.cube_array.r16g16_unorm_r8g8b8a8_sint
+dEQP-VK.image.format_reinterpret.cube_array.r16g16_unorm_r8g8b8a8_snorm
 dEQP-VK.image.format_reinterpret.cube_array.r16g16_unorm_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.cube_array.r16g16_unorm_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.cube_array.r16g16b16a16_sfloat_r16g16b16a16_sint
@@ -98648,6 +98815,8 @@ dEQP-VK.image.format_reinterpret.cube_array.r32_sfloat_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.cube_array.r32_sfloat_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.cube_array.r32_sint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.cube_array.r32_sint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.cube_array.r32_sint_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.cube_array.r32_sint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.cube_array.r32_sint_r16g16_sint
 dEQP-VK.image.format_reinterpret.cube_array.r32_sint_r16g16_snorm
 dEQP-VK.image.format_reinterpret.cube_array.r32_sint_r16g16_uint
@@ -98655,10 +98824,13 @@ dEQP-VK.image.format_reinterpret.cube_array.r32_sint_r16g16_unorm
 dEQP-VK.image.format_reinterpret.cube_array.r32_sint_r32_sfloat
 dEQP-VK.image.format_reinterpret.cube_array.r32_sint_r32_uint
 dEQP-VK.image.format_reinterpret.cube_array.r32_sint_r8g8b8a8_sint
+dEQP-VK.image.format_reinterpret.cube_array.r32_sint_r8g8b8a8_snorm
 dEQP-VK.image.format_reinterpret.cube_array.r32_sint_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.cube_array.r32_sint_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.cube_array.r32_uint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.cube_array.r32_uint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.cube_array.r32_uint_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.cube_array.r32_uint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.cube_array.r32_uint_r16g16_sint
 dEQP-VK.image.format_reinterpret.cube_array.r32_uint_r16g16_snorm
 dEQP-VK.image.format_reinterpret.cube_array.r32_uint_r16g16_uint
@@ -98666,6 +98838,7 @@ dEQP-VK.image.format_reinterpret.cube_array.r32_uint_r16g16_unorm
 dEQP-VK.image.format_reinterpret.cube_array.r32_uint_r32_sfloat
 dEQP-VK.image.format_reinterpret.cube_array.r32_uint_r32_sint
 dEQP-VK.image.format_reinterpret.cube_array.r32_uint_r8g8b8a8_sint
+dEQP-VK.image.format_reinterpret.cube_array.r32_uint_r8g8b8a8_snorm
 dEQP-VK.image.format_reinterpret.cube_array.r32_uint_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.cube_array.r32_uint_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.cube_array.r32g32_sfloat_r16g16b16a16_sfloat
@@ -98675,12 +98848,14 @@ dEQP-VK.image.format_reinterpret.cube_array.r32g32_sfloat_r16g16b16a16_uint
 dEQP-VK.image.format_reinterpret.cube_array.r32g32_sfloat_r16g16b16a16_unorm
 dEQP-VK.image.format_reinterpret.cube_array.r32g32_sfloat_r32g32_sint
 dEQP-VK.image.format_reinterpret.cube_array.r32g32_sfloat_r32g32_uint
+dEQP-VK.image.format_reinterpret.cube_array.r32g32_sint_r16g16b16a16_sfloat
 dEQP-VK.image.format_reinterpret.cube_array.r32g32_sint_r16g16b16a16_sint
 dEQP-VK.image.format_reinterpret.cube_array.r32g32_sint_r16g16b16a16_snorm
 dEQP-VK.image.format_reinterpret.cube_array.r32g32_sint_r16g16b16a16_uint
 dEQP-VK.image.format_reinterpret.cube_array.r32g32_sint_r16g16b16a16_unorm
 dEQP-VK.image.format_reinterpret.cube_array.r32g32_sint_r32g32_sfloat
 dEQP-VK.image.format_reinterpret.cube_array.r32g32_sint_r32g32_uint
+dEQP-VK.image.format_reinterpret.cube_array.r32g32_uint_r16g16b16a16_sfloat
 dEQP-VK.image.format_reinterpret.cube_array.r32g32_uint_r16g16b16a16_sint
 dEQP-VK.image.format_reinterpret.cube_array.r32g32_uint_r16g16b16a16_snorm
 dEQP-VK.image.format_reinterpret.cube_array.r32g32_uint_r16g16b16a16_uint
@@ -98705,6 +98880,7 @@ dEQP-VK.image.format_reinterpret.cube_array.r8_uint_r8_unorm
 dEQP-VK.image.format_reinterpret.cube_array.r8_unorm_r8_sint
 dEQP-VK.image.format_reinterpret.cube_array.r8_unorm_r8_snorm
 dEQP-VK.image.format_reinterpret.cube_array.r8_unorm_r8_uint
+dEQP-VK.image.format_reinterpret.cube_array.r8g8_sint_r16_sfloat
 dEQP-VK.image.format_reinterpret.cube_array.r8g8_sint_r16_sint
 dEQP-VK.image.format_reinterpret.cube_array.r8g8_sint_r16_snorm
 dEQP-VK.image.format_reinterpret.cube_array.r8g8_sint_r16_uint
@@ -98712,6 +98888,7 @@ dEQP-VK.image.format_reinterpret.cube_array.r8g8_sint_r16_unorm
 dEQP-VK.image.format_reinterpret.cube_array.r8g8_sint_r8g8_snorm
 dEQP-VK.image.format_reinterpret.cube_array.r8g8_sint_r8g8_uint
 dEQP-VK.image.format_reinterpret.cube_array.r8g8_sint_r8g8_unorm
+dEQP-VK.image.format_reinterpret.cube_array.r8g8_snorm_r16_sfloat
 dEQP-VK.image.format_reinterpret.cube_array.r8g8_snorm_r16_sint
 dEQP-VK.image.format_reinterpret.cube_array.r8g8_snorm_r16_snorm
 dEQP-VK.image.format_reinterpret.cube_array.r8g8_snorm_r16_uint
@@ -98719,6 +98896,7 @@ dEQP-VK.image.format_reinterpret.cube_array.r8g8_snorm_r16_unorm
 dEQP-VK.image.format_reinterpret.cube_array.r8g8_snorm_r8g8_sint
 dEQP-VK.image.format_reinterpret.cube_array.r8g8_snorm_r8g8_uint
 dEQP-VK.image.format_reinterpret.cube_array.r8g8_snorm_r8g8_unorm
+dEQP-VK.image.format_reinterpret.cube_array.r8g8_uint_r16_sfloat
 dEQP-VK.image.format_reinterpret.cube_array.r8g8_uint_r16_sint
 dEQP-VK.image.format_reinterpret.cube_array.r8g8_uint_r16_snorm
 dEQP-VK.image.format_reinterpret.cube_array.r8g8_uint_r16_uint
@@ -98736,6 +98914,8 @@ dEQP-VK.image.format_reinterpret.cube_array.r8g8_unorm_r8g8_snorm
 dEQP-VK.image.format_reinterpret.cube_array.r8g8_unorm_r8g8_uint
 dEQP-VK.image.format_reinterpret.cube_array.r8g8b8a8_sint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.cube_array.r8g8b8a8_sint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.cube_array.r8g8b8a8_sint_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.cube_array.r8g8b8a8_sint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.cube_array.r8g8b8a8_sint_r16g16_sint
 dEQP-VK.image.format_reinterpret.cube_array.r8g8b8a8_sint_r16g16_snorm
 dEQP-VK.image.format_reinterpret.cube_array.r8g8b8a8_sint_r16g16_uint
@@ -98748,6 +98928,8 @@ dEQP-VK.image.format_reinterpret.cube_array.r8g8b8a8_sint_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.cube_array.r8g8b8a8_sint_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.cube_array.r8g8b8a8_snorm_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.cube_array.r8g8b8a8_snorm_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.cube_array.r8g8b8a8_snorm_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.cube_array.r8g8b8a8_snorm_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.cube_array.r8g8b8a8_snorm_r16g16_sint
 dEQP-VK.image.format_reinterpret.cube_array.r8g8b8a8_snorm_r16g16_snorm
 dEQP-VK.image.format_reinterpret.cube_array.r8g8b8a8_snorm_r16g16_uint
@@ -98760,6 +98942,8 @@ dEQP-VK.image.format_reinterpret.cube_array.r8g8b8a8_snorm_r8g8b8a8_uint
 dEQP-VK.image.format_reinterpret.cube_array.r8g8b8a8_snorm_r8g8b8a8_unorm
 dEQP-VK.image.format_reinterpret.cube_array.r8g8b8a8_uint_a2b10g10r10_uint_pack32
 dEQP-VK.image.format_reinterpret.cube_array.r8g8b8a8_uint_a2b10g10r10_unorm_pack32
+dEQP-VK.image.format_reinterpret.cube_array.r8g8b8a8_uint_b10g11r11_ufloat_pack32
+dEQP-VK.image.format_reinterpret.cube_array.r8g8b8a8_uint_r16g16_sfloat
 dEQP-VK.image.format_reinterpret.cube_array.r8g8b8a8_uint_r16g16_sint
 dEQP-VK.image.format_reinterpret.cube_array.r8g8b8a8_uint_r16g16_snorm
 dEQP-VK.image.format_reinterpret.cube_array.r8g8b8a8_uint_r16g16_uint
@@ -112447,6 +112631,9 @@ dEQP-VK.memory_model.message_passing.ext.u32.noncoherent.fence_fence.atomicwrite
 dEQP-VK.memory_model.message_passing.ext.u32.noncoherent.fence_fence.atomicwrite.workgroup.payload_nonlocal.workgroup.guard_local.buffer.comp
 dEQP-VK.memory_model.message_passing.ext.u32.noncoherent.fence_fence.atomicwrite.workgroup.payload_nonlocal.workgroup.guard_local.image.comp
 dEQP-VK.memory_model.message_passing.ext.u32.noncoherent.fence_fence.atomicwrite.workgroup.payload_nonlocal.workgroup.guard_nonlocal.workgroup.comp
+dEQP-VK.memory_model.message_passing.permuted_index.barrier
+dEQP-VK.memory_model.message_passing.permuted_index.release_acquire
+dEQP-VK.memory_model.message_passing.permuted_index.release_acquire_atomic_payload
 dEQP-VK.memory_model.padding.test
 dEQP-VK.memory_model.shared.arrays_of_arrays.0
 dEQP-VK.memory_model.shared.arrays_of_arrays.1
