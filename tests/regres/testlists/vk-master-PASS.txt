@@ -107165,14 +107165,6 @@ dEQP-VK.image.qualifiers.volatile.cube_array.r32f
 dEQP-VK.image.qualifiers.volatile.cube_array.r32i
 dEQP-VK.image.qualifiers.volatile.cube_array.r32ui
 dEQP-VK.image.sample_cubemap.write_face_0
-dEQP-VK.image.sample_texture.128_bit_compressed_format
-dEQP-VK.image.sample_texture.128_bit_compressed_format_cubemap
-dEQP-VK.image.sample_texture.128_bit_compressed_format_two_samplers
-dEQP-VK.image.sample_texture.128_bit_compressed_format_two_samplers_cubemap
-dEQP-VK.image.sample_texture.64_bit_compressed_format
-dEQP-VK.image.sample_texture.64_bit_compressed_format_cubemap
-dEQP-VK.image.sample_texture.64_bit_compressed_format_two_samplers
-dEQP-VK.image.sample_texture.64_bit_compressed_format_two_samplers_cubemap
 dEQP-VK.image.store.with_format.1d.a2b10g10r10_uint_pack32
 dEQP-VK.image.store.with_format.1d.a2b10g10r10_uint_pack32_constant
 dEQP-VK.image.store.with_format.1d.a2b10g10r10_unorm_pack32
@@ -216801,6 +216793,12 @@ dEQP-VK.renderpass.dedicated_allocation.simple.color_stencil
 dEQP-VK.renderpass.dedicated_allocation.simple.color_unused_omit_blend_state
 dEQP-VK.renderpass.dedicated_allocation.simple.no_attachments
 dEQP-VK.renderpass.dedicated_allocation.simple.stencil
+dEQP-VK.renderpass.depth_stencil_write_conditions.depth_kill_initialize_d32sf
+dEQP-VK.renderpass.depth_stencil_write_conditions.depth_kill_initialize_d32sf_s8ui
+dEQP-VK.renderpass.depth_stencil_write_conditions.depth_kill_write_d32sf
+dEQP-VK.renderpass.depth_stencil_write_conditions.depth_kill_write_d32sf_s8ui
+dEQP-VK.renderpass.depth_stencil_write_conditions.depth_kill_write_initialize_d32sf
+dEQP-VK.renderpass.depth_stencil_write_conditions.depth_kill_write_initialize_d32sf_s8ui
 dEQP-VK.renderpass.multiple_subpasses_multiple_command_buffers.test
 dEQP-VK.renderpass.suballocation.attachment.1.0
 dEQP-VK.renderpass.suballocation.attachment.1.12
