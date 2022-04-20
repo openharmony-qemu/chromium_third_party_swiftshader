@@ -1450,6 +1450,7 @@ dEQP-VK.api.info.vulkan1p2_limits_validation.fragment_density_map
 dEQP-VK.api.info.vulkan1p2_limits_validation.nv_ray_tracing
 dEQP-VK.api.info.vulkan1p2_limits_validation.timeline_semaphore
 dEQP-VK.api.info.vulkan1p2_limits_validation.ext_line_rasterization
+dEQP-VK.api.info.vulkan1p2_limits_validation.robustness2
 dEQP-VK.api.info.vulkan1p3_limits_validation.khr_maintenance4
 dEQP-VK.api.info.vulkan1p3_limits_validation.max_inline_uniform_total_size
 dEQP-VK.api.info.image_format_properties2.1d.optimal.r4g4_unorm_pack8
