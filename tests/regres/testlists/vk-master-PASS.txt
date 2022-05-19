@@ -214450,7 +214450,6 @@ dEQP-VK.pipeline.pipeline_library.dynamic_offset.combined_descriptors.single_off
 dEQP-VK.pipeline.pipeline_library.dynamic_offset.combined_descriptors.single_offset.same_order_256_graphics_first
 dEQP-VK.pipeline.pipeline_library.dynamic_offset.combined_descriptors.single_offset.same_order_64_compute_first
 dEQP-VK.pipeline.pipeline_library.dynamic_offset.combined_descriptors.single_offset.same_order_64_graphics_first
-dEQP-VK.pipeline.pipeline_library.graphics_library.fast.4
 dEQP-VK.query_pool.concurrent_queries.primary_command_buffer
 dEQP-VK.query_pool.concurrent_queries.secondary_command_buffer
 dEQP-VK.query_pool.occlusion_query.basic_conservative
