@@ -54742,6 +54742,10 @@ dEQP-VK.robustness.robustness2.push.template.r64ui.unroll.volatile.storage_image
 dEQP-VK.robustness.robustness2.push.template.r64ui.unroll.volatile.storage_image.fmt_qual.null_descriptor.samples_4.2d_array.frag
 dEQP-VK.robustness.robustness2.push.template.r64ui.unroll.volatile.storage_image.fmt_qual.null_descriptor.samples_4.2d_array.vert
 dEQP-VK.robustness.robustness2.push.template.r64ui.unroll.volatile.storage_image.fmt_qual.null_descriptor.samples_4.2d_array.rgen
+dEQP-VK.robustness.robustness1_vertex_access.out_of_bounds_stride_0
+dEQP-VK.robustness.robustness1_vertex_access.out_of_bounds_stride_16_single_buffer
+dEQP-VK.robustness.robustness1_vertex_access.out_of_bounds_stride_30_middle_of_buffer
+dEQP-VK.robustness.robustness1_vertex_access.out_of_bounds_stride_8_middle_of_buffer_separate
 dEQP-VK.robustness.non_robust_buffer_access.unexecuted_oob_underflow
 dEQP-VK.robustness.non_robust_buffer_access.unexecuted_oob_overflow
 dEQP-VK.robustness.image_robustness.bind.notemplate.r32i.dontunroll.nonvolatile.storage_image.no_fmt_qual.img.samples_1.1d.comp
