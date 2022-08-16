@@ -81943,6 +81943,9 @@ dEQP-VK.dynamic_state.monolithic.ds_state.stencil_params_basic_2
 dEQP-VK.dynamic_state.monolithic.general_state.bind_order
 dEQP-VK.dynamic_state.monolithic.general_state.state_persistence
 dEQP-VK.dynamic_state.monolithic.general_state.state_switch
+dEQP-VK.dynamic_state.monolithic.image.blit
+dEQP-VK.dynamic_state.monolithic.image.clear
+dEQP-VK.dynamic_state.monolithic.image.copy
 dEQP-VK.dynamic_state.monolithic.rs_state.depth_bias
 dEQP-VK.dynamic_state.monolithic.rs_state.depth_bias_clamp
 dEQP-VK.dynamic_state.monolithic.rs_state.nonzero_depth_bias_clamp
