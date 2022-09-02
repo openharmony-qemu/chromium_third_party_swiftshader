@@ -189027,6 +189027,8 @@ dEQP-VK.pipeline.monolithic.sampler.view_type.cube_array.format.r8g8b8a8_unorm.m
 dEQP-VK.pipeline.monolithic.sampler.view_type.cube_array.format.r8g8b8a8_unorm.mipmap.nearest.lod.select_bias_3_7
 dEQP-VK.pipeline.monolithic.sampler.view_type.cube_array.format.r8g8b8a8_unorm.mipmap.nearest.lod.select_max_4
 dEQP-VK.pipeline.monolithic.sampler.view_type.cube_array.format.r8g8b8a8_unorm.mipmap.nearest.lod.select_min_1
+dEQP-VK.pipeline.monolithic.shader_stencil_export.d32_sfloat_s8_uint.op_replace
+dEQP-VK.pipeline.monolithic.shader_stencil_export.s8_uint.op_replace
 dEQP-VK.pipeline.monolithic.spec_constant.compute.basic.bool
 dEQP-VK.pipeline.monolithic.spec_constant.compute.basic.bool_packed
 dEQP-VK.pipeline.monolithic.spec_constant.compute.basic.float
@@ -235636,7 +235638,6 @@ dEQP-VK.robustness.image_robustness.bind.notemplate.rgba32ui.unroll.volatile.sto
 dEQP-VK.robustness.image_robustness.bind.notemplate.rgba32ui.unroll.volatile.storage_image.fmt_qual.img.samples_4.2d_array.vert
 dEQP-VK.robustness.non_robust_buffer_access.unexecuted_oob_overflow
 dEQP-VK.robustness.non_robust_buffer_access.unexecuted_oob_underflow
-dEQP-VK.robustness.robustness1_vertex_access.out_of_bounds_stride_0
 dEQP-VK.robustness.robustness1_vertex_access.out_of_bounds_stride_30_middle_of_buffer
 dEQP-VK.robustness.robustness1_vertex_access.out_of_bounds_stride_8_middle_of_buffer_separate
 dEQP-VK.robustness.vertex_access.a2b10g10r10_unorm_pack32.draw.instance_out_of_bounds
