@@ -37298,6 +37298,7 @@ dEQP-VK.api.device_init.create_device_various_queue_counts.basic
 dEQP-VK.api.device_init.create_instance_device_intentional_alloc_fail.basic
 dEQP-VK.api.device_init.create_instance_extension_name_abuse.basic
 dEQP-VK.api.device_init.create_instance_invalid_api_version.basic
+dEQP-VK.api.device_init.create_instance_layer_name_abuse.basic
 dEQP-VK.api.device_init.create_instance_name_version.basic
 dEQP-VK.api.device_init.create_instance_null_appinfo.basic
 dEQP-VK.api.device_init.create_instance_unsupported_extensions.basic
@@ -280272,8 +280273,6 @@ dEQP-VK.ubo.single_struct_array.single_buffer.std430_instance_array_vertex
 dEQP-VK.ubo.single_struct_array.single_buffer.std430_instance_array_vertex_comp_access
 dEQP-VK.wsi.headless.surface.destroy_null_handle
 dEQP-VK.wsi.headless.surface.query_devgroup_present_capabilities
-dEQP-VK.wsi.wayland.surface.destroy_null_handle
-dEQP-VK.wsi.wayland.surface.query_devgroup_present_capabilities
 dEQP-VK.wsi.xcb.surface.create
 dEQP-VK.wsi.xcb.surface.create_custom_allocator
 dEQP-VK.wsi.xcb.surface.create_simulate_oom
