@@ -1953,6 +1953,7 @@ dEQP-VK.api.info.get_physical_device_properties2.features.vertex_input_dynamic_s
 dEQP-VK.api.info.get_physical_device_properties2.features.color_write_enable_features_ext
 dEQP-VK.api.info.get_physical_device_properties2.features.synchronization2_features
 dEQP-VK.api.info.get_physical_device_properties2.features.primitives_generated_query_features_ext
+dEQP-VK.api.info.get_physical_device_properties2.features.legacy_dithering_features_ext
 dEQP-VK.api.info.get_physical_device_properties2.features.multisampled_render_to_single_sampled_features_ext
 dEQP-VK.api.info.get_physical_device_properties2.features.ycbcr2_plane444_formats_features_ext
 dEQP-VK.api.info.get_physical_device_properties2.features.provoking_vertex_features_ext
@@ -42428,6 +42429,7 @@ dEQP-VK.api.device_init.create_device_unsupported_features.external_memory_rdma_
 dEQP-VK.api.device_init.create_device_unsupported_features.color_write_enable_features_ext
 dEQP-VK.api.device_init.create_device_unsupported_features.synchronization2_features
 dEQP-VK.api.device_init.create_device_unsupported_features.primitives_generated_query_features_ext
+dEQP-VK.api.device_init.create_device_unsupported_features.legacy_dithering_features_ext
 dEQP-VK.api.device_init.create_device_unsupported_features.multisampled_render_to_single_sampled_features_ext
 dEQP-VK.api.device_init.create_device_unsupported_features.inherited_viewport_scissor_features_nv
 dEQP-VK.api.device_init.create_device_unsupported_features.ycbcr2_plane444_formats_features_ext
@@ -60314,6 +60316,7 @@ dEQP-VK.api.copy_and_blit.core.buffer_to_depthstencil.buffer_offset_d32_sfloat_s
 dEQP-VK.api.copy_and_blit.core.buffer_to_buffer.whole
 dEQP-VK.api.copy_and_blit.core.buffer_to_buffer.partial
 dEQP-VK.api.copy_and_blit.core.buffer_to_buffer.regions
+dEQP-VK.api.copy_and_blit.core.buffer_to_buffer.unaligned_regions
 dEQP-VK.api.copy_and_blit.core.blit_image.simple_tests.whole.nearest
 dEQP-VK.api.copy_and_blit.core.blit_image.simple_tests.whole.r32_sfloat_nearest
 dEQP-VK.api.copy_and_blit.core.blit_image.simple_tests.whole.b8g8r8a8_unorm_nearest
@@ -184436,6 +184439,7 @@ dEQP-VK.api.copy_and_blit.dedicated_allocation.buffer_to_depthstencil.buffer_off
 dEQP-VK.api.copy_and_blit.dedicated_allocation.buffer_to_buffer.whole
 dEQP-VK.api.copy_and_blit.dedicated_allocation.buffer_to_buffer.partial
 dEQP-VK.api.copy_and_blit.dedicated_allocation.buffer_to_buffer.regions
+dEQP-VK.api.copy_and_blit.dedicated_allocation.buffer_to_buffer.unaligned_regions
 dEQP-VK.api.copy_and_blit.dedicated_allocation.blit_image.simple_tests.whole.nearest
 dEQP-VK.api.copy_and_blit.dedicated_allocation.blit_image.simple_tests.whole.r32_sfloat_nearest
 dEQP-VK.api.copy_and_blit.dedicated_allocation.blit_image.simple_tests.whole.b8g8r8a8_unorm_nearest
@@ -205904,6 +205908,7 @@ dEQP-VK.api.copy_and_blit.copy_commands2.buffer_to_depthstencil.buffer_offset_d3
 dEQP-VK.api.copy_and_blit.copy_commands2.buffer_to_buffer.whole
 dEQP-VK.api.copy_and_blit.copy_commands2.buffer_to_buffer.partial
 dEQP-VK.api.copy_and_blit.copy_commands2.buffer_to_buffer.regions
+dEQP-VK.api.copy_and_blit.copy_commands2.buffer_to_buffer.unaligned_regions
 dEQP-VK.api.copy_and_blit.copy_commands2.blit_image.simple_tests.whole.nearest
 dEQP-VK.api.copy_and_blit.copy_commands2.blit_image.simple_tests.whole.r32_sfloat_nearest
 dEQP-VK.api.copy_and_blit.copy_commands2.blit_image.simple_tests.whole.b8g8r8a8_unorm_nearest
