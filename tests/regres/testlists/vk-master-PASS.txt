@@ -80348,7 +80348,6 @@ dEQP-VK.draw.renderpass.basic_draw.draw_indirect.triangle_strip.45_single_comman
 dEQP-VK.draw.renderpass.concurrent.compute_and_triangle_list
 dEQP-VK.draw.renderpass.depth_bias.depth_bias_triangle_list_fill
 dEQP-VK.draw.renderpass.depth_bias.depth_bias_triangle_list_line
-dEQP-VK.draw.renderpass.depth_bias.depth_bias_triangle_list_point
 dEQP-VK.draw.renderpass.depth_clamp.d16_unorm
 dEQP-VK.draw.renderpass.depth_clamp.d16_unorm_clamp_input_negative
 dEQP-VK.draw.renderpass.depth_clamp.d16_unorm_clamp_input_positive
