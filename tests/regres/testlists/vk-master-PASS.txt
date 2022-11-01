@@ -37112,6 +37112,8 @@ dEQP-VK.api.descriptor_set.descriptor_set_layout_lifetime.compute
 dEQP-VK.api.descriptor_set.descriptor_set_layout_lifetime.graphics
 dEQP-VK.api.device_init.create_device.basic
 dEQP-VK.api.device_init.create_device_features2.basic
+dEQP-VK.api.device_init.create_device_global_priority_khr.basic
+dEQP-VK.api.device_init.create_device_global_priority_query_khr.basic
 dEQP-VK.api.device_init.create_device_unsupported_extensions.basic
 dEQP-VK.api.device_init.create_device_unsupported_features.16_bit_storage_features
 dEQP-VK.api.device_init.create_device_unsupported_features.4444_formats_features_ext
