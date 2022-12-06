@@ -288593,6 +288593,8 @@ dEQP-VK.pipeline.monolithic.color_write_enable_maxa.cwe_after_bind.attachments5_
 dEQP-VK.pipeline.monolithic.color_write_enable_maxa.cwe_after_bind.attachments5_more3
 dEQP-VK.pipeline.monolithic.misc.position_to_ssbo
 dEQP-VK.pipeline.monolithic.misc.primitive_id_from_tess
+dEQP-VK.pipeline.monolithic.misc.implicit_primitive_id
+dEQP-VK.pipeline.monolithic.misc.implicit_primitive_id_with_tessellation
 dEQP-VK.pipeline.monolithic.derivative.compute.derivative_by_handle
 dEQP-VK.pipeline.monolithic.derivative.compute.derivative_by_index
 dEQP-VK.pipeline.monolithic.creation_cache_control.graphics_pipelines.single_pipeline_no_compile

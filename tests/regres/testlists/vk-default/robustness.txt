@@ -55267,6 +55267,14 @@ dEQP-VK.robustness.pipeline_robustness.image_robustness.push.notemplate.r64i.don
 dEQP-VK.robustness.pipeline_robustness.image_robustness.push.notemplate.r64i.dontunroll.nonvolatile.sampled_image.no_fmt_qual.img.samples_1.2d_array.vert
 dEQP-VK.robustness.non_robust_buffer_access.unexecuted_oob_underflow
 dEQP-VK.robustness.non_robust_buffer_access.unexecuted_oob_overflow
+dEQP-VK.robustness.index_access.draw_indexed_1
+dEQP-VK.robustness.index_access.draw_indexed_indirect_1
+dEQP-VK.robustness.index_access.draw_indexed_indirect_count_1
+dEQP-VK.robustness.index_access.draw_multi_indexed_1
+dEQP-VK.robustness.index_access.draw_indexed_2
+dEQP-VK.robustness.index_access.draw_indexed_indirect_2
+dEQP-VK.robustness.index_access.draw_indexed_indirect_count_2
+dEQP-VK.robustness.index_access.draw_multi_indexed_2
 dEQP-VK.robustness.image_robustness.bind.notemplate.r32i.dontunroll.nonvolatile.storage_image.no_fmt_qual.img.samples_1.1d.comp
 dEQP-VK.robustness.image_robustness.bind.notemplate.r32i.dontunroll.nonvolatile.storage_image.no_fmt_qual.img.samples_1.1d.frag
 dEQP-VK.robustness.image_robustness.bind.notemplate.r32i.dontunroll.nonvolatile.storage_image.no_fmt_qual.img.samples_1.1d.vert

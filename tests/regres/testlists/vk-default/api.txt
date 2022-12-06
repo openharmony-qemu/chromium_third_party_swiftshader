@@ -1980,6 +1980,9 @@ dEQP-VK.api.info.get_physical_device_properties2.features.attachment_feedback_lo
 dEQP-VK.api.info.get_physical_device_properties2.features.depth_clamp_zero_one_features_ext
 dEQP-VK.api.info.get_physical_device_properties2.features.address_binding_report_features_ext
 dEQP-VK.api.info.get_physical_device_properties2.features.fault_features_ext
+dEQP-VK.api.info.get_physical_device_properties2.features.create_device_with_promoted11_structures
+dEQP-VK.api.info.get_physical_device_properties2.features.create_device_with_promoted12_structures
+dEQP-VK.api.info.get_physical_device_properties2.features.create_device_with_promoted13_structures
 dEQP-VK.api.info.get_physical_device_properties2.properties.basic
 dEQP-VK.api.info.get_physical_device_properties2.format_properties.basic
 dEQP-VK.api.info.get_physical_device_properties2.queue_family_properties.basic
