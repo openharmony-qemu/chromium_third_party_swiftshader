@@ -340966,6 +340966,7 @@ dEQP-VK.pipeline.pipeline_library.graphics_library.misc.bind_null_descriptor_set
 dEQP-VK.pipeline.pipeline_library.graphics_library.misc.bind_null_descriptor_set.11
 dEQP-VK.pipeline.pipeline_library.graphics_library.misc.independent_pipeline_layout_sets.fast_linked
 dEQP-VK.pipeline.pipeline_library.graphics_library.misc.independent_pipeline_layout_sets.link_opt_union_handle
+dEQP-VK.pipeline.pipeline_library.graphics_library.misc.non_graphics.shader_module_info_comp
 dEQP-VK.pipeline.pipeline_library.graphics_library.misc.other.compare_link_times
 dEQP-VK.pipeline.pipeline_library.graphics_library.misc.other.null_descriptor_set_in_monolithic_pipeline
 dEQP-VK.pipeline.pipeline_library.graphics_library.optimize.0_00_11_11
@@ -439919,7 +439920,6 @@ dEQP-VK.robustness.buffer_access.vertex.scalar_copy.r32_sfloat.oob_storage_read.
 dEQP-VK.robustness.buffer_access.vertex.scalar_copy.r32_sfloat.oob_storage_read.range_32_bytes
 dEQP-VK.robustness.buffer_access.vertex.scalar_copy.r32_sfloat.oob_storage_read.range_3_bytes
 dEQP-VK.robustness.buffer_access.vertex.scalar_copy.r32_sfloat.oob_storage_read.range_4_bytes
-dEQP-VK.robustness.buffer_access.vertex.scalar_copy.r32_sfloat.oob_storage_write.range_1_byte
 dEQP-VK.robustness.buffer_access.vertex.scalar_copy.r32_sfloat.oob_storage_write.range_32_bytes
 dEQP-VK.robustness.buffer_access.vertex.scalar_copy.r32_sfloat.oob_storage_write.range_3_bytes
 dEQP-VK.robustness.buffer_access.vertex.scalar_copy.r32_sfloat.oob_storage_write.range_4_bytes
@@ -441474,6 +441474,8 @@ dEQP-VK.robustness.image_robustness.bind.notemplate.rgba32ui.unroll.volatile.sto
 dEQP-VK.robustness.image_robustness.bind.notemplate.rgba32ui.unroll.volatile.storage_image.fmt_qual.img.samples_4.2d_array.comp
 dEQP-VK.robustness.image_robustness.bind.notemplate.rgba32ui.unroll.volatile.storage_image.fmt_qual.img.samples_4.2d_array.frag
 dEQP-VK.robustness.image_robustness.bind.notemplate.rgba32ui.unroll.volatile.storage_image.fmt_qual.img.samples_4.2d_array.vert
+dEQP-VK.robustness.index_access.draw_indexed_1
+dEQP-VK.robustness.index_access.draw_indexed_indirect_1
 dEQP-VK.robustness.non_robust_buffer_access.unexecuted_oob_overflow
 dEQP-VK.robustness.non_robust_buffer_access.unexecuted_oob_underflow
 dEQP-VK.robustness.pipeline_robustness.image_robustness.bind.notemplate.r32ui.dontunroll.nonvolatile.sampled_image.no_fmt_qual.img.samples_1.1d.comp
