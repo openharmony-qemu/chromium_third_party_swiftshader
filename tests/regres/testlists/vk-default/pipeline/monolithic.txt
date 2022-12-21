@@ -1,3 +1,6 @@
+dEQP-VK.pipeline.monolithic.dynamic_control_points.change_output
+dEQP-VK.pipeline.monolithic.dynamic_control_points.change_winding
+dEQP-VK.pipeline.monolithic.dynamic_control_points.change_output_winding
 dEQP-VK.pipeline.monolithic.stencil.format.s8_uint.states.fail_keep.pass_keep.dfail_keep.comp_never
 dEQP-VK.pipeline.monolithic.stencil.format.s8_uint.states.fail_keep.pass_keep.dfail_keep.comp_less
 dEQP-VK.pipeline.monolithic.stencil.format.s8_uint.states.fail_keep.pass_keep.dfail_keep.comp_equal

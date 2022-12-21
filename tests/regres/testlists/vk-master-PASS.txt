@@ -80696,7 +80696,6 @@ dEQP-VK.draw.renderpass.basic_draw.draw_indirect.triangle_strip.45_single_comman
 dEQP-VK.draw.renderpass.concurrent.compute_and_triangle_list
 dEQP-VK.draw.renderpass.depth_bias.depth_bias_triangle_list_fill
 dEQP-VK.draw.renderpass.depth_bias.depth_bias_triangle_list_line
-dEQP-VK.draw.renderpass.depth_bias.depth_bias_triangle_list_point
 dEQP-VK.draw.renderpass.depth_clamp.d16_unorm
 dEQP-VK.draw.renderpass.depth_clamp.d16_unorm_clamp_input_negative
 dEQP-VK.draw.renderpass.depth_clamp.d16_unorm_clamp_input_positive
@@ -439863,7 +439862,6 @@ dEQP-VK.robustness.buffer_access.fragment.scalar_copy.r32_sfloat.oob_storage_rea
 dEQP-VK.robustness.buffer_access.fragment.scalar_copy.r32_sfloat.oob_storage_read.range_32_bytes
 dEQP-VK.robustness.buffer_access.fragment.scalar_copy.r32_sfloat.oob_storage_read.range_3_bytes
 dEQP-VK.robustness.buffer_access.fragment.scalar_copy.r32_sfloat.oob_storage_read.range_4_bytes
-dEQP-VK.robustness.buffer_access.fragment.scalar_copy.r32_sfloat.oob_storage_write.range_1_byte
 dEQP-VK.robustness.buffer_access.fragment.scalar_copy.r32_sfloat.oob_storage_write.range_32_bytes
 dEQP-VK.robustness.buffer_access.fragment.scalar_copy.r32_sfloat.oob_storage_write.range_3_bytes
 dEQP-VK.robustness.buffer_access.fragment.scalar_copy.r32_sfloat.oob_storage_write.range_4_bytes
@@ -439890,6 +439888,7 @@ dEQP-VK.robustness.buffer_access.fragment.scalar_copy.r32_uint.oob_storage_read.
 dEQP-VK.robustness.buffer_access.fragment.scalar_copy.r32_uint.oob_storage_write.range_1_byte
 dEQP-VK.robustness.buffer_access.fragment.scalar_copy.r32_uint.oob_storage_write.range_32_bytes
 dEQP-VK.robustness.buffer_access.fragment.scalar_copy.r32_uint.oob_storage_write.range_3_bytes
+dEQP-VK.robustness.buffer_access.fragment.scalar_copy.r32_uint.oob_storage_write.range_4_bytes
 dEQP-VK.robustness.buffer_access.fragment.scalar_copy.r32_uint.oob_uniform_read.range_1_byte
 dEQP-VK.robustness.buffer_access.fragment.scalar_copy.r32_uint.oob_uniform_read.range_32_bytes
 dEQP-VK.robustness.buffer_access.fragment.scalar_copy.r32_uint.oob_uniform_read.range_3_bytes
@@ -440036,6 +440035,7 @@ dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r32_sfloat.oob_storage_read.ra
 dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r32_sfloat.oob_storage_read.range_32_bytes
 dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r32_sfloat.oob_storage_read.range_3_bytes
 dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r32_sfloat.oob_storage_read.range_4_bytes
+dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r32_sfloat.oob_storage_write.range_1_byte
 dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r32_sfloat.oob_storage_write.range_32_bytes
 dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r32_sfloat.oob_storage_write.range_3_bytes
 dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r32_sfloat.oob_storage_write.range_4_bytes

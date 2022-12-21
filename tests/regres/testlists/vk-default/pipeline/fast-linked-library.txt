@@ -1,3 +1,6 @@
+dEQP-VK.pipeline.fast_linked_library.dynamic_control_points.change_output
+dEQP-VK.pipeline.fast_linked_library.dynamic_control_points.change_winding
+dEQP-VK.pipeline.fast_linked_library.dynamic_control_points.change_output_winding
 dEQP-VK.pipeline.fast_linked_library.stencil.format.s8_uint.states.fail_keep.pass_keep.dfail_keep.comp_never
 dEQP-VK.pipeline.fast_linked_library.stencil.format.s8_uint.states.fail_keep.pass_keep.dfail_keep.comp_less
 dEQP-VK.pipeline.fast_linked_library.stencil.format.s8_uint.states.fail_keep.pass_keep.dfail_keep.comp_equal
@@ -287663,3 +287666,8 @@ dEQP-VK.pipeline.fast_linked_library.color_write_enable_maxa.cwe_after_bind.atta
 dEQP-VK.pipeline.fast_linked_library.color_write_enable_maxa.cwe_after_bind.attachments5_more3
 dEQP-VK.pipeline.fast_linked_library.misc.implicit_primitive_id
 dEQP-VK.pipeline.fast_linked_library.misc.implicit_primitive_id_with_tessellation
+dEQP-VK.pipeline.fast_linked_library.misc.interpolate_at_sample_no_sample_shading
+dEQP-VK.pipeline.fast_linked_library.misc.unused_shader_stages
+dEQP-VK.pipeline.fast_linked_library.misc.unused_shader_stages_include_geom
+dEQP-VK.pipeline.fast_linked_library.misc.unused_shader_stages_include_tess
+dEQP-VK.pipeline.fast_linked_library.misc.unused_shader_stages_include_tess_include_geom
