@@ -37222,6 +37222,7 @@ dEQP-VK.api.device_init.create_device_unsupported_features.mesh_shader_features_
 dEQP-VK.api.device_init.create_device_unsupported_features.multi_draw_features_ext
 dEQP-VK.api.device_init.create_device_unsupported_features.multisampled_render_to_single_sampled_features_ext
 dEQP-VK.api.device_init.create_device_unsupported_features.multiview_features
+dEQP-VK.api.device_init.create_device_unsupported_features.multiview_per_view_viewports_features_qcom
 dEQP-VK.api.device_init.create_device_unsupported_features.mutable_descriptor_type_features_ext
 dEQP-VK.api.device_init.create_device_unsupported_features.non_seamless_cube_map_features_ext
 dEQP-VK.api.device_init.create_device_unsupported_features.opacity_micromap_features_ext
@@ -37276,6 +37277,7 @@ dEQP-VK.api.device_init.create_device_unsupported_features.shading_rate_image_fe
 dEQP-VK.api.device_init.create_device_unsupported_features.subgroup_size_control_features
 dEQP-VK.api.device_init.create_device_unsupported_features.subpass_merge_feedback_features_ext
 dEQP-VK.api.device_init.create_device_unsupported_features.subpass_shading_features_huawei
+dEQP-VK.api.device_init.create_device_unsupported_features.swapchain_maintenance1_features_ext
 dEQP-VK.api.device_init.create_device_unsupported_features.synchronization2_features
 dEQP-VK.api.device_init.create_device_unsupported_features.texel_buffer_alignment_features_ext
 dEQP-VK.api.device_init.create_device_unsupported_features.texture_compression_astchdr_features
@@ -53302,6 +53304,7 @@ dEQP-VK.api.info.get_physical_device_properties2.features.conditional_rendering_
 dEQP-VK.api.info.get_physical_device_properties2.features.core
 dEQP-VK.api.info.get_physical_device_properties2.features.create_device_with_promoted11_structures
 dEQP-VK.api.info.get_physical_device_properties2.features.create_device_with_promoted12_structures
+dEQP-VK.api.info.get_physical_device_properties2.features.create_device_with_promoted13_structures
 dEQP-VK.api.info.get_physical_device_properties2.features.custom_border_color_features_ext
 dEQP-VK.api.info.get_physical_device_properties2.features.depth_clamp_zero_one_features_ext
 dEQP-VK.api.info.get_physical_device_properties2.features.depth_clip_control_features_ext
@@ -53380,6 +53383,7 @@ dEQP-VK.api.info.get_physical_device_properties2.features.shader_subgroup_unifor
 dEQP-VK.api.info.get_physical_device_properties2.features.shader_terminate_invocation_features
 dEQP-VK.api.info.get_physical_device_properties2.features.subgroup_size_control_features
 dEQP-VK.api.info.get_physical_device_properties2.features.subpass_merge_feedback_features_ext
+dEQP-VK.api.info.get_physical_device_properties2.features.swapchain_maintenance1_features_ext
 dEQP-VK.api.info.get_physical_device_properties2.features.synchronization2_features
 dEQP-VK.api.info.get_physical_device_properties2.features.texel_buffer_alignment_features_ext
 dEQP-VK.api.info.get_physical_device_properties2.features.texture_compression_astchdr_features
@@ -80696,6 +80700,7 @@ dEQP-VK.draw.renderpass.basic_draw.draw_indirect.triangle_strip.45_single_comman
 dEQP-VK.draw.renderpass.concurrent.compute_and_triangle_list
 dEQP-VK.draw.renderpass.depth_bias.depth_bias_triangle_list_fill
 dEQP-VK.draw.renderpass.depth_bias.depth_bias_triangle_list_line
+dEQP-VK.draw.renderpass.depth_bias.depth_bias_triangle_list_point
 dEQP-VK.draw.renderpass.depth_clamp.d16_unorm
 dEQP-VK.draw.renderpass.depth_clamp.d16_unorm_clamp_input_negative
 dEQP-VK.draw.renderpass.depth_clamp.d16_unorm_clamp_input_positive
@@ -163238,6 +163243,7 @@ dEQP-VK.pipeline.fast_linked_library.interface_matching.vector_length.out_vec4_i
 dEQP-VK.pipeline.fast_linked_library.matched_attachments.cache
 dEQP-VK.pipeline.fast_linked_library.matched_attachments.no_cache
 dEQP-VK.pipeline.fast_linked_library.max_varyings.test_vertex_io_between_vertex_fragment
+dEQP-VK.pipeline.fast_linked_library.misc.unused_shader_stages
 dEQP-VK.pipeline.fast_linked_library.multisample.alpha_to_coverage.samples_4.alpha_invisible
 dEQP-VK.pipeline.fast_linked_library.multisample.alpha_to_coverage.samples_4.alpha_opaque
 dEQP-VK.pipeline.fast_linked_library.multisample.alpha_to_coverage.samples_4.alpha_translucent
@@ -365834,6 +365840,7 @@ dEQP-VK.pipeline.pipeline_library.interface_matching.vector_length.out_vec4_in_v
 dEQP-VK.pipeline.pipeline_library.matched_attachments.cache
 dEQP-VK.pipeline.pipeline_library.matched_attachments.no_cache
 dEQP-VK.pipeline.pipeline_library.max_varyings.test_vertex_io_between_vertex_fragment
+dEQP-VK.pipeline.pipeline_library.misc.unused_shader_stages
 dEQP-VK.pipeline.pipeline_library.multisample.alpha_to_coverage.samples_4.alpha_invisible
 dEQP-VK.pipeline.pipeline_library.multisample.alpha_to_coverage.samples_4.alpha_opaque
 dEQP-VK.pipeline.pipeline_library.multisample.alpha_to_coverage.samples_4.alpha_translucent
@@ -439862,6 +439869,7 @@ dEQP-VK.robustness.buffer_access.fragment.scalar_copy.r32_sfloat.oob_storage_rea
 dEQP-VK.robustness.buffer_access.fragment.scalar_copy.r32_sfloat.oob_storage_read.range_32_bytes
 dEQP-VK.robustness.buffer_access.fragment.scalar_copy.r32_sfloat.oob_storage_read.range_3_bytes
 dEQP-VK.robustness.buffer_access.fragment.scalar_copy.r32_sfloat.oob_storage_read.range_4_bytes
+dEQP-VK.robustness.buffer_access.fragment.scalar_copy.r32_sfloat.oob_storage_write.range_1_byte
 dEQP-VK.robustness.buffer_access.fragment.scalar_copy.r32_sfloat.oob_storage_write.range_32_bytes
 dEQP-VK.robustness.buffer_access.fragment.scalar_copy.r32_sfloat.oob_storage_write.range_3_bytes
 dEQP-VK.robustness.buffer_access.fragment.scalar_copy.r32_sfloat.oob_storage_write.range_4_bytes
