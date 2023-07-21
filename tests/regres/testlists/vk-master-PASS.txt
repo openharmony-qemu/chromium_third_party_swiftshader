@@ -80700,7 +80700,6 @@ dEQP-VK.draw.renderpass.basic_draw.draw_indirect.triangle_strip.45_single_comman
 dEQP-VK.draw.renderpass.concurrent.compute_and_triangle_list
 dEQP-VK.draw.renderpass.depth_bias.depth_bias_triangle_list_fill
 dEQP-VK.draw.renderpass.depth_bias.depth_bias_triangle_list_line
-dEQP-VK.draw.renderpass.depth_bias.depth_bias_triangle_list_point
 dEQP-VK.draw.renderpass.depth_clamp.d16_unorm
 dEQP-VK.draw.renderpass.depth_clamp.d16_unorm_clamp_input_negative
 dEQP-VK.draw.renderpass.depth_clamp.d16_unorm_clamp_input_positive
@@ -442829,7 +442828,6 @@ dEQP-VK.spirv_assembly.instruction.compute.nocontraction.both
 dEQP-VK.spirv_assembly.instruction.compute.nocontraction.multiplication
 dEQP-VK.spirv_assembly.instruction.compute.non_semantic_info.any_constant_type
 dEQP-VK.spirv_assembly.instruction.compute.non_semantic_info.any_constant_type_used
-dEQP-VK.spirv_assembly.instruction.compute.non_semantic_info.any_non_constant_type
 dEQP-VK.spirv_assembly.instruction.compute.non_semantic_info.basic
 dEQP-VK.spirv_assembly.instruction.compute.non_semantic_info.dummy_instruction_set
 dEQP-VK.spirv_assembly.instruction.compute.non_semantic_info.large_instruction_number
@@ -442937,7 +442935,6 @@ dEQP-VK.spirv_assembly.instruction.compute.opcompositeinsert.uint.vec_4
 dEQP-VK.spirv_assembly.instruction.compute.opconstantcomposite.matrix
 dEQP-VK.spirv_assembly.instruction.compute.opconstantcomposite.nested_struct
 dEQP-VK.spirv_assembly.instruction.compute.opconstantcomposite.struct
-dEQP-VK.spirv_assembly.instruction.compute.opconstantcomposite.vector
 dEQP-VK.spirv_assembly.instruction.compute.opconstantnull.array
 dEQP-VK.spirv_assembly.instruction.compute.opconstantnull.bool
 dEQP-VK.spirv_assembly.instruction.compute.opconstantnull.float32
@@ -443630,8 +443627,6 @@ dEQP-VK.spirv_assembly.instruction.compute.signed_int_compare.uint_slessthan
 dEQP-VK.spirv_assembly.instruction.compute.signed_int_compare.uint_slessthanequal
 dEQP-VK.spirv_assembly.instruction.compute.signed_op.glsl_int_findumsb
 dEQP-VK.spirv_assembly.instruction.compute.signed_op.glsl_int_uclamp
-dEQP-VK.spirv_assembly.instruction.compute.signed_op.glsl_int_umax
-dEQP-VK.spirv_assembly.instruction.compute.signed_op.glsl_int_umin
 dEQP-VK.spirv_assembly.instruction.compute.signed_op.glsl_uint_findsmsb
 dEQP-VK.spirv_assembly.instruction.compute.signed_op.glsl_uint_sabs
 dEQP-VK.spirv_assembly.instruction.compute.signed_op.glsl_uint_sclamp
@@ -443640,10 +443635,6 @@ dEQP-VK.spirv_assembly.instruction.compute.signed_op.glsl_uint_smin
 dEQP-VK.spirv_assembly.instruction.compute.signed_op.glsl_uint_ssign
 dEQP-VK.spirv_assembly.instruction.compute.signed_op.int_atomicumax
 dEQP-VK.spirv_assembly.instruction.compute.signed_op.int_atomicumin
-dEQP-VK.spirv_assembly.instruction.compute.signed_op.int_ugreaterthan
-dEQP-VK.spirv_assembly.instruction.compute.signed_op.int_ugreaterthanequal
-dEQP-VK.spirv_assembly.instruction.compute.signed_op.int_ulessthan
-dEQP-VK.spirv_assembly.instruction.compute.signed_op.int_ulessthanequal
 dEQP-VK.spirv_assembly.instruction.compute.signed_op.uint_atomicsmax
 dEQP-VK.spirv_assembly.instruction.compute.signed_op.uint_atomicsmin
 dEQP-VK.spirv_assembly.instruction.compute.signed_op.uint_sdiv
