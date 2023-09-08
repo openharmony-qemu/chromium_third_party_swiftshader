@@ -1,6 +1,6 @@
 [
     {
-        "Name": "chrominum_third_party_swiftshader",                   # 上游开源软件名全称
+        "Name": "chromium_third_party_swiftshader",                   # 上游开源软件名全称
         "License": "LLVM License"       # 上游开源软件中包含的许可证信息
         "License File": "LICENSE.TXT",         # 许可证所在文件路径
         "Version Number": "e823eef173854c8a970dee698cbf8c0c261913df",
@@ -8,7 +8,7 @@
         "Description": "第三方软件swiftshader"           # 开源软件功能描述
     },
     {
-        "Name": "chrominum_third_party_swiftshader",                   # 上游开源软件名全称
+        "Name": "chromium_third_party_swiftshader",                   # 上游开源软件名全称
         "License": ,"OpenBSD"        # 上游开源软件中包含的许可证信息
         "License File": "LICENSE.TXT",         # 许可证所在文件路径
         "Version Number": "e823eef173854c8a970dee698cbf8c0c261913df",
@@ -16,7 +16,7 @@
         "Description": "第三方软件swiftshader"           # 开源软件功能描述
     },
     {
-        "Name": "chrominum_third_party_swiftshader",                   # 上游开源软件名全称
+        "Name": "chromium_third_party_swiftshader",                   # 上游开源软件名全称
         "License": "original license"          # 上游开源软件中包含的许可证信息
         "License File": "LICENSE.TXT",         # 许可证所在文件路径
         "Version Number": "e823eef173854c8a970dee698cbf8c0c261913df",
@@ -24,7 +24,7 @@
         "Description": "第三方软件swiftshader"           # 开源软件功能描述
     },
     {
-        "Name": "chrominum_third_party_swiftshader",                   # 上游开源软件名全称
+        "Name": "chromium_third_party_swiftshader",                   # 上游开源软件名全称
         "License": "Khronos License"          # 上游开源软件中包含的许可证信息
         "License File": "LICENSE.TXT",         # 许可证所在文件路径
         "Version Number": "e823eef173854c8a970dee698cbf8c0c261913df",
@@ -32,7 +32,7 @@
         "Description": "第三方软件swiftshader"           # 开源软件功能描述
     },
     {
-        "Name": "chrominum_third_party_swiftshader",                   # 上游开源软件名全称
+        "Name": "chromium_third_party_swiftshader",                   # 上游开源软件名全称
         "License": "Apache-2.0"          # 上游开源软件中包含的许可证信息
         "License File": "LICENSE.TXT",         # 许可证所在文件路径
         "Version Number": "e823eef173854c8a970dee698cbf8c0c261913df",
@@ -40,7 +40,7 @@
         "Description": "第三方软件swiftshader"           # 开源软件功能描述
     },
     {
-        "Name": "chrominum_third_party_swiftshader",                   # 上游开源软件名全称
+        "Name": "chromium_third_party_swiftshader",                   # 上游开源软件名全称
         "License": "GPLStyleLicense"         # 上游开源软件中包含的许可证信息
         "License File": "LICENSE.TXT",         # 许可证所在文件路径
         "Version Number": "e823eef173854c8a970dee698cbf8c0c261913df",
@@ -48,7 +48,7 @@
         "Description": "第三方软件swiftshader"           # 开源软件功能描述
     },
     {
-        "Name": "chrominum_third_party_swiftshader",                   # 上游开源软件名全称
+        "Name": "chromium_third_party_swiftshader",                   # 上游开源软件名全称
         "License": "Spencer-94"       # 上游开源软件中包含的许可证信息
         "License File": "LICENSE.TXT",         # 许可证所在文件路径
         "Version Number": "e823eef173854c8a970dee698cbf8c0c261913df",
@@ -56,7 +56,7 @@
         "Description": "第三方软件swiftshader"           # 开源软件功能描述
     },
     {
-        "Name": "chrominum_third_party_swiftshader",                   # 上游开源软件名全称
+        "Name": "chromium_third_party_swiftshader",                   # 上游开源软件名全称
         "License": "GPL-3.0+"     # 上游开源软件中包含的许可证信息
         "License File": "LICENSE.TXT",         # 许可证所在文件路径
         "Version Number": "e823eef173854c8a970dee698cbf8c0c261913df",
