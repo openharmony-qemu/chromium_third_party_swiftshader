@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "swiftshader",
+        "License": "Apache-2.0",
+        "License File": "LICENSE.TXT",
+        "Version Number": "e823eef173854c8a970dee698cbf8c0c261913df",
+        "Owner": "jinchanggang@huawei.com",
+        "Upstream URL": "https://swiftshader.googlesource.com/SwiftShader.git@e823eef173854c8a970dee698cbf8c0c261913df",
+        "Description": "第三方软件swiftshader,一个高性能的，基于CPU的OpenGL ES和Direct3D 9图形APIs的实现"
+    }
+]
