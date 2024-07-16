@@ -245756,6 +245756,7 @@ dEQP-VK.api.device_init.create_device_unsupported_features.linear_color_attachme
 dEQP-VK.api.device_init.create_device_unsupported_features.maintenance4_features
 dEQP-VK.api.device_init.create_device_unsupported_features.maintenance5_features_khr
 dEQP-VK.api.device_init.create_device_unsupported_features.maintenance6_features_khr
+dEQP-VK.api.device_init.create_device_unsupported_features.maintenance7_features_khr
 dEQP-VK.api.device_init.create_device_unsupported_features.map_memory_placed_features_ext
 dEQP-VK.api.device_init.create_device_unsupported_features.memory_decompression_features_nv
 dEQP-VK.api.device_init.create_device_unsupported_features.memory_priority_features_ext
@@ -245828,6 +245829,7 @@ dEQP-VK.api.device_init.create_device_unsupported_features.shader_maximal_reconv
 dEQP-VK.api.device_init.create_device_unsupported_features.shader_module_identifier_features_ext
 dEQP-VK.api.device_init.create_device_unsupported_features.shader_object_features_ext
 dEQP-VK.api.device_init.create_device_unsupported_features.shader_quad_control_features_khr
+dEQP-VK.api.device_init.create_device_unsupported_features.shader_relaxed_extended_instruction_features_khr
 dEQP-VK.api.device_init.create_device_unsupported_features.shader_replicated_composites_features_ext
 dEQP-VK.api.device_init.create_device_unsupported_features.shader_sm_builtins_features_nv
 dEQP-VK.api.device_init.create_device_unsupported_features.shader_subgroup_extended_types_features
@@ -293301,6 +293303,7 @@ dEQP-VK.api.info.get_physical_device_properties2.features.line_rasterization_fea
 dEQP-VK.api.info.get_physical_device_properties2.features.maintenance4_features
 dEQP-VK.api.info.get_physical_device_properties2.features.maintenance5_features_khr
 dEQP-VK.api.info.get_physical_device_properties2.features.maintenance6_features_khr
+dEQP-VK.api.info.get_physical_device_properties2.features.maintenance7_features_khr
 dEQP-VK.api.info.get_physical_device_properties2.features.map_memory_placed_features_ext
 dEQP-VK.api.info.get_physical_device_properties2.features.memory_priority_features_ext
 dEQP-VK.api.info.get_physical_device_properties2.features.mesh_shader_features_ext
@@ -293353,6 +293356,7 @@ dEQP-VK.api.info.get_physical_device_properties2.features.shader_maximal_reconve
 dEQP-VK.api.info.get_physical_device_properties2.features.shader_module_identifier_features_ext
 dEQP-VK.api.info.get_physical_device_properties2.features.shader_object_features_ext
 dEQP-VK.api.info.get_physical_device_properties2.features.shader_quad_control_features_khr
+dEQP-VK.api.info.get_physical_device_properties2.features.shader_relaxed_extended_instruction_features_khr
 dEQP-VK.api.info.get_physical_device_properties2.features.shader_replicated_composites_features_ext
 dEQP-VK.api.info.get_physical_device_properties2.features.shader_subgroup_extended_types_features
 dEQP-VK.api.info.get_physical_device_properties2.features.shader_subgroup_rotate_features_khr
@@ -299184,6 +299188,8 @@ dEQP-VK.api.maintenance5.format.image_format_props2
 dEQP-VK.api.maintenance5.format.sparse_image_format_props
 dEQP-VK.api.maintenance5.format.sparse_image_format_props2
 dEQP-VK.api.maintenance6_check.maintenance6_properties
+dEQP-VK.api.maintenance7.layered_api_vulkan_properties
+dEQP-VK.api.maintenance7.total_dynamic_buffers_properties
 dEQP-VK.api.null_handle.destroy_buffer
 dEQP-VK.api.null_handle.destroy_buffer_view
 dEQP-VK.api.null_handle.destroy_command_pool
