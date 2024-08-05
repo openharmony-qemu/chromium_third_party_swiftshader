@@ -189345,7 +189345,6 @@ dEQP-VK.memory_model.message_passing.ext.u32.coherent.atomic_atomic.atomicrmw.wo
 dEQP-VK.memory_model.message_passing.ext.u32.coherent.atomic_atomic.atomicrmw.workgroup.payload_local.physbuffer.guard_local.physbuffer.comp
 dEQP-VK.memory_model.message_passing.ext.u32.coherent.atomic_atomic.atomicrmw.workgroup.payload_local.physbuffer.guard_nonlocal.workgroup.comp
 dEQP-VK.memory_model.message_passing.ext.u32.coherent.atomic_atomic.atomicrmw.workgroup.payload_nonlocal.workgroup.guard_local.buffer.comp
-dEQP-VK.memory_model.message_passing.ext.u32.coherent.atomic_atomic.atomicrmw.workgroup.payload_nonlocal.workgroup.guard_local.image.comp
 dEQP-VK.memory_model.message_passing.ext.u32.coherent.atomic_atomic.atomicrmw.workgroup.payload_nonlocal.workgroup.guard_local.physbuffer.comp
 dEQP-VK.memory_model.message_passing.ext.u32.coherent.atomic_atomic.atomicrmw.workgroup.payload_nonlocal.workgroup.guard_nonlocal.workgroup.comp
 dEQP-VK.memory_model.message_passing.ext.u32.coherent.atomic_atomic.atomicwrite.device.payload_local.buffer.guard_local.buffer.comp
@@ -234040,7 +234039,6 @@ dEQP-VK.pipeline.monolithic.creation_cache_control.graphics_pipelines.duplicate_
 dEQP-VK.pipeline.monolithic.creation_cache_control.graphics_pipelines.duplicate_single_recreate_derivative
 dEQP-VK.pipeline.monolithic.creation_cache_control.graphics_pipelines.duplicate_single_recreate_explicit_caching
 dEQP-VK.pipeline.monolithic.creation_cache_control.graphics_pipelines.duplicate_single_recreate_no_caching
-dEQP-VK.pipeline.monolithic.creation_cache_control.graphics_pipelines.single_pipeline_no_compile
 dEQP-VK.pipeline.monolithic.creation_feedback.compute_tests.compute_stage
 dEQP-VK.pipeline.monolithic.creation_feedback.compute_tests.compute_stage_delayed_destroy
 dEQP-VK.pipeline.monolithic.creation_feedback.compute_tests.compute_stage_no_cache

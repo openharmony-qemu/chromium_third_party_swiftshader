@@ -35162,6 +35162,8 @@ dEQP-VK.pipeline.pipeline_library.graphics_library.misc.other.common_frag_pipeli
 dEQP-VK.pipeline.pipeline_library.graphics_library.misc.other.compare_link_times
 dEQP-VK.pipeline.pipeline_library.graphics_library.misc.other.null_descriptor_set_in_monolithic_pipeline
 dEQP-VK.pipeline.pipeline_library.graphics_library.misc.other.null_rendering_create_info
+dEQP-VK.pipeline.pipeline_library.graphics_library.misc.other.view_index_from_device_index_in_all_stages
+dEQP-VK.pipeline.pipeline_library.graphics_library.misc.other.view_index_from_device_index_in_mesh_stages
 dEQP-VK.pipeline.pipeline_library.graphics_library.optimize.0_00_11_11
 dEQP-VK.pipeline.pipeline_library.graphics_library.optimize.0_01_11_1
 dEQP-VK.pipeline.pipeline_library.graphics_library.optimize.0_1111
