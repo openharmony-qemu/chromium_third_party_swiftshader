@@ -24713,6 +24713,7 @@ dEQP-VK.pipeline.pipeline_library.depth.format.x8_d24_unorm_pack32.compare_ops.t
 dEQP-VK.pipeline.pipeline_library.depth.format.x8_d24_unorm_pack32.compare_ops.triangle_list_not_equal_not_equal_not_equal_not_equal_depth_bounds_test
 dEQP-VK.pipeline.pipeline_library.depth.format.x8_d24_unorm_pack32.depth_test_disabled.depth_write_enabled
 dEQP-VK.pipeline.pipeline_library.depth.format.x8_d24_unorm_pack32.host_visible.local_memory_depth_buffer
+dEQP-VK.pipeline.pipeline_library.depth.no_depth_attachment.depth_bound_test
 dEQP-VK.pipeline.pipeline_library.depth.nocolor.format.d16_unorm.compare_ops.line_list_always_always_never_greater
 dEQP-VK.pipeline.pipeline_library.depth.nocolor.format.d16_unorm.compare_ops.line_list_always_always_never_greater_depth_bounds_test
 dEQP-VK.pipeline.pipeline_library.depth.nocolor.format.d16_unorm.compare_ops.line_list_always_equal_always_never

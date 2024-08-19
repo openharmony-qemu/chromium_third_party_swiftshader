@@ -25173,6 +25173,7 @@ dEQP-VK.pipeline.monolithic.depth.format.x8_d24_unorm_pack32.host_visible.local_
 dEQP-VK.pipeline.monolithic.depth.format_features.support_d16_unorm
 dEQP-VK.pipeline.monolithic.depth.format_features.support_d24_unorm_or_d32_sfloat
 dEQP-VK.pipeline.monolithic.depth.format_features.support_d24_unorm_s8_uint_or_d32_sfloat_s8_uint
+dEQP-VK.pipeline.monolithic.depth.no_depth_attachment.depth_bound_test
 dEQP-VK.pipeline.monolithic.depth.nocolor.format.d16_unorm.compare_ops.line_list_always_always_never_greater
 dEQP-VK.pipeline.monolithic.depth.nocolor.format.d16_unorm.compare_ops.line_list_always_always_never_greater_depth_bounds_test
 dEQP-VK.pipeline.monolithic.depth.nocolor.format.d16_unorm.compare_ops.line_list_always_equal_always_never
