@@ -37082,6 +37082,7 @@ dEQP-VK.pipeline.fast_linked_library.misc.frag_lib_varying_samples_8
 dEQP-VK.pipeline.fast_linked_library.misc.implicit_primitive_id
 dEQP-VK.pipeline.fast_linked_library.misc.implicit_primitive_id_with_tessellation
 dEQP-VK.pipeline.fast_linked_library.misc.interpolate_at_sample_no_sample_shading
+dEQP-VK.pipeline.fast_linked_library.misc.no_rendering
 dEQP-VK.pipeline.fast_linked_library.multisample.alpha_to_coverage.samples_16.alpha_invisible
 dEQP-VK.pipeline.fast_linked_library.multisample.alpha_to_coverage.samples_16.alpha_invisible_check_depth
 dEQP-VK.pipeline.fast_linked_library.multisample.alpha_to_coverage.samples_16.alpha_invisible_sparse
