@@ -245640,6 +245640,7 @@ dEQP-VK.api.copy_and_blit.sparse.image_to_image.simple_tests.partial_image_pot_s
 dEQP-VK.api.copy_and_blit.sparse.image_to_image.simple_tests.stencil
 dEQP-VK.api.copy_and_blit.sparse.image_to_image.simple_tests.whole_image
 dEQP-VK.api.copy_and_blit.sparse.image_to_image.simple_tests.whole_image_diff_format
+dEQP-VK.api.debug_utils.long_labels
 dEQP-VK.api.descriptor_pool.out_of_pool_memory
 dEQP-VK.api.descriptor_pool.repeated_free_reset_long
 dEQP-VK.api.descriptor_pool.repeated_free_reset_short
