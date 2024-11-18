@@ -94168,6 +94168,7 @@ dEQP-VK.clipping.user_defined.clip_distance_dynamic_index.vert.7
 dEQP-VK.clipping.user_defined.clip_distance_dynamic_index.vert.7_fragmentshader_read
 dEQP-VK.clipping.user_defined.clip_distance_dynamic_index.vert.8
 dEQP-VK.clipping.user_defined.clip_distance_dynamic_index.vert.8_fragmentshader_read
+dEQP-VK.compute.pipeline.basic.atomic_barrier_sum_small
 dEQP-VK.compute.pipeline.basic.branch_past_barrier
 dEQP-VK.compute.pipeline.basic.copy_image_to_ssbo_large
 dEQP-VK.compute.pipeline.basic.copy_image_to_ssbo_small
@@ -188207,7 +188208,6 @@ dEQP-VK.memory_model.message_passing.ext.u32.coherent.atomic_fence.atomicwrite.w
 dEQP-VK.memory_model.message_passing.ext.u32.coherent.atomic_fence.atomicwrite.workgroup.payload_local.physbuffer.guard_local.buffer.comp
 dEQP-VK.memory_model.message_passing.ext.u32.coherent.atomic_fence.atomicwrite.workgroup.payload_local.physbuffer.guard_local.image.comp
 dEQP-VK.memory_model.message_passing.ext.u32.coherent.atomic_fence.atomicwrite.workgroup.payload_local.physbuffer.guard_local.physbuffer.comp
-dEQP-VK.memory_model.message_passing.ext.u32.coherent.atomic_fence.atomicwrite.workgroup.payload_local.physbuffer.guard_nonlocal.workgroup.comp
 dEQP-VK.memory_model.message_passing.ext.u32.coherent.atomic_fence.atomicwrite.workgroup.payload_nonlocal.workgroup.guard_local.buffer.comp
 dEQP-VK.memory_model.message_passing.ext.u32.coherent.atomic_fence.atomicwrite.workgroup.payload_nonlocal.workgroup.guard_local.image.comp
 dEQP-VK.memory_model.message_passing.ext.u32.coherent.atomic_fence.atomicwrite.workgroup.payload_nonlocal.workgroup.guard_local.physbuffer.comp
@@ -188383,6 +188383,7 @@ dEQP-VK.memory_model.message_passing.ext.u32.coherent.fence_fence.atomicwrite.qu
 dEQP-VK.memory_model.message_passing.ext.u32.coherent.fence_fence.atomicwrite.queuefamily.payload_local.image.guard_local.physbuffer.comp
 dEQP-VK.memory_model.message_passing.ext.u32.coherent.fence_fence.atomicwrite.queuefamily.payload_local.image.guard_local.physbuffer.frag
 dEQP-VK.memory_model.message_passing.ext.u32.coherent.fence_fence.atomicwrite.queuefamily.payload_local.image.guard_local.physbuffer.vert
+dEQP-VK.memory_model.message_passing.ext.u32.coherent.fence_fence.atomicwrite.queuefamily.payload_local.image.guard_nonlocal.workgroup.comp
 dEQP-VK.memory_model.message_passing.ext.u32.coherent.fence_fence.atomicwrite.queuefamily.payload_local.physbuffer.guard_local.buffer.comp
 dEQP-VK.memory_model.message_passing.ext.u32.coherent.fence_fence.atomicwrite.queuefamily.payload_local.physbuffer.guard_local.buffer.frag
 dEQP-VK.memory_model.message_passing.ext.u32.coherent.fence_fence.atomicwrite.queuefamily.payload_local.physbuffer.guard_local.buffer.vert
@@ -189165,7 +189166,6 @@ dEQP-VK.memory_model.transitive.coherent.fence_atomic.payload_local.physbuffer.g
 dEQP-VK.memory_model.transitive.coherent.fence_atomic.payload_local.physbuffer.guard_local.image.transvis
 dEQP-VK.memory_model.transitive.coherent.fence_atomic.payload_local.physbuffer.guard_local.physbuffer.nontransvis
 dEQP-VK.memory_model.transitive.coherent.fence_atomic.payload_local.physbuffer.guard_local.physbuffer.transvis
-dEQP-VK.memory_model.transitive.coherent.fence_fence.payload_local.buffer.guard_local.buffer.nontransvis
 dEQP-VK.memory_model.transitive.coherent.fence_fence.payload_local.buffer.guard_local.buffer.transvis
 dEQP-VK.memory_model.transitive.coherent.fence_fence.payload_local.buffer.guard_local.image.nontransvis
 dEQP-VK.memory_model.transitive.coherent.fence_fence.payload_local.buffer.guard_local.image.transvis
@@ -189684,6 +189684,7 @@ dEQP-VK.memory_model.write_after_read.ext.u32.coherent.fence_atomic.atomicwrite.
 dEQP-VK.memory_model.write_after_read.ext.u32.coherent.fence_atomic.atomicwrite.device.payload_nonlocal.workgroup.guard_local.buffer.comp
 dEQP-VK.memory_model.write_after_read.ext.u32.coherent.fence_atomic.atomicwrite.device.payload_nonlocal.workgroup.guard_local.image.comp
 dEQP-VK.memory_model.write_after_read.ext.u32.coherent.fence_atomic.atomicwrite.device.payload_nonlocal.workgroup.guard_local.physbuffer.comp
+dEQP-VK.memory_model.write_after_read.ext.u32.coherent.fence_atomic.atomicwrite.device.payload_nonlocal.workgroup.guard_nonlocal.workgroup.comp
 dEQP-VK.memory_model.write_after_read.ext.u32.coherent.fence_atomic.atomicwrite.queuefamily.payload_local.buffer.guard_local.buffer.comp
 dEQP-VK.memory_model.write_after_read.ext.u32.coherent.fence_atomic.atomicwrite.queuefamily.payload_local.buffer.guard_local.buffer.frag
 dEQP-VK.memory_model.write_after_read.ext.u32.coherent.fence_atomic.atomicwrite.queuefamily.payload_local.buffer.guard_local.buffer.vert
@@ -189895,7 +189896,6 @@ dEQP-VK.memory_model.write_after_read.ext.u32.noncoherent.atomic_atomic.atomicrm
 dEQP-VK.memory_model.write_after_read.ext.u32.noncoherent.atomic_atomic.atomicrmw.device.payload_local.buffer.guard_local.physbuffer.comp
 dEQP-VK.memory_model.write_after_read.ext.u32.noncoherent.atomic_atomic.atomicrmw.device.payload_local.buffer.guard_local.physbuffer.frag
 dEQP-VK.memory_model.write_after_read.ext.u32.noncoherent.atomic_atomic.atomicrmw.device.payload_local.buffer.guard_local.physbuffer.vert
-dEQP-VK.memory_model.write_after_read.ext.u32.noncoherent.atomic_atomic.atomicrmw.device.payload_local.buffer.guard_nonlocal.workgroup.comp
 dEQP-VK.memory_model.write_after_read.ext.u32.noncoherent.atomic_atomic.atomicrmw.device.payload_local.image.guard_local.buffer.comp
 dEQP-VK.memory_model.write_after_read.ext.u32.noncoherent.atomic_atomic.atomicrmw.device.payload_local.image.guard_local.buffer.frag
 dEQP-VK.memory_model.write_after_read.ext.u32.noncoherent.atomic_atomic.atomicrmw.device.payload_local.image.guard_local.buffer.vert
@@ -189918,7 +189918,6 @@ dEQP-VK.memory_model.write_after_read.ext.u32.noncoherent.atomic_atomic.atomicrm
 dEQP-VK.memory_model.write_after_read.ext.u32.noncoherent.atomic_atomic.atomicrmw.device.payload_local.physbuffer.guard_nonlocal.workgroup.comp
 dEQP-VK.memory_model.write_after_read.ext.u32.noncoherent.atomic_atomic.atomicrmw.device.payload_nonlocal.workgroup.guard_local.buffer.comp
 dEQP-VK.memory_model.write_after_read.ext.u32.noncoherent.atomic_atomic.atomicrmw.device.payload_nonlocal.workgroup.guard_local.image.comp
-dEQP-VK.memory_model.write_after_read.ext.u32.noncoherent.atomic_atomic.atomicrmw.device.payload_nonlocal.workgroup.guard_local.physbuffer.comp
 dEQP-VK.memory_model.write_after_read.ext.u32.noncoherent.atomic_atomic.atomicrmw.device.payload_nonlocal.workgroup.guard_nonlocal.workgroup.comp
 dEQP-VK.memory_model.write_after_read.ext.u32.noncoherent.atomic_atomic.atomicrmw.queuefamily.payload_local.buffer.guard_local.buffer.comp
 dEQP-VK.memory_model.write_after_read.ext.u32.noncoherent.atomic_atomic.atomicrmw.queuefamily.payload_local.buffer.guard_local.buffer.frag
@@ -190067,7 +190066,6 @@ dEQP-VK.memory_model.write_after_read.ext.u32.noncoherent.atomic_atomic.atomicwr
 dEQP-VK.memory_model.write_after_read.ext.u32.noncoherent.atomic_atomic.atomicwrite.queuefamily.payload_local.physbuffer.guard_local.physbuffer.comp
 dEQP-VK.memory_model.write_after_read.ext.u32.noncoherent.atomic_atomic.atomicwrite.queuefamily.payload_local.physbuffer.guard_local.physbuffer.frag
 dEQP-VK.memory_model.write_after_read.ext.u32.noncoherent.atomic_atomic.atomicwrite.queuefamily.payload_local.physbuffer.guard_local.physbuffer.vert
-dEQP-VK.memory_model.write_after_read.ext.u32.noncoherent.atomic_atomic.atomicwrite.queuefamily.payload_local.physbuffer.guard_nonlocal.workgroup.comp
 dEQP-VK.memory_model.write_after_read.ext.u32.noncoherent.atomic_atomic.atomicwrite.queuefamily.payload_nonlocal.workgroup.guard_local.buffer.comp
 dEQP-VK.memory_model.write_after_read.ext.u32.noncoherent.atomic_atomic.atomicwrite.queuefamily.payload_nonlocal.workgroup.guard_local.image.comp
 dEQP-VK.memory_model.write_after_read.ext.u32.noncoherent.atomic_atomic.atomicwrite.queuefamily.payload_nonlocal.workgroup.guard_local.physbuffer.comp
@@ -190307,6 +190305,7 @@ dEQP-VK.memory_model.write_after_read.ext.u32.noncoherent.fence_atomic.atomicwri
 dEQP-VK.memory_model.write_after_read.ext.u32.noncoherent.fence_atomic.atomicwrite.queuefamily.payload_nonlocal.workgroup.guard_local.buffer.comp
 dEQP-VK.memory_model.write_after_read.ext.u32.noncoherent.fence_atomic.atomicwrite.queuefamily.payload_nonlocal.workgroup.guard_local.image.comp
 dEQP-VK.memory_model.write_after_read.ext.u32.noncoherent.fence_atomic.atomicwrite.queuefamily.payload_nonlocal.workgroup.guard_local.physbuffer.comp
+dEQP-VK.memory_model.write_after_read.ext.u32.noncoherent.fence_atomic.atomicwrite.queuefamily.payload_nonlocal.workgroup.guard_nonlocal.workgroup.comp
 dEQP-VK.memory_model.write_after_read.ext.u32.noncoherent.fence_atomic.atomicwrite.subgroup.payload_local.buffer.guard_local.buffer.comp
 dEQP-VK.memory_model.write_after_read.ext.u32.noncoherent.fence_atomic.atomicwrite.subgroup.payload_local.buffer.guard_local.buffer.frag
 dEQP-VK.memory_model.write_after_read.ext.u32.noncoherent.fence_atomic.atomicwrite.subgroup.payload_local.buffer.guard_local.buffer.vert
@@ -190355,7 +190354,6 @@ dEQP-VK.memory_model.write_after_read.ext.u32.noncoherent.fence_atomic.atomicwri
 dEQP-VK.memory_model.write_after_read.ext.u32.noncoherent.fence_atomic.atomicwrite.workgroup.payload_local.physbuffer.guard_nonlocal.workgroup.comp
 dEQP-VK.memory_model.write_after_read.ext.u32.noncoherent.fence_atomic.atomicwrite.workgroup.payload_nonlocal.workgroup.guard_local.buffer.comp
 dEQP-VK.memory_model.write_after_read.ext.u32.noncoherent.fence_atomic.atomicwrite.workgroup.payload_nonlocal.workgroup.guard_local.image.comp
-dEQP-VK.memory_model.write_after_read.ext.u32.noncoherent.fence_atomic.atomicwrite.workgroup.payload_nonlocal.workgroup.guard_local.physbuffer.comp
 dEQP-VK.memory_model.write_after_read.ext.u32.noncoherent.fence_atomic.atomicwrite.workgroup.payload_nonlocal.workgroup.guard_nonlocal.workgroup.comp
 dEQP-VK.memory_model.write_after_read.ext.u32.noncoherent.fence_fence.atomicwrite.device.payload_local.buffer.guard_local.buffer.comp
 dEQP-VK.memory_model.write_after_read.ext.u32.noncoherent.fence_fence.atomicwrite.device.payload_local.buffer.guard_local.buffer.frag
@@ -200793,6 +200791,7 @@ dEQP-VK.pipeline.fast_linked_library.multisample.sample_mask.mask_random.samples
 dEQP-VK.pipeline.fast_linked_library.multisample.sample_mask.mask_random.samples_4.primitive_point
 dEQP-VK.pipeline.fast_linked_library.multisample.sample_mask.mask_random.samples_4.primitive_point_1px
 dEQP-VK.pipeline.fast_linked_library.multisample.sample_mask.mask_random.samples_4.primitive_triangle
+dEQP-VK.pipeline.fast_linked_library.multisample.sample_rate_a2c.static_a2c
 dEQP-VK.pipeline.fast_linked_library.multisample.sampled_image.64x64_1.r16g16_sint.samples_4
 dEQP-VK.pipeline.fast_linked_library.multisample.sampled_image.64x64_1.r32_uint.samples_4
 dEQP-VK.pipeline.fast_linked_library.multisample.sampled_image.64x64_1.r32g32b32a32_sfloat.samples_4
@@ -264844,6 +264843,7 @@ dEQP-VK.pipeline.monolithic.multisample.sample_mask.mask_random.samples_4.primit
 dEQP-VK.pipeline.monolithic.multisample.sample_mask.mask_random.samples_4.primitive_point
 dEQP-VK.pipeline.monolithic.multisample.sample_mask.mask_random.samples_4.primitive_point_1px
 dEQP-VK.pipeline.monolithic.multisample.sample_mask.mask_random.samples_4.primitive_triangle
+dEQP-VK.pipeline.monolithic.multisample.sample_rate_a2c.static_a2c
 dEQP-VK.pipeline.monolithic.multisample.sampled_image.64x64_1.r16g16_sint.samples_4
 dEQP-VK.pipeline.monolithic.multisample.sampled_image.64x64_1.r32_uint.samples_4
 dEQP-VK.pipeline.monolithic.multisample.sampled_image.64x64_1.r32g32b32a32_sfloat.samples_4
@@ -332613,6 +332613,7 @@ dEQP-VK.pipeline.pipeline_library.multisample.sample_mask.mask_random.samples_4.
 dEQP-VK.pipeline.pipeline_library.multisample.sample_mask.mask_random.samples_4.primitive_point
 dEQP-VK.pipeline.pipeline_library.multisample.sample_mask.mask_random.samples_4.primitive_point_1px
 dEQP-VK.pipeline.pipeline_library.multisample.sample_mask.mask_random.samples_4.primitive_triangle
+dEQP-VK.pipeline.pipeline_library.multisample.sample_rate_a2c.static_a2c
 dEQP-VK.pipeline.pipeline_library.multisample.sampled_image.64x64_1.r16g16_sint.samples_4
 dEQP-VK.pipeline.pipeline_library.multisample.sampled_image.64x64_1.r32_uint.samples_4
 dEQP-VK.pipeline.pipeline_library.multisample.sampled_image.64x64_1.r32g32b32a32_sfloat.samples_4
