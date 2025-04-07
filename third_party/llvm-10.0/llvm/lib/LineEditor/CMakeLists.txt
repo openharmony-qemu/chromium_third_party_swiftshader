@@ -1,13 +1,3 @@
-if(HAVE_LIBEDIT)
-  set(link_libs edit)
-endif()
-
-add_llvm_component_library(LLVMLineEditor
-  LineEditor.cpp
-
-  ADDITIONAL_HEADER_DIRS
-  ${LLVM_MAIN_INCLUDE_DIR}/llvm/LineEditor
-
-  LINK_LIBS
-  ${link_libs}
-  )
+version https://git-lfs.github.com/spec/v1
+oid sha256:17008fc789dd14c9a4dddee92119126801cdb69892846488a670266c12d08326
+size 208

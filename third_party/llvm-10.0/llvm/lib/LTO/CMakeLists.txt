@@ -1,17 +1,3 @@
-add_llvm_component_library(LLVMLTO
-  Caching.cpp
-  LTO.cpp
-  LTOBackend.cpp
-  LTOModule.cpp
-  LTOCodeGenerator.cpp
-  SummaryBasedOptimizations.cpp
-  UpdateCompilerUsed.cpp
-  ThinLTOCodeGenerator.cpp
-
-  ADDITIONAL_HEADER_DIRS
-  ${LLVM_MAIN_INCLUDE_DIR}/llvm/LTO
-
-  DEPENDS
-  intrinsics_gen
-  llvm_vcsrevision_h
-)
+version https://git-lfs.github.com/spec/v1
+oid sha256:be1c80f35a3d9c77fb5682892f4fe55bb29f7cab1f8776b11ed2d81679f64fc2
+size 312

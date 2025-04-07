@@ -1,9 +1,3 @@
-set(LLVM_TARGET_DEFINITIONS Options.td)
-tablegen(LLVM Options.inc -gen-opt-parser-defs)
-add_public_tablegen_target(DllOptionsTableGen)
-
-add_llvm_component_library(LLVMDlltoolDriver
-  DlltoolDriver.cpp
-  )
-
-add_dependencies(LLVMDlltoolDriver DllOptionsTableGen)
+version https://git-lfs.github.com/spec/v1
+oid sha256:c490850cbe51f2a3613d36a6e61afcac9346988bdf8d5b5b3b4f41085baec36f
+size 261

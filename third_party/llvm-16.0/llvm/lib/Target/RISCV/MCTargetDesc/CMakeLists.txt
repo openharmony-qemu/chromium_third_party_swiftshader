@@ -1,23 +1,3 @@
-add_llvm_component_library(LLVMRISCVDesc
-  RISCVAsmBackend.cpp
-  RISCVBaseInfo.cpp
-  RISCVELFObjectWriter.cpp
-  RISCVInstPrinter.cpp
-  RISCVMCAsmInfo.cpp
-  RISCVMCCodeEmitter.cpp
-  RISCVMCExpr.cpp
-  RISCVMCObjectFileInfo.cpp
-  RISCVMCTargetDesc.cpp
-  RISCVMatInt.cpp
-  RISCVTargetStreamer.cpp
-  RISCVELFStreamer.cpp
-
-  LINK_COMPONENTS
-  MC
-  RISCVInfo
-  Support
-  TargetParser
-
-  ADD_TO_COMPONENT
-  RISCV
-)
+version https://git-lfs.github.com/spec/v1
+oid sha256:23155c339c44e62c2406f0e29313ef52dd9000d8b5974e8b231824fc56e839ff
+size 407

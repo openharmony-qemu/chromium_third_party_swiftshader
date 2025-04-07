@@ -1,21 +1,3 @@
-;===- ./lib/DWARFLinker/LLVMBuild.txt ---------------*- Conf -*--===;
-;
-; Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.
-; See https://llvm.org/LICENSE.txt for license information.
-; SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
-;
-;===------------------------------------------------------------------------===;
-;
-; This is an LLVMBuild description file for the components in this subdirectory.
-;
-; For more information on the LLVMBuild system, please see:
-;
-;   http://llvm.org/docs/LLVMBuild.html
-;
-;===------------------------------------------------------------------------===;
-
-[component_0]
-type = Library
-name = DWARFLinker
-parent = Libraries
-required_libraries = DebugInfoDWARF AsmPrinter CodeGen MC Object Support
+version https://git-lfs.github.com/spec/v1
+oid sha256:3e4d8c7b06c3fd40cdce5ba204dbb0dc63710b59298d5b452dd5c87b6661c2b4
+size 764

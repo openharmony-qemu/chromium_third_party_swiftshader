@@ -1,15 +1,3 @@
-if (MSVC)
-  set_source_files_properties(PassBuilder.cpp PROPERTIES COMPILE_FLAGS /bigobj)
-endif()
-
-add_llvm_component_library(LLVMPasses
-  PassBuilder.cpp
-  PassPlugin.cpp
-  StandardInstrumentations.cpp
-
-  ADDITIONAL_HEADER_DIRS
-  ${LLVM_MAIN_INCLUDE_DIR}/llvm/Passes
-
-  DEPENDS
-  intrinsics_gen
-  )
+version https://git-lfs.github.com/spec/v1
+oid sha256:df60bcc9600b0d4f71c9a9a9544bdbbabca5dd59aff6b00845963bec3df8b77e
+size 300

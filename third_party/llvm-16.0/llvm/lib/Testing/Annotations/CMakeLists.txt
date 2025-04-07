@@ -1,15 +1,3 @@
-# Do not build unittest libraries automatically, they will be pulled in
-# by unittests if these are built.
-set(EXCLUDE_FROM_ALL ON)
-
-add_llvm_library(LLVMTestingAnnotations
-  Annotations.cpp
-
-  BUILDTREE_ONLY
-
-  ADDITIONAL_HEADER_DIRS
-  ${LLVM_MAIN_INCLUDE_DIR}/llvm/Testing/Support
-
-  LINK_COMPONENTS
-  Support
-  )
+version https://git-lfs.github.com/spec/v1
+oid sha256:4c08f2d992d3bad95281de8ea97ce14fdbd9052330279d87b47f2fca6c8e403b
+size 316

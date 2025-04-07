@@ -1,12 +1,3 @@
-dEQP-VK.device_group.sfr
-dEQP-VK.device_group.sfr_sys
-dEQP-VK.device_group.sfr_dedicated
-dEQP-VK.device_group.sfr_dedicated_peer
-dEQP-VK.device_group.afr
-dEQP-VK.device_group.afr_sys
-dEQP-VK.device_group.afr_dedicated
-dEQP-VK.device_group.afr_dedicated_peer
-dEQP-VK.device_group.sfr_tessellated
-dEQP-VK.device_group.sfr_tessellated_linefill
-dEQP-VK.device_group.afr_tessellated
-dEQP-VK.device_group.afr_tessellated_linefill
+version https://git-lfs.github.com/spec/v1
+oid sha256:996417ce1d7eca3f949e8d224278a553fe04ed294999a0dd464c97948a17f7bb
+size 424

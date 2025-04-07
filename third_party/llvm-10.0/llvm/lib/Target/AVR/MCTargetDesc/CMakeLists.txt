@@ -1,15 +1,3 @@
-add_llvm_component_library(LLVMAVRDesc
-  AVRAsmBackend.cpp
-  AVRELFObjectWriter.cpp
-  AVRELFStreamer.cpp
-  AVRInstPrinter.cpp
-  AVRMCAsmInfo.cpp
-  AVRMCCodeEmitter.cpp
-  AVRMCELFStreamer.cpp
-  AVRMCExpr.cpp
-  AVRMCTargetDesc.cpp
-  AVRTargetStreamer.cpp
-)
-
-add_dependencies(LLVMAVRDesc AVRCommonTableGen)
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:d86742ef2425b895b5b207c16fb95b10ef2f91982e533a28eae6c573a9a8293c
+size 305

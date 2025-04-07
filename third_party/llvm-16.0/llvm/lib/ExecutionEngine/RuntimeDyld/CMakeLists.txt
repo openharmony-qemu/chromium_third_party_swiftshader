@@ -1,21 +1,3 @@
-add_llvm_component_library(LLVMRuntimeDyld
-  JITSymbol.cpp
-  RTDyldMemoryManager.cpp
-  RuntimeDyld.cpp
-  RuntimeDyldChecker.cpp
-  RuntimeDyldCOFF.cpp
-  RuntimeDyldELF.cpp
-  RuntimeDyldMachO.cpp
-  Targets/RuntimeDyldELFMips.cpp
-
-  DEPENDS
-  intrinsics_gen
-
-
-  LINK_COMPONENTS
-  Core
-  MC
-  Object
-  Support
-  TargetParser
-  )
+version https://git-lfs.github.com/spec/v1
+oid sha256:ac18212803c0ba7a9f51338a4ee3dae8c479d7517ef4af4fbc035de5826b6784
+size 325

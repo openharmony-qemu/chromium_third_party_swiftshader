@@ -1,22 +1,3 @@
-add_llvm_component_library(LLVMDWARFLinker
-  DWARFLinkerCompileUnit.cpp
-  DWARFLinkerDeclContext.cpp
-  DWARFLinker.cpp
-  DWARFStreamer.cpp
-
-  ADDITIONAL_HEADER_DIRS
-  ${LLVM_MAIN_INCLUDE_DIR}/llvm/DWARFLinker
-
-  DEPENDS
-  intrinsics_gen
-
-  LINK_COMPONENTS
-  BinaryFormat
-  DebugInfoDWARF
-  AsmPrinter
-  CodeGen
-  MC
-  Object
-  Support
-  TargetParser
-  )
+version https://git-lfs.github.com/spec/v1
+oid sha256:849749ebbddd2e6d8a1bcc6dcca3566ce7b29157b3ee6b9864a10f9e0ed05588
+size 354

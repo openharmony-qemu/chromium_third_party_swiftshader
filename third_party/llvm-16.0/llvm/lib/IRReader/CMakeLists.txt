@@ -1,15 +1,3 @@
-add_llvm_component_library(LLVMIRReader
-  IRReader.cpp
-
-  ADDITIONAL_HEADER_DIRS
-  ${LLVM_MAIN_INCLUDE_DIR}/llvm/IRReader
-
-  DEPENDS
-  intrinsics_gen
-
-  LINK_COMPONENTS
-  AsmParser
-  BitReader
-  Core
-  Support
-  )
+version https://git-lfs.github.com/spec/v1
+oid sha256:6e562dc84657f282418a383208be61e8e02816e8bb41a079db2420e3cd92f2a5
+size 214

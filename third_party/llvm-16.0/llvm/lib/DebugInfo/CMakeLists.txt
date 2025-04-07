@@ -1,7 +1,3 @@
-add_subdirectory(DWARF)
-add_subdirectory(GSYM)
-add_subdirectory(LogicalView)
-add_subdirectory(MSF)
-add_subdirectory(CodeView)
-add_subdirectory(PDB)
-add_subdirectory(Symbolize)
+version https://git-lfs.github.com/spec/v1
+oid sha256:2509f3bedb35fa2d6f491f8b1abd069f982304925f4cd6280cbcee7df46d798f
+size 176

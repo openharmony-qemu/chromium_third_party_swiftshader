@@ -1,27 +1,3 @@
-# Do not build unittest libraries automatically, they will be pulled in
-# by unittests if these are built.
-set(EXCLUDE_FROM_ALL ON)
-
-add_llvm_library(LLVMTestingSupport
-  Error.cpp
-  SupportHelpers.cpp
-
-  BUILDTREE_ONLY
-
-  ADDITIONAL_HEADER_DIRS
-  ${LLVM_MAIN_INCLUDE_DIR}/llvm/Testing/Support
-
-  LINK_COMPONENTS
-  Support
-  )
-
-target_link_libraries(LLVMTestingSupport PRIVATE llvm_gtest)
-
-# This is to avoid the error in gtest-death-test-internal.h
-# (150,16): error: 'Create' overrides a member function but
-# is not marked 'override' [-Werror,-Wsuggest-override]
-# during self-compile on Windows.
-
-if (HOST_WINNT AND "${CMAKE_CXX_COMPILER_ID}" MATCHES "Clang" )
-  SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wno-suggest-override")
-endif()
+version https://git-lfs.github.com/spec/v1
+oid sha256:976d4562273255287f3a2ca18e31d0796b5f125803b992b30c0a8992e4c1a6c7
+size 739

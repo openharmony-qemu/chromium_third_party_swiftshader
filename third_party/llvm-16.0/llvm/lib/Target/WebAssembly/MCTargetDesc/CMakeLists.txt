@@ -1,19 +1,3 @@
-add_llvm_component_library(LLVMWebAssemblyDesc
-  WebAssemblyAsmBackend.cpp
-  WebAssemblyInstPrinter.cpp
-  WebAssemblyMCAsmInfo.cpp
-  WebAssemblyMCCodeEmitter.cpp
-  WebAssemblyMCTargetDesc.cpp
-  WebAssemblyTargetStreamer.cpp
-  WebAssemblyWasmObjectWriter.cpp
-
-  LINK_COMPONENTS
-  MC
-  Support
-  TargetParser
-  WebAssemblyInfo
-  WebAssemblyUtils
-
-  ADD_TO_COMPONENT
-  WebAssembly
-)
+version https://git-lfs.github.com/spec/v1
+oid sha256:c9f1b7051511c9be8937693c41eb64140a19a10df2523cbb601182544c9702fe
+size 380

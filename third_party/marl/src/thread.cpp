@@ -50,7 +50,7 @@
 namespace {
 
 struct CoreHasher {
-  inline uint64_t operator()(const marl::Thread::Core& core) const {
+  inline uint64_t operator()(marl::Thread::Core core) const {
     return core.pthread.index;
   }
 };
@@ -117,6 +117,10 @@ const ProcessorGroups& getProcessorGroups() {
 
 Thread::Affinity::Affinity(Allocator* allocator) : cores(allocator) {}
 Thread::Affinity::Affinity(Affinity&& other) : cores(std::move(other.cores)) {}
+Thread::Affinity& Thread::Affinity::operator=(Affinity&& other) {
+  cores = std::move(other.cores);
+  return *this;
+}
 Thread::Affinity::Affinity(const Affinity& other, Allocator* allocator)
     : cores(other.cores, allocator) {}
 
@@ -137,6 +141,7 @@ Thread::Affinity Thread::Affinity::all(
     Allocator* allocator /* = Allocator::Default */) {
   Thread::Affinity affinity(allocator);
 
+#if !defined(OSOHOS)
 #if defined(_WIN32)
   const auto& groups = getProcessorGroups();
   for (size_t groupIdx = 0; groupIdx < groups.count; groupIdx++) {
@@ -150,7 +155,7 @@ Thread::Affinity Thread::Affinity::all(
       }
     }
   }
-#elif defined(__linux__) && !defined(__ANDROID__)
+#elif defined(__linux__) && !defined(__ANDROID__) && !defined(__BIONIC__)
   auto thread = pthread_self();
   cpu_set_t cpuset;
   CPU_ZERO(&cpuset);
@@ -178,6 +183,7 @@ Thread::Affinity Thread::Affinity::all(
   static_assert(!supported,
                 "marl::Thread::Affinity::supported is true, but "
                 "Thread::Affinity::all() is not implemented for this platform");
+#endif
 #endif
 
   return affinity;
@@ -274,14 +280,33 @@ Thread::Affinity& Thread::Affinity::remove(const Thread::Affinity& other) {
 
 class Thread::Impl {
  public:
-  Impl(Func&& func) : func(std::move(func)) {}
+  Impl(Func&& func, _PROC_THREAD_ATTRIBUTE_LIST* attributes)
+      : func(std::move(func)),
+        handle(CreateRemoteThreadEx(GetCurrentProcess(),
+                                    nullptr,
+                                    0,
+                                    &Impl::run,
+                                    this,
+                                    0,
+                                    attributes,
+                                    nullptr)) {}
+  ~Impl() { CloseHandle(handle); }
+
+  Impl(const Impl&) = delete;
+  Impl(Impl&&) = delete;
+  Impl& operator=(const Impl&) = delete;
+  Impl& operator=(Impl&&) = delete;
+
+  void Join() const { WaitForSingleObject(handle, INFINITE); }
+
   static DWORD WINAPI run(void* self) {
     reinterpret_cast<Impl*>(self)->func();
     return 0;
   }
 
-  Func func;
-  HANDLE handle;
+ private:
+  const Func func;
+  const HANDLE handle;
 };
 
 Thread::Thread(Affinity&& affinity, Func&& func) {
@@ -312,21 +337,16 @@ Thread::Thread(Affinity&& affinity, Func&& func) {
         sizeof(groupAffinity), nullptr, nullptr));
   }
 
-  impl = new Impl(std::move(func));
-  impl->handle = CreateRemoteThreadEx(GetCurrentProcess(), nullptr, 0,
-                                      &Impl::run, impl, 0, attributes, nullptr);
+  impl = new Impl(std::move(func), attributes);
 }
 
 Thread::~Thread() {
-  if (impl) {
-    CloseHandle(impl->handle);
-    delete impl;
-  }
+  delete impl;
 }
 
 void Thread::join() {
   MARL_ASSERT(impl != nullptr, "join() called on unjoinable thread");
-  WaitForSingleObject(impl->handle, INFINITE);
+  impl->Join();
 }
 
 void Thread::setName(const char* fmt, ...) {
@@ -379,7 +399,8 @@ class Thread::Impl {
       return;
     }
 
-#if defined(__linux__) && !defined(__ANDROID__)
+#if !defined(OSOHOS)
+#if defined(__linux__) && !defined(__ANDROID__) && !defined(__BIONIC__)
     cpu_set_t cpuset;
     CPU_ZERO(&cpuset);
     for (size_t i = 0; i < count; i++) {
@@ -398,6 +419,7 @@ class Thread::Impl {
 #else
     MARL_ASSERT(!marl::Thread::Affinity::supported,
                 "Attempting to use thread affinity on a unsupported platform");
+#endif
 #endif
   }
 };
@@ -426,7 +448,7 @@ void Thread::setName(const char* fmt, ...) {
   pthread_setname_np(name);
 #elif defined(__FreeBSD__)
   pthread_set_name_np(pthread_self(), name);
-#elif !defined(__Fuchsia__)
+#elif !defined(__Fuchsia__) && !defined(__EMSCRIPTEN__)
   pthread_setname_np(pthread_self(), name);
 #endif
 

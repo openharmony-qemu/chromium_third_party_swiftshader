@@ -1,27 +1,3 @@
-add_llvm_component_library(LLVMDebugInfoGSYM
-  DwarfTransformer.cpp
-  Header.cpp
-  FileWriter.cpp
-  FunctionInfo.cpp
-  GsymCreator.cpp
-  GsymReader.cpp
-  InlineInfo.cpp
-  LineTable.cpp
-  LookupResult.cpp
-  ObjectFileTransformer.cpp
-  ExtractRanges.cpp
-
-  ADDITIONAL_HEADER_DIRS
-  ${LLVM_MAIN_INCLUDE_DIR}/llvm/DebugInfo/GSYM
-  ${LLVM_MAIN_INCLUDE_DIR}/llvm/DebugInfo
-
-  DEPENDS
-  LLVMMC
-
-  LINK_COMPONENTS
-  MC
-  Object
-  Support
-  TargetParser
-  DebugInfoDWARF
-  )
+version https://git-lfs.github.com/spec/v1
+oid sha256:c4cc10f5edcea8ed5600ccac2997bfedec7766d16703b77b511dff9d356fd489
+size 466

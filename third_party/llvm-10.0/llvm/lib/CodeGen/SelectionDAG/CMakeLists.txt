@@ -1,30 +1,3 @@
-add_llvm_component_library(LLVMSelectionDAG
-  DAGCombiner.cpp
-  FastISel.cpp
-  FunctionLoweringInfo.cpp
-  InstrEmitter.cpp
-  LegalizeDAG.cpp
-  LegalizeFloatTypes.cpp
-  LegalizeIntegerTypes.cpp
-  LegalizeTypes.cpp
-  LegalizeTypesGeneric.cpp
-  LegalizeVectorOps.cpp
-  LegalizeVectorTypes.cpp
-  ResourcePriorityQueue.cpp
-  ScheduleDAGFast.cpp
-  ScheduleDAGRRList.cpp
-  ScheduleDAGSDNodes.cpp
-  ScheduleDAGVLIW.cpp
-  SelectionDAGBuilder.cpp
-  SelectionDAG.cpp
-  SelectionDAGAddressAnalysis.cpp
-  SelectionDAGDumper.cpp
-  SelectionDAGISel.cpp
-  SelectionDAGPrinter.cpp
-  SelectionDAGTargetInfo.cpp
-  StatepointLowering.cpp
-  TargetLowering.cpp
-
-  DEPENDS
-  intrinsics_gen
-  )
+version https://git-lfs.github.com/spec/v1
+oid sha256:e118a51a1c7306e6cb74cfbb2adb08eba94921b886628765737af4504f769086
+size 671

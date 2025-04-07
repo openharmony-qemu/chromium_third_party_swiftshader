@@ -1,9 +1,3 @@
-add_llvm_component_library(LLVMCFGuard
-  CFGuard.cpp
-
-  ADDITIONAL_HEADER_DIRS
-  ${LLVM_MAIN_INCLUDE_DIR}/llvm/Transforms
-
-  DEPENDS
-  intrinsics_gen
-  )
+version https://git-lfs.github.com/spec/v1
+oid sha256:18636711d40059b54ef03ae687e11ddf0d864692567f866e3f90d9ceff98d4e3
+size 154

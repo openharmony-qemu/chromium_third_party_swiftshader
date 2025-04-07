@@ -1,16 +1,3 @@
-add_llvm_component_library(LLVMARMDesc
-  ARMAsmBackend.cpp
-  ARMELFObjectWriter.cpp
-  ARMELFStreamer.cpp
-  ARMInstPrinter.cpp
-  ARMMachObjectWriter.cpp
-  ARMMachORelocationInfo.cpp
-  ARMMCAsmInfo.cpp
-  ARMMCCodeEmitter.cpp
-  ARMMCExpr.cpp
-  ARMMCTargetDesc.cpp
-  ARMTargetStreamer.cpp
-  ARMUnwindOpAsm.cpp
-  ARMWinCOFFObjectWriter.cpp
-  ARMWinCOFFStreamer.cpp
-  )
+version https://git-lfs.github.com/spec/v1
+oid sha256:3a82737a4e267722ca53255aa2618a5accb92666f6b362bed5fd7d562999004b
+size 364

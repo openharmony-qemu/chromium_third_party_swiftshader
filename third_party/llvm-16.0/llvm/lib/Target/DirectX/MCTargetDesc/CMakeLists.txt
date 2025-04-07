@@ -1,13 +1,3 @@
-add_llvm_component_library(LLVMDirectXDesc
-  DirectXContainerObjectWriter.cpp
-  DirectXMCTargetDesc.cpp
-
-  LINK_COMPONENTS
-  DirectXInfo
-  MC
-  Support
-  TargetParser
-
-  ADD_TO_COMPONENT
-  DirectX
-  )
+version https://git-lfs.github.com/spec/v1
+oid sha256:a1372c568a63a4ecbe782d903a9b1db0ccd93eca0e7ea980c0e15b12f2ec59bc
+size 201

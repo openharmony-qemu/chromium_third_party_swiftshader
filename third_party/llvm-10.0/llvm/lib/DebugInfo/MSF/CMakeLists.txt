@@ -1,8 +1,3 @@
-add_llvm_component_library(LLVMDebugInfoMSF
-  MappedBlockStream.cpp
-  MSFBuilder.cpp
-  MSFCommon.cpp
-  MSFError.cpp
-  ADDITIONAL_HEADER_DIRS
-  "${LLVM_MAIN_INCLUDE_DIR}/llvm/DebugInfo/MSF"
-  )
+version https://git-lfs.github.com/spec/v1
+oid sha256:92f9bdbc5135d4f22b255b6bddf068f1686363c109b098cf959a17582713fc19
+size 193

@@ -1,14 +1,3 @@
-include_directories( ${CMAKE_CURRENT_BINARY_DIR}/.. ${CMAKE_CURRENT_SOURCE_DIR}/.. )
-
-add_llvm_component_library(LLVMAArch64Info
-  AArch64TargetInfo.cpp
-
-  LINK_COMPONENTS
-  MC
-  Support
-
-  ADD_TO_COMPONENT
-  AArch64
-  )
-
-add_dependencies(LLVMAArch64Info AArch64CommonTableGen)
+version https://git-lfs.github.com/spec/v1
+oid sha256:6bf3a12db386ff322a6e99822b5c9c41cc8293c7050e47435958ba0f61f9df34
+size 278

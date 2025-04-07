@@ -1,14 +1,3 @@
-add_llvm_component_library(LLVMRISCVTargetMCA
-  RISCVCustomBehaviour.cpp
-
-  LINK_COMPONENTS
-  MC
-  MCParser
-  RISCVDesc
-  RISCVInfo
-  Support
-  MCA
-
-  ADD_TO_COMPONENT
-  RISCV
-  )
+version https://git-lfs.github.com/spec/v1
+oid sha256:f873a13e4b3ef8893fb235488e99e3bcecd5845102f51dbe0de5e1cd339dda86
+size 180

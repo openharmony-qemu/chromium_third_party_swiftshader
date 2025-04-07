@@ -1,13 +1,3 @@
-add_llvm_component_library(LLVMJITLink
-  JITLink.cpp
-  JITLinkGeneric.cpp
-  JITLinkMemoryManager.cpp
-  EHFrameSupport.cpp
-  MachO.cpp
-  MachO_arm64.cpp
-  MachO_x86_64.cpp
-  MachOLinkGraphBuilder.cpp
-
-  DEPENDS
-  intrinsics_gen
-  )
+version https://git-lfs.github.com/spec/v1
+oid sha256:4b48106421850de968708565c3bb292e29827cfdd6e8254f5d7aac4d739cf1c7
+size 231

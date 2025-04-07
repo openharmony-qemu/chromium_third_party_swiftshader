@@ -1,18 +1,3 @@
-add_llvm_component_library(LLVMSymbolize
-  DIPrinter.cpp
-  Markup.cpp
-  MarkupFilter.cpp
-  SymbolizableObjectFile.cpp
-  Symbolize.cpp
-
-  ADDITIONAL_HEADER_DIRS
-  ${LLVM_MAIN_INCLUDE_DIR}/llvm/DebugInfo/Symbolize
-
-  LINK_COMPONENTS
-  DebugInfoDWARF
-  DebugInfoPDB
-  Object
-  Support
-  Demangle
-  TargetParser
-  )
+version https://git-lfs.github.com/spec/v1
+oid sha256:f26bb0465f2abdf4e574c2e921570d04ce461eb01649c23e4a8b6abd7ed2a261
+size 312

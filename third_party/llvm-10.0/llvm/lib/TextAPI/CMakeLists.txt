@@ -1,16 +1,3 @@
-add_llvm_component_library(LLVMTextAPI
-  ELF/ELFStub.cpp
-  ELF/TBEHandler.cpp
-  MachO/Architecture.cpp
-  MachO/ArchitectureSet.cpp
-  MachO/InterfaceFile.cpp
-  MachO/PackedVersion.cpp
-  MachO/Platform.cpp
-  MachO/Symbol.cpp
-  MachO/Target.cpp
-  MachO/TextStub.cpp
-  MachO/TextStubCommon.cpp
-
-  ADDITIONAL_HEADER_DIRS
-  "${LLVM_MAIN_INCLUDE_DIR}/llvm/TextAPI"
-)
+version https://git-lfs.github.com/spec/v1
+oid sha256:dd95a0890ed71a6354691e7bced0741a02be2442ba92c1d3f81df0dec2320474
+size 360

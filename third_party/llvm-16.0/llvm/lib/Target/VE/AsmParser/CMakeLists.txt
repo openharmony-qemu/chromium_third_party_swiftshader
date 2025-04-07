@@ -1,13 +1,3 @@
-add_llvm_component_library(LLVMVEAsmParser
-  VEAsmParser.cpp
-
-  LINK_COMPONENTS
-  MC
-  MCParser
-  VEDesc
-  VEInfo
-  Support
-
-  ADD_TO_COMPONENT
-  VE
-  )
+version https://git-lfs.github.com/spec/v1
+oid sha256:3585ea569c1c464959ff31d523154d2c60f6243d57f6f134338306a01df1bdad
+size 153

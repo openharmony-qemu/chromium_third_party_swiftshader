@@ -1,35 +1,3 @@
-;===- ./lib/Target/Sparc/LLVMBuild.txt -------------------------*- Conf -*--===;
-;
-; Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.
-; See https://llvm.org/LICENSE.txt for license information.
-; SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
-;
-;===------------------------------------------------------------------------===;
-;
-; This is an LLVMBuild description file for the components in this subdirectory.
-;
-; For more information on the LLVMBuild system, please see:
-;
-;   http://llvm.org/docs/LLVMBuild.html
-;
-;===------------------------------------------------------------------------===;
-
-[common]
-subdirectories = AsmParser Disassembler MCTargetDesc TargetInfo
-
-[component_0]
-type = TargetGroup
-name = Sparc
-parent = Target
-has_asmparser = 1
-has_asmprinter = 1
-has_disassembler = 1
-has_jit = 1
-
-[component_1]
-type = Library
-name = SparcCodeGen
-parent = Sparc
-required_libraries = AsmPrinter CodeGen Core MC SelectionDAG
-                     SparcDesc SparcInfo Support Target
-add_to_library_groups = Sparc
+version https://git-lfs.github.com/spec/v1
+oid sha256:724ae173ef0ee01b55243cb29a05cb8297f24a9096d42091bfa88cbb4616ceb9
+size 1053

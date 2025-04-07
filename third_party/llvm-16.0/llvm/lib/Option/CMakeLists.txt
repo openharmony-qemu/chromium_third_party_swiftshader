@@ -1,12 +1,3 @@
-add_llvm_component_library(LLVMOption
-  Arg.cpp
-  ArgList.cpp
-  Option.cpp
-  OptTable.cpp
-
-  ADDITIONAL_HEADER_DIRS
-  ${LLVM_MAIN_INCLUDE_DIR}/llvm/Option
-
-  LINK_COMPONENTS
-  Support
-  )
+version https://git-lfs.github.com/spec/v1
+oid sha256:884792d8eae2e3b3ca4c4620f9aab1313d4a2f8aec80d4f1deaf990ff88a67c3
+size 188

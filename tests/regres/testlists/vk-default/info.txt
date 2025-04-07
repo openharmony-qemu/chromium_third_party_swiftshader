@@ -1,18 +1,3 @@
-dEQP-VK.info.build
-dEQP-VK.info.device
-dEQP-VK.info.platform
-dEQP-VK.info.memory_limits
-dEQP-VK.info.physical_devices
-dEQP-VK.info.physical_device_groups
-dEQP-VK.info.instance_layers
-dEQP-VK.info.instance_extensions
-dEQP-VK.info.device_features
-dEQP-VK.info.device_properties
-dEQP-VK.info.device_queue_family_properties
-dEQP-VK.info.device_memory_properties
-dEQP-VK.info.device_layers
-dEQP-VK.info.device_extensions
-dEQP-VK.info.device_no_khx_extensions
-dEQP-VK.info.device_memory_budget
-dEQP-VK.info.device_mandatory_features
-dEQP-VK.info.device_group_peer_memory_features
+version https://git-lfs.github.com/spec/v1
+oid sha256:13522d338b6ec82d5690ac7bbd3931dae78ea436bd4e7b87cdb07dfbf93bbd9a
+size 623

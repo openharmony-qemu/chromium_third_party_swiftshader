@@ -1,19 +1,3 @@
-add_llvm_component_library(LLVMBitReader
-  BitcodeAnalyzer.cpp
-  BitReader.cpp
-  BitcodeReader.cpp
-  MetadataLoader.cpp
-  ValueList.cpp
-
-  ADDITIONAL_HEADER_DIRS
-  ${LLVM_MAIN_INCLUDE_DIR}/llvm/Bitcode
-
-  DEPENDS
-  intrinsics_gen
-
-  LINK_COMPONENTS
-  BitstreamReader
-  Core
-  Support
-  TargetParser
-  )
+version https://git-lfs.github.com/spec/v1
+oid sha256:cf4a3a0345ea508b40bde8a00874ce827ba53b2904eb44d9d20e5c88d071baee
+size 303

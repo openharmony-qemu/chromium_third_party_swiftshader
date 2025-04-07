@@ -1,27 +1,3 @@
-set(LLVM_LINK_COMPONENTS
-  BinaryFormat
-  BitReader
-  Object
-  Option
-  Support
-  )
-
-set(LLVM_TARGET_DEFINITIONS Options.td)
-tablegen(LLVM Options.inc -gen-opt-parser-defs)
-add_public_tablegen_target(LibOptionsTableGen)
-
-add_llvm_component_library(LLVMLibDriver
-  LibDriver.cpp
-
-  DEPENDS
-  intrinsics_gen
-
-  LINK_COMPONENTS
-  BinaryFormat
-  BitReader
-  Object
-  Option
-  Support
-  TargetParser
-  )
-add_dependencies(LLVMLibDriver LibOptionsTableGen)
+version https://git-lfs.github.com/spec/v1
+oid sha256:f37b317e278618a7a3b95213ff18b9b8b79944d6e32a2552dc142d32e6af4a04
+size 450

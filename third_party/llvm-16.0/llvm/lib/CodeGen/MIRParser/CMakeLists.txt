@@ -1,20 +1,3 @@
-add_llvm_component_library(LLVMMIRParser
-  MILexer.cpp
-  MIParser.cpp
-  MIRParser.cpp
-
-  ADDITIONAL_HEADER_DIRS
-  ${LLVM_MAIN_INCLUDE_DIR}/llvm/CodeGen/MIRParser
-
-  DEPENDS
-  intrinsics_gen
-
-  LINK_COMPONENTS
-  AsmParser
-  BinaryFormat
-  CodeGen
-  Core
-  MC
-  Support
-  Target
-  )
+version https://git-lfs.github.com/spec/v1
+oid sha256:9070ff71d9c33caa782c2b3f7f03bfedeebd0dfab3efa164fbd26689014eebf2
+size 281

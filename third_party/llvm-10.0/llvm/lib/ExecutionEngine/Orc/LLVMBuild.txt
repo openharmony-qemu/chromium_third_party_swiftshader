@@ -1,22 +1,3 @@
-;===- ./lib/ExecutionEngine/Orc/LLVMBuild.txt ----------------*- Conf -*--===;
-;
-; Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.
-; See https://llvm.org/LICENSE.txt for license information.
-; SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
-;
-;===------------------------------------------------------------------------===;
-;
-; This is an LLVMBuild description file for the components in this subdirectory.
-;
-; For more information on the LLVMBuild system, please see:
-;
-;   http://llvm.org/docs/LLVMBuild.html
-;
-;===------------------------------------------------------------------------===;
-
-[component_0]
-type = Library
-name = OrcJIT
-parent = ExecutionEngine
-required_libraries = Core ExecutionEngine JITLink Object OrcError MC Passes
-                     RuntimeDyld Support Target TransformUtils
+version https://git-lfs.github.com/spec/v1
+oid sha256:d051009a95d463b117926e6230da4536e5c0ce3c8726449562174116c1bdc45c
+size 840

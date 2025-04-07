@@ -1,18 +1,3 @@
-add_llvm_component_library(LLVMAMDGPUUtils
-  AMDGPUAsmUtils.cpp
-  AMDGPUBaseInfo.cpp
-  AMDGPUMemoryUtils.cpp
-  AMDGPUPALMetadata.cpp
-  AMDKernelCodeTUtils.cpp
-
-  LINK_COMPONENTS
-  Analysis
-  Core
-  MC
-  BinaryFormat
-  Support
-  TargetParser
-
-  ADD_TO_COMPONENT
-  AMDGPU
-  )
+version https://git-lfs.github.com/spec/v1
+oid sha256:a98ee65e224f63fe91d138cb51ade6daccef7639e361eca2019624f575f2fa9f
+size 274

@@ -1,12 +1,3 @@
-add_llvm_component_library(LLVMPowerPCDesc
-  PPCAsmBackend.cpp
-  PPCInstPrinter.cpp
-  PPCMCTargetDesc.cpp
-  PPCMCAsmInfo.cpp
-  PPCMCCodeEmitter.cpp
-  PPCMCExpr.cpp
-  PPCPredicates.cpp
-  PPCMachObjectWriter.cpp
-  PPCELFObjectWriter.cpp
-  PPCXCOFFObjectWriter.cpp
-  )
+version https://git-lfs.github.com/spec/v1
+oid sha256:52654421662208070c4072cb2d4e2cb8f58bef1ee9fda921ff2f3bd980b058ca
+size 266

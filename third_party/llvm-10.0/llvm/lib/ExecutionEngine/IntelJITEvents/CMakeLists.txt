@@ -1,17 +1,3 @@
-include_directories( ${CMAKE_CURRENT_SOURCE_DIR}/.. )
-
-if( HAVE_LIBDL )
-    set(LLVM_INTEL_JIT_LIBS ${CMAKE_DL_LIBS})
-endif()
-
-set(LLVM_INTEL_JIT_LIBS ${LLVM_PTHREAD_LIB} ${LLVM_INTEL_JIT_LIBS})
-
-
-add_llvm_component_library(LLVMIntelJITEvents
-  IntelJITEventListener.cpp
-  jitprofiling.c
-
-  LINK_LIBS ${LLVM_INTEL_JIT_LIBS}
-)
-
-add_dependencies(LLVMIntelJITEvents LLVMCodeGen)
+version https://git-lfs.github.com/spec/v1
+oid sha256:15671431edec242cd933b23b0d4cf797f5667f9a3ea6392d9af074c7e8931917
+size 376

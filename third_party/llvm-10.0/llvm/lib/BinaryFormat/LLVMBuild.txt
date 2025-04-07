@@ -1,21 +1,3 @@
-;===- ./lib/BinaryFormat/LLVMBuild.txt -------------------------*- Conf -*--===;
-;
-; Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.
-; See https://llvm.org/LICENSE.txt for license information.
-; SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
-;
-;===------------------------------------------------------------------------===;
-;
-; This is an LLVMBuild description file for the components in this subdirectory.
-;
-; For more information on the LLVMBuild system, please see:
-;
-;   http://llvm.org/docs/LLVMBuild.html
-;
-;===------------------------------------------------------------------------===;
-
-[component_0]
-type = Library
-name = BinaryFormat
-parent = Libraries
-required_libraries = Support
+version https://git-lfs.github.com/spec/v1
+oid sha256:253c79c805db265e1a17ea3277c1adc90166f221ac5633638465bef79572e34c
+size 732

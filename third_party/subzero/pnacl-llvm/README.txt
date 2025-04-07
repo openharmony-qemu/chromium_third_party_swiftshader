@@ -1,9 +1,3 @@
-The files in this directory are copied verbatim from the PNaCl repository.  They
-are ultimately needed by PNaClTranslator.cpp.
-
-Individual files are copied from:
-
-https://chromium.googlesource.com/native_client/pnacl-llvm/+/master/include/llvm/Bitcode/NaCl/
-https://chromium.googlesource.com/native_client/pnacl-llvm/+/master/lib/Bitcode/NaCl/Reader/
-
-Only the files needed for compiling and linking pnacl-sz are copied.
+version https://git-lfs.github.com/spec/v1
+oid sha256:89cf217b3ffc05a2ba60ef21e802d5bea56943065b55c616e3ea3723f0f14e3e
+size 421

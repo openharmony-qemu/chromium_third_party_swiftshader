@@ -1,21 +1,3 @@
-;===- ./lib/Bitcode/Writer/LLVMBuild.txt -----------------------*- Conf -*--===;
-;
-; Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.
-; See https://llvm.org/LICENSE.txt for license information.
-; SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
-;
-;===------------------------------------------------------------------------===;
-;
-; This is an LLVMBuild description file for the components in this subdirectory.
-;
-; For more information on the LLVMBuild system, please see:
-;
-;   http://llvm.org/docs/LLVMBuild.html
-;
-;===------------------------------------------------------------------------===;
-
-[component_0]
-type = Library
-name = BitWriter
-parent = Bitcode
-required_libraries = Analysis Core MC Object Support
+version https://git-lfs.github.com/spec/v1
+oid sha256:cbadb76594f921dca86ff66b1ed89a53163b2374eca57200e50514e95ba8a2e6
+size 751

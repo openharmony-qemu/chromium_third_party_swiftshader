@@ -1,30 +1,3 @@
-add_llvm_component_library(LLVMProfileData
-  GCOV.cpp
-  InstrProf.cpp
-  InstrProfCorrelator.cpp
-  InstrProfReader.cpp
-  InstrProfWriter.cpp
-  MemProf.cpp
-  ProfileSummaryBuilder.cpp
-  SampleProf.cpp
-  SampleProfReader.cpp
-  SampleProfWriter.cpp
-  RawMemProfReader.cpp
-
-  ADDITIONAL_HEADER_DIRS
-  ${LLVM_MAIN_INCLUDE_DIR}/llvm/ProfileData
-
-  DEPENDS
-  intrinsics_gen
-
-  LINK_COMPONENTS
-  Core
-  Object
-  Support
-  Demangle
-  Symbolize
-  DebugInfoDWARF
-  TargetParser
-  )
-
-add_subdirectory(Coverage)
+version https://git-lfs.github.com/spec/v1
+oid sha256:ebf998034cccec73e81c7c9646c802b7a847589033fb1f9226b2244bf3f5dfee
+size 498

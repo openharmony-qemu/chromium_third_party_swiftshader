@@ -1,17 +1,3 @@
-add_llvm_component_library(LLVMAggressiveInstCombine
-  AggressiveInstCombine.cpp
-  TruncInstCombine.cpp
-
-  ADDITIONAL_HEADER_DIRS
-  ${LLVM_MAIN_INCLUDE_DIR}/llvm/Transforms
-  ${LLVM_MAIN_INCLUDE_DIR}/llvm/Transforms/AggressiveInstCombine
-
-  DEPENDS
-  intrinsics_gen
-
-  LINK_COMPONENTS
-  Analysis
-  Core
-  Support
-  TransformUtils
-  )
+version https://git-lfs.github.com/spec/v1
+oid sha256:383b5bf8889ed735f8ece13e83aeb28b218d03f93bda4d39e05c771f5147b9f4
+size 334

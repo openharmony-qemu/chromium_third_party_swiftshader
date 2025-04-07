@@ -1,11 +1,3 @@
-add_llvm_component_library(LLVMAArch64Utils
-  AArch64BaseInfo.cpp
-  AArch64SMEAttributes.cpp
-
-  LINK_COMPONENTS
-  Support
-  Core
-
-  ADD_TO_COMPONENT
-  AArch64
-  )
+version https://git-lfs.github.com/spec/v1
+oid sha256:76ac00748500943b5c2f008507f9ec1efb31632f635f14027ee8a7779268a269
+size 163

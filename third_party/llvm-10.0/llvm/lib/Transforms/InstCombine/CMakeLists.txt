@@ -1,27 +1,3 @@
-set(LLVM_TARGET_DEFINITIONS InstCombineTables.td)
-tablegen(LLVM InstCombineTables.inc -gen-searchable-tables)
-add_public_tablegen_target(InstCombineTableGen)
-
-add_llvm_component_library(LLVMInstCombine
-  InstructionCombining.cpp
-  InstCombineAddSub.cpp
-  InstCombineAtomicRMW.cpp
-  InstCombineAndOrXor.cpp
-  InstCombineCalls.cpp
-  InstCombineCasts.cpp
-  InstCombineCompares.cpp
-  InstCombineLoadStoreAlloca.cpp
-  InstCombineMulDivRem.cpp
-  InstCombinePHI.cpp
-  InstCombineSelect.cpp
-  InstCombineShifts.cpp
-  InstCombineSimplifyDemanded.cpp
-  InstCombineVectorOps.cpp
-
-  ADDITIONAL_HEADER_DIRS
-  ${LLVM_MAIN_INCLUDE_DIR}/llvm/Transforms
-  ${LLVM_MAIN_INCLUDE_DIR}/llvm/Transforms/InstCombine
-
-  DEPENDS
-  intrinsics_gen
-  )
+version https://git-lfs.github.com/spec/v1
+oid sha256:b9f3688dca112219e475bfbaff033d72b2182a93a42c512fda138d3f61366ec7
+size 724
