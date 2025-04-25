@@ -206164,6 +206164,7 @@ dEQP-VK.pipeline.monolithic.spec_constant.compute.local_size.xz
 dEQP-VK.pipeline.monolithic.spec_constant.compute.local_size.y
 dEQP-VK.pipeline.monolithic.spec_constant.compute.local_size.yz
 dEQP-VK.pipeline.monolithic.spec_constant.compute.local_size.z
+dEQP-VK.pipeline.monolithic.spec_constant.compute.unaligned_spec_constant.test
 dEQP-VK.pipeline.monolithic.spec_constant.graphics.fragment.basic.bool
 dEQP-VK.pipeline.monolithic.spec_constant.graphics.fragment.basic.bool_packed
 dEQP-VK.pipeline.monolithic.spec_constant.graphics.fragment.basic.double
