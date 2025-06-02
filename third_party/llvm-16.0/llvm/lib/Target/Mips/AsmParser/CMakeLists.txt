@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e4128aed352d27690152b82b0e4ae5340b072e6e4d62414fb66938ae92fb2cf7
-size 178
+add_llvm_component_library(LLVMMipsAsmParser
+  MipsAsmParser.cpp
+
+  LINK_COMPONENTS
+  MC
+  MCParser
+  MipsDesc
+  MipsInfo
+  Support
+  TargetParser
+
+  ADD_TO_COMPONENT
+  Mips
+  )

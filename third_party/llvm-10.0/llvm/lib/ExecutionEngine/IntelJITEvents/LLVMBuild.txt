@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:790786760019d4e8910c07fa245bae4db556935a6844cc86a6f1ed037f2c6a9d
-size 809
+;===- ./lib/ExecutionEngine/JITProfileAmplifier/LLVMBuild.txt --*- Conf -*--===;
+;
+; Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.
+; See https://llvm.org/LICENSE.txt for license information.
+; SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
+;
+;===------------------------------------------------------------------------===;
+;
+; This is an LLVMBuild description file for the components in this subdirectory.
+;
+; For more information on the LLVMBuild system, please see:
+;
+;   http://llvm.org/docs/LLVMBuild.html
+;
+;===------------------------------------------------------------------------===;
+
+[common]
+
+[component_0]
+type = OptionalLibrary
+name = IntelJITEvents
+parent = ExecutionEngine
+required_libraries = CodeGen Core DebugInfoDWARF Support Object ExecutionEngine

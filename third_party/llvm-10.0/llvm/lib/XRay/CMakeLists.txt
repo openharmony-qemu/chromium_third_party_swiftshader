@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:36a49124c2ce4da619e83a6d71e68e9fa8c2220fbb30b81200fe6c49481db4fd
-size 425
+add_llvm_component_library(LLVMXRay
+  BlockIndexer.cpp
+  BlockPrinter.cpp
+  BlockVerifier.cpp
+  FDRRecordProducer.cpp
+  FDRRecords.cpp
+  FDRTraceExpander.cpp
+  FDRTraceWriter.cpp
+  FileHeaderReader.cpp
+  InstrumentationMap.cpp
+  LogBuilderConsumer.cpp
+  Profile.cpp
+  RecordInitializer.cpp
+  RecordPrinter.cpp
+  Trace.cpp
+
+  ADDITIONAL_HEADER_DIRS
+  ${LLVM_MAIN_INCLUDE_DIR}/llvm/ADT
+  ${LLVM_MAIN_INCLUDE_DIR}/llvm/XRay
+  )

@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6c709d2409b7c5a171fd3b0fbecad097f92853fe9867e8e783e46754407ccb42
-size 268
+add_llvm_component_library(LLVMRemarks
+  BitstreamRemarkParser.cpp
+  BitstreamRemarkSerializer.cpp
+  Remark.cpp
+  RemarkFormat.cpp
+  RemarkLinker.cpp
+  RemarkParser.cpp
+  RemarkSerializer.cpp
+  RemarkStringTable.cpp
+  YAMLRemarkParser.cpp
+  YAMLRemarkSerializer.cpp
+)

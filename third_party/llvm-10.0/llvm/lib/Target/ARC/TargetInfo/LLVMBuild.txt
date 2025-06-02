@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:050cbd604cc10d159195ab8757a3408535c50c5eff99e322a86aa475e4ccbe4e
-size 747
+;===- ./lib/Target/ARC/TargetInfo/LLVMBuild.txt --------------*- Conf -*--===;
+;
+; Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.
+; See https://llvm.org/LICENSE.txt for license information.
+; SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
+;
+;===------------------------------------------------------------------------===;
+;
+; This is an LLVMBuild description file for the components in this subdirectory.
+;
+; For more information on the LLVMBuild system, please see:
+;
+;   http://llvm.org/docs/LLVMBuild.html
+;
+;===------------------------------------------------------------------------===;
+
+[component_0]
+type = Library
+name = ARCInfo
+parent = ARC
+required_libraries = Support
+add_to_library_groups = ARC

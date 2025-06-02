@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3c589befe4920b8ce29a3b6f3a59d22ba865c51866effc15166b9118829bd1c6
-size 774
+;===- ./lib/Object/LLVMBuild.txt -------------------------------*- Conf -*--===;
+;
+; Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.
+; See https://llvm.org/LICENSE.txt for license information.
+; SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
+;
+;===------------------------------------------------------------------------===;
+;
+; This is an LLVMBuild description file for the components in this subdirectory.
+;
+; For more information on the LLVMBuild system, please see:
+;
+;   http://llvm.org/docs/LLVMBuild.html
+;
+;===------------------------------------------------------------------------===;
+
+[component_0]
+type = Library
+name = Object
+parent = Libraries
+required_libraries = BitReader Core MC BinaryFormat MCParser Support TextAPI

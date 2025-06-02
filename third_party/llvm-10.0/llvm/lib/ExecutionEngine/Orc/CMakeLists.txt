@@ -1,3 +1,38 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d096b0a3f4485e9b148e1abcb318625c6c4d55195178ccc83f649554ed6f26c4
-size 736
+add_llvm_component_library(LLVMOrcJIT
+  CompileOnDemandLayer.cpp
+  CompileUtils.cpp
+  Core.cpp
+  DebugUtils.cpp
+  ExecutionUtils.cpp
+  IndirectionUtils.cpp
+  IRCompileLayer.cpp
+  IRTransformLayer.cpp
+  JITTargetMachineBuilder.cpp
+  LazyReexports.cpp
+  Legacy.cpp
+  Layer.cpp
+  LLJIT.cpp
+  NullResolver.cpp
+  ObjectLinkingLayer.cpp
+  ObjectTransformLayer.cpp
+  OrcABISupport.cpp
+  OrcCBindings.cpp
+  OrcMCJITReplacement.cpp
+  RTDyldObjectLinkingLayer.cpp
+  ThreadSafeModule.cpp
+  Speculation.cpp
+  SpeculateAnalyses.cpp
+  ADDITIONAL_HEADER_DIRS
+  ${LLVM_MAIN_INCLUDE_DIR}/llvm/ExecutionEngine/Orc
+
+  DEPENDS
+  intrinsics_gen
+  )
+
+target_link_libraries(LLVMOrcJIT
+  PRIVATE
+  LLVMAnalysis
+  LLVMBitReader
+  LLVMBitWriter
+  LLVMPasses
+  )

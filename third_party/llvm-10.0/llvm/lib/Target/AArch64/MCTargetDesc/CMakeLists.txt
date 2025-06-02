@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7a8e8e586e9e4579adb71fcc64bad2d7a678ff07f90b9fdbdb549d3f06d90a1a
-size 579
+add_llvm_component_library(LLVMAArch64Desc
+  AArch64AsmBackend.cpp
+  AArch64ELFObjectWriter.cpp
+  AArch64ELFStreamer.cpp
+  AArch64InstPrinter.cpp
+  AArch64MCAsmInfo.cpp
+  AArch64MCCodeEmitter.cpp
+  AArch64MCExpr.cpp
+  AArch64MCTargetDesc.cpp
+  AArch64MachObjectWriter.cpp
+  AArch64TargetStreamer.cpp
+  AArch64WinCOFFObjectWriter.cpp
+  AArch64WinCOFFStreamer.cpp
+)
+add_dependencies(LLVMAArch64Desc AArch64CommonTableGen)
+
+# Hack: we need to include 'main' target directory to grab private headers
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/.. ${CMAKE_CURRENT_BINARY_DIR}/..)

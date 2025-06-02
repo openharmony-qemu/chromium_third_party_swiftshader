@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d1801ce54f2222cd50d8df939f407c7e544bcc906735e66f878e2a42cfa9c6d4
-size 326
+add_llvm_component_library(LLVMTextAPI
+  Architecture.cpp
+  ArchitectureSet.cpp
+  InterfaceFile.cpp
+  PackedVersion.cpp
+  Platform.cpp
+  Symbol.cpp
+  Target.cpp
+  TextStub.cpp
+  TextStubCommon.cpp
+
+  ADDITIONAL_HEADER_DIRS
+  "${LLVM_MAIN_INCLUDE_DIR}/llvm/TextAPI"
+
+  LINK_COMPONENTS
+  Support
+  BinaryFormat
+  TargetParser
+)

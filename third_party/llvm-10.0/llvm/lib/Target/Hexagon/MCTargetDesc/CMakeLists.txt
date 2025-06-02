@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:330bf3ea74c142874ebc40479262ed387b9949ecac444b47fa51e0d56937ef47
-size 449
+add_llvm_component_library(LLVMHexagonDesc
+  HexagonAsmBackend.cpp
+  HexagonELFObjectWriter.cpp
+  HexagonInstPrinter.cpp
+  HexagonMCAsmInfo.cpp
+  HexagonMCChecker.cpp
+  HexagonMCCodeEmitter.cpp
+  HexagonMCCompound.cpp
+  HexagonMCDuplexInfo.cpp
+  HexagonMCELFStreamer.cpp
+  HexagonMCExpr.cpp
+  HexagonMCInstrInfo.cpp
+  HexagonMCShuffler.cpp
+  HexagonMCTargetDesc.cpp
+  HexagonShuffler.cpp
+  )
+
+add_dependencies(LLVMHexagonDesc HexagonCommonTableGen)

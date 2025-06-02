@@ -1,3 +1,9 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d46955b397a7889a8b8890dcd29fb1b8491af0e5c8f4bf843c8454452185540d
-size 218
+include_directories( ${CMAKE_CURRENT_BINARY_DIR}/..
+                     ${CMAKE_CURRENT_SOURCE_DIR}/.. )
+
+add_llvm_component_library(LLVMAVRInfo
+  AVRTargetInfo.cpp
+)
+
+add_dependencies(LLVMAVRInfo AVRCommonTableGen)
+

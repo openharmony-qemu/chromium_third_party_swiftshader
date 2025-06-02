@@ -1,3 +1,36 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9b0d99d72519ae5dad5df816719b57e01199a9d6aac26b6407c0ffd5a4a78956
-size 835
+add_llvm_component_group(Xtensa)
+
+set(LLVM_TARGET_DEFINITIONS Xtensa.td)
+
+tablegen(LLVM XtensaGenAsmMatcher.inc -gen-asm-matcher)
+tablegen(LLVM XtensaGenAsmWriter.inc -gen-asm-writer)
+tablegen(LLVM XtensaGenDisassemblerTables.inc -gen-disassembler)
+tablegen(LLVM XtensaGenInstrInfo.inc -gen-instr-info)
+tablegen(LLVM XtensaGenMCCodeEmitter.inc -gen-emitter)
+tablegen(LLVM XtensaGenRegisterInfo.inc -gen-register-info)
+tablegen(LLVM XtensaGenSubtargetInfo.inc -gen-subtarget)
+
+add_public_tablegen_target(XtensaCommonTableGen)
+
+add_llvm_target(XtensaCodeGen
+  XtensaTargetMachine.cpp
+
+  LINK_COMPONENTS
+  AsmPrinter
+  CodeGen
+  Core
+  MC
+  Support
+  Target
+  XtensaDesc
+  XtensaInfo
+
+  ADD_TO_COMPONENT
+  Xtensa
+  )
+
+add_subdirectory(AsmParser)
+add_subdirectory(Disassembler)
+add_subdirectory(MCTargetDesc)
+add_subdirectory(TargetInfo)
+

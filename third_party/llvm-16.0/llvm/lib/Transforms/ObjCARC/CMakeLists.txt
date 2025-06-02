@@ -1,3 +1,26 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0dcf128d287905e7b027346b5ea606dcc15b9b540bb6df4e586a2e5e76546743
-size 429
+add_llvm_component_library(LLVMObjCARCOpts
+  ObjCARC.cpp
+  ObjCARCOpts.cpp
+  ObjCARCExpand.cpp
+  ObjCARCAPElim.cpp
+  ObjCARCContract.cpp
+  DependencyAnalysis.cpp
+  ProvenanceAnalysis.cpp
+  ProvenanceAnalysisEvaluator.cpp
+  PtrState.cpp
+
+  ADDITIONAL_HEADER_DIRS
+  ${LLVM_MAIN_INCLUDE_DIR}/llvm/Transforms
+
+  DEPENDS
+  intrinsics_gen
+
+  COMPONENT_NAME
+  ObjCARC
+
+  LINK_COMPONENTS
+  Analysis
+  Core
+  Support
+  TransformUtils
+  )

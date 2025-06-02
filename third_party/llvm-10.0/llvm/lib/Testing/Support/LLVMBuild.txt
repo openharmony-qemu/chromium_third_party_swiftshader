@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c6d7b2dd21629100b23bfb6a9c8ca265cf7cb8408e058715a1fde3fceb67a0d0
-size 748
+;===- ./Testing/Support/LLVMBuild.txt --------------------------*- Conf -*--===;
+;
+; Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.
+; See https://llvm.org/LICENSE.txt for license information.
+; SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
+;
+;===------------------------------------------------------------------------===;
+;
+; This is an LLVMBuild description file for the components in this subdirectory.
+;
+; For more information on the LLVMBuild system, please see:
+;
+;   http://llvm.org/docs/LLVMBuild.html
+;
+;===------------------------------------------------------------------------===;
+
+[component_0]
+type = Library
+name = TestingSupport
+parent = Libraries
+required_libraries = Support
+installed = 0

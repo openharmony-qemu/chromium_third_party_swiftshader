@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:67f6b713b98c67c134141db4d793c452886fe295907bb86b4bfc0ca3b0a5c699
-size 178
+add_llvm_component_library(LLVMSystemZAsmParser
+  SystemZAsmParser.cpp
+
+  LINK_COMPONENTS
+  MC
+  MCParser
+  Support
+  SystemZDesc
+  SystemZInfo
+
+  ADD_TO_COMPONENT
+  SystemZ
+  )

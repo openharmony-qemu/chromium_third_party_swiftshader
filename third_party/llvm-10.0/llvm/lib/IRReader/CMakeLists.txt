@@ -1,3 +1,9 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f09fef52e5fbb7b811965cd18fe41fbfe88d8846968aff315e1ef4cc412c7562
-size 154
+add_llvm_component_library(LLVMIRReader
+  IRReader.cpp
+
+  ADDITIONAL_HEADER_DIRS
+  ${LLVM_MAIN_INCLUDE_DIR}/llvm/IRReader
+
+  DEPENDS
+  intrinsics_gen
+  )

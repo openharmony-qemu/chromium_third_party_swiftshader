@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bf62551114973e15558eff2ad9f0d064901914a7dea0c2d4f1ea9ab97d808e3c
-size 337
+add_llvm_component_library(LLVMMipsDesc
+  MipsABIInfo.cpp
+  MipsABIFlagsSection.cpp
+  MipsAsmBackend.cpp
+  MipsELFObjectWriter.cpp
+  MipsELFStreamer.cpp
+  MipsInstPrinter.cpp
+  MipsMCAsmInfo.cpp
+  MipsMCCodeEmitter.cpp
+  MipsMCExpr.cpp
+  MipsMCTargetDesc.cpp
+  MipsNaClELFStreamer.cpp
+  MipsOptionRecord.cpp
+  MipsTargetStreamer.cpp
+  )

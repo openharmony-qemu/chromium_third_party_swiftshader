@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3759bf485566cf24a9515cfa57dfae3f0da01d81a87912c80e8d4e1b931e1eda
-size 792
+;===- ./lib/Target/Lanai/AsmParser/LLVMBuild.txt ----------------*- Conf -*-===;
+;
+; Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.
+; See https://llvm.org/LICENSE.txt for license information.
+; SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
+;
+;===------------------------------------------------------------------------===;
+;
+; This is an LLVMBuild description file for the components in this subdirectory.
+;
+; For more information on the LLVMBuild system, please see:
+;
+;   http://llvm.org/docs/LLVMBuild.html
+;
+;===------------------------------------------------------------------------===;
+
+[component_0]
+type = Library
+name = LanaiAsmParser
+parent = Lanai
+required_libraries = MC MCParser Support LanaiDesc LanaiInfo
+add_to_library_groups = Lanai

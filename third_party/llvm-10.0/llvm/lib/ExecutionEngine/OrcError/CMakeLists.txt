@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bfd39e7c894fba940e79bf66e754afda721d80c7e335325794552e661639cba3
-size 151
+add_llvm_component_library(LLVMOrcError
+  OrcError.cpp
+  RPCError.cpp
+  ADDITIONAL_HEADER_DIRS
+  ${LLVM_MAIN_INCLUDE_DIR}/llvm/ExecutionEngine/Orc
+  )

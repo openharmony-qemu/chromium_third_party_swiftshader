@@ -1,3 +1,40 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bce873f614f8a37926ec98fb99d769d8af898316c2271b0cfc49053b4bf2be6b
-size 774
+add_llvm_component_library(LLVMSelectionDAG
+  DAGCombiner.cpp
+  FastISel.cpp
+  FunctionLoweringInfo.cpp
+  InstrEmitter.cpp
+  LegalizeDAG.cpp
+  LegalizeFloatTypes.cpp
+  LegalizeIntegerTypes.cpp
+  LegalizeTypes.cpp
+  LegalizeTypesGeneric.cpp
+  LegalizeVectorOps.cpp
+  LegalizeVectorTypes.cpp
+  ResourcePriorityQueue.cpp
+  ScheduleDAGFast.cpp
+  ScheduleDAGRRList.cpp
+  ScheduleDAGSDNodes.cpp
+  ScheduleDAGVLIW.cpp
+  SelectionDAGBuilder.cpp
+  SelectionDAG.cpp
+  SelectionDAGAddressAnalysis.cpp
+  SelectionDAGDumper.cpp
+  SelectionDAGISel.cpp
+  SelectionDAGPrinter.cpp
+  SelectionDAGTargetInfo.cpp
+  StatepointLowering.cpp
+  TargetLowering.cpp
+
+  DEPENDS
+  intrinsics_gen
+
+  LINK_COMPONENTS
+  Analysis
+  CodeGen
+  Core
+  MC
+  Support
+  Target
+  TargetParser
+  TransformUtils
+  )

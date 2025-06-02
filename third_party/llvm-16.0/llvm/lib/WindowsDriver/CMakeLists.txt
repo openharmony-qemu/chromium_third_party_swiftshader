@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ead691b4d2033858042271ed66fb0d6f765d809d418ef949cfb14e1ce81ce16a
-size 222
+add_llvm_component_library(LLVMWindowsDriver
+  MSVCPaths.cpp
+
+  ADDITIONAL_HEADER_DIRS
+  ${LLVM_MAIN_INCLUDE_DIR}/llvm/WindowsDriver
+
+  LINK_LIBS
+  ${imported_libs}
+
+  LINK_COMPONENTS
+  Option
+  Support
+  TargetParser
+  )

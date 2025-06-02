@@ -1,3 +1,41 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c68f2d182f44223f0cdff62ac3941a79bedaf928fb6412f37f3dd2ea9cfcec80
-size 898
+add_llvm_component_library(LLVMDebugInfoDWARF
+  DWARFAbbreviationDeclaration.cpp
+  DWARFAddressRange.cpp
+  DWARFAcceleratorTable.cpp
+  DWARFCompileUnit.cpp
+  DWARFContext.cpp
+  DWARFDataExtractor.cpp
+  DWARFDebugAbbrev.cpp
+  DWARFDebugAddr.cpp
+  DWARFDebugArangeSet.cpp
+  DWARFDebugAranges.cpp
+  DWARFDebugFrame.cpp
+  DWARFTypePrinter.cpp
+  DWARFDebugInfoEntry.cpp
+  DWARFDebugLine.cpp
+  DWARFDebugLoc.cpp
+  DWARFDebugMacro.cpp
+  DWARFDebugPubTable.cpp
+  DWARFDebugRangeList.cpp
+  DWARFDebugRnglists.cpp
+  DWARFDie.cpp
+  DWARFExpression.cpp
+  DWARFFormValue.cpp
+  DWARFGdbIndex.cpp
+  DWARFListTable.cpp
+  DWARFLocationExpression.cpp
+  DWARFTypeUnit.cpp
+  DWARFUnitIndex.cpp
+  DWARFUnit.cpp
+  DWARFVerifier.cpp
+
+  ADDITIONAL_HEADER_DIRS
+  ${LLVM_MAIN_INCLUDE_DIR}/llvm/DebugInfo/DWARF
+  ${LLVM_MAIN_INCLUDE_DIR}/llvm/DebugInfo
+
+  LINK_COMPONENTS
+  BinaryFormat
+  Object
+  Support
+  TargetParser
+  )

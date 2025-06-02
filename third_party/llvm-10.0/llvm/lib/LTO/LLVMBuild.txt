@@ -1,3 +1,39 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7317ec54a1f60c1e785e53d7ebbaa7eab7817dc0eb52b998e25ba52a854981bd
-size 890
+;===- ./lib/LTO/LLVMBuild.txt ----------------------------------*- Conf -*--===;
+;
+; Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.
+; See https://llvm.org/LICENSE.txt for license information.
+; SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
+;
+;===------------------------------------------------------------------------===;
+;
+; This is an LLVMBuild description file for the components in this subdirectory.
+;
+; For more information on the LLVMBuild system, please see:
+;
+;   http://llvm.org/docs/LLVMBuild.html
+;
+;===------------------------------------------------------------------------===;
+
+[component_0]
+type = Library
+name = LTO
+parent = Libraries
+required_libraries =
+ AggressiveInstCombine
+ Analysis
+ BitReader
+ BitWriter
+ CodeGen
+ Core
+ IPO
+ InstCombine
+ Linker
+ MC
+ ObjCARC
+ Object
+ Passes
+ Remarks
+ Scalar
+ Support
+ Target
+ TransformUtils

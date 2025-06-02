@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e7680fb3c0fa44603f8c36d30d5e05fcf1dee0b12e7c2d62eb37ff370ff19fb9
-size 440
+add_llvm_component_library(LLVMMCParser
+  AsmLexer.cpp
+  AsmParser.cpp
+  COFFAsmParser.cpp
+  COFFMasmParser.cpp
+  GOFFAsmParser.cpp
+  DarwinAsmParser.cpp
+  ELFAsmParser.cpp
+  MCAsmLexer.cpp
+  MCAsmParser.cpp
+  MCAsmParserExtension.cpp
+  MCTargetAsmParser.cpp
+  MasmParser.cpp
+  WasmAsmParser.cpp
+  XCOFFAsmParser.cpp
+
+  ADDITIONAL_HEADER_DIRS
+  ${LLVM_MAIN_INCLUDE_DIR}/llvm/MC/MCParser
+
+  LINK_COMPONENTS
+  MC
+  Support
+  TargetParser
+  )

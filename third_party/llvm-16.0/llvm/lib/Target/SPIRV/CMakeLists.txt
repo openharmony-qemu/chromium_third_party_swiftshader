@@ -1,3 +1,59 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5b6fd6f8dcca59c7bc0913a2812c76fe50110880c6c87aa5f63d4c27912f43f8
-size 1356
+add_llvm_component_group(SPIRV)
+
+set(LLVM_TARGET_DEFINITIONS SPIRV.td)
+
+tablegen(LLVM SPIRVGenAsmWriter.inc -gen-asm-writer)
+tablegen(LLVM SPIRVGenGlobalISel.inc -gen-global-isel)
+tablegen(LLVM SPIRVGenInstrInfo.inc -gen-instr-info)
+tablegen(LLVM SPIRVGenMCCodeEmitter.inc -gen-emitter)
+tablegen(LLVM SPIRVGenRegisterBank.inc -gen-register-bank)
+tablegen(LLVM SPIRVGenRegisterInfo.inc -gen-register-info)
+tablegen(LLVM SPIRVGenSubtargetInfo.inc -gen-subtarget)
+tablegen(LLVM SPIRVGenTables.inc -gen-searchable-tables)
+
+add_public_tablegen_target(SPIRVCommonTableGen)
+
+add_llvm_target(SPIRVCodeGen
+  SPIRVAsmPrinter.cpp
+  SPIRVBuiltins.cpp
+  SPIRVCallLowering.cpp
+  SPIRVDuplicatesTracker.cpp
+  SPIRVEmitIntrinsics.cpp
+  SPIRVGlobalRegistry.cpp
+  SPIRVInstrInfo.cpp
+  SPIRVInstructionSelector.cpp
+  SPIRVISelLowering.cpp
+  SPIRVLegalizerInfo.cpp
+  SPIRVMCInstLower.cpp
+  SPIRVModuleAnalysis.cpp
+  SPIRVPreLegalizer.cpp
+  SPIRVPrepareFunctions.cpp
+  SPIRVRegisterBankInfo.cpp
+  SPIRVRegisterInfo.cpp
+  SPIRVRegularizer.cpp
+  SPIRVSubtarget.cpp
+  SPIRVTargetMachine.cpp
+  SPIRVUtils.cpp
+
+  LINK_COMPONENTS
+  Analysis
+  AsmPrinter
+  CodeGen
+  Core
+  Demangle
+  GlobalISel
+  MC
+  SPIRVDesc
+  SPIRVInfo
+  SelectionDAG
+  Support
+  Target
+  TargetParser
+  TransformUtils
+
+  ADD_TO_COMPONENT
+  SPIRV
+  )
+
+add_subdirectory(MCTargetDesc)
+add_subdirectory(TargetInfo)

@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d08c3a05861a075bce3a05024a150177bcbf618d290fd224c5329e385323288a
-size 768
+;===- ./lib/Target/Sparc/MCTargetDesc/LLVMBuild.txt ------------*- Conf -*--===;
+;
+; Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.
+; See https://llvm.org/LICENSE.txt for license information.
+; SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
+;
+;===------------------------------------------------------------------------===;
+;
+; This is an LLVMBuild description file for the components in this subdirectory.
+;
+; For more information on the LLVMBuild system, please see:
+;
+;   http://llvm.org/docs/LLVMBuild.html
+;
+;===------------------------------------------------------------------------===;
+
+[component_0]
+type = Library
+name = SparcDesc
+parent = Sparc
+required_libraries = MC SparcInfo Support
+add_to_library_groups = Sparc

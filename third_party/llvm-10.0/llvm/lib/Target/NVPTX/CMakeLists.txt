@@ -1,3 +1,41 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:65626547bd026d44429f0ac152f53e2a278225296e6d32c7a06be67d26226a42
-size 1086
+set(LLVM_TARGET_DEFINITIONS NVPTX.td)
+
+tablegen(LLVM NVPTXGenAsmWriter.inc -gen-asm-writer)
+tablegen(LLVM NVPTXGenDAGISel.inc -gen-dag-isel)
+tablegen(LLVM NVPTXGenInstrInfo.inc -gen-instr-info)
+tablegen(LLVM NVPTXGenRegisterInfo.inc -gen-register-info)
+tablegen(LLVM NVPTXGenSubtargetInfo.inc -gen-subtarget)
+
+add_public_tablegen_target(NVPTXCommonTableGen)
+
+set(NVPTXCodeGen_sources
+  NVPTXAllocaHoisting.cpp
+  NVPTXAsmPrinter.cpp
+  NVPTXAssignValidGlobalNames.cpp
+  NVPTXFrameLowering.cpp
+  NVPTXGenericToNVVM.cpp
+  NVPTXISelDAGToDAG.cpp
+  NVPTXISelLowering.cpp
+  NVPTXImageOptimizer.cpp
+  NVPTXInstrInfo.cpp
+  NVPTXLowerAggrCopies.cpp
+  NVPTXLowerArgs.cpp
+  NVPTXLowerAlloca.cpp
+  NVPTXPeephole.cpp
+  NVPTXMCExpr.cpp
+  NVPTXPrologEpilogPass.cpp
+  NVPTXRegisterInfo.cpp
+  NVPTXReplaceImageHandles.cpp
+  NVPTXSubtarget.cpp
+  NVPTXTargetMachine.cpp
+  NVPTXTargetTransformInfo.cpp
+  NVPTXUtilities.cpp
+  NVVMIntrRange.cpp
+  NVVMReflect.cpp
+  NVPTXProxyRegErasure.cpp
+  )
+
+add_llvm_target(NVPTXCodeGen ${NVPTXCodeGen_sources})
+
+add_subdirectory(MCTargetDesc)
+add_subdirectory(TargetInfo)

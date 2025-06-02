@@ -1,3 +1,27 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e86ea206d2836fa306ab92b36844d4f506419a6ee81e623b30ac62893319a30f
-size 660
+add_llvm_component_library(LLVMGlobalISel
+        CSEInfo.cpp
+        GISelKnownBits.cpp
+        CSEMIRBuilder.cpp
+        CallLowering.cpp
+        GlobalISel.cpp
+        Combiner.cpp
+        CombinerHelper.cpp
+        GISelChangeObserver.cpp
+        IRTranslator.cpp
+        InstructionSelect.cpp
+        InstructionSelector.cpp
+        LegalityPredicates.cpp
+        LegalizeMutations.cpp
+        Legalizer.cpp
+        LegalizerHelper.cpp
+        LegalizerInfo.cpp
+        Localizer.cpp
+        MachineIRBuilder.cpp
+        RegBankSelect.cpp
+        RegisterBank.cpp
+        RegisterBankInfo.cpp
+        Utils.cpp
+
+        DEPENDS
+        intrinsics_gen
+  )
