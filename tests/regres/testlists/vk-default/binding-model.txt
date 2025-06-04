@@ -10275,6 +10275,10 @@ dEQP-VK.binding_model.descriptor_copy.graphics_uab.uniform_texel_buffer_6
 dEQP-VK.binding_model.descriptor_copy.graphics_uab.uniform_texel_buffer_array0
 dEQP-VK.binding_model.descriptor_copy.graphics_uab.uniform_texel_buffer_array1
 dEQP-VK.binding_model.descriptor_copy.graphics_uab.uniform_texel_buffer_array2
+dEQP-VK.binding_model.descriptor_copy.misc.copy_immutable_sampler_1_images
+dEQP-VK.binding_model.descriptor_copy.misc.copy_immutable_sampler_1_images_buffer_first
+dEQP-VK.binding_model.descriptor_copy.misc.copy_immutable_sampler_4_images
+dEQP-VK.binding_model.descriptor_copy.misc.copy_immutable_sampler_4_images_buffer_first
 dEQP-VK.binding_model.descriptor_update.acceleration_structure.ray_query.regular.ahit
 dEQP-VK.binding_model.descriptor_update.acceleration_structure.ray_query.regular.call
 dEQP-VK.binding_model.descriptor_update.acceleration_structure.ray_query.regular.chit
