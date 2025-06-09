@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:33fb90eb96945126efcbad03d97632614e97e410e89d669c05adc6f523d9f1e9
-size 258
+dEQP-VK.graphicsfuzz.call-function-with-discard
+dEQP-VK.graphicsfuzz.cov-basic-block-discard-in-function
+dEQP-VK.graphicsfuzz.cov-wrap-op-kill-for-loop
+dEQP-VK.graphicsfuzz.cov-wrap-op-kill-two-branches
+dEQP-VK.graphicsfuzz.two-nested-infinite-loops-discard

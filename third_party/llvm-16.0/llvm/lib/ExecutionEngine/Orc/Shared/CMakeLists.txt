@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:022fac57a9e743e5ba22ec470b2d8a1ce14098bb8f13a186286d0db2cbc0edc0
-size 298
+add_llvm_component_library(LLVMOrcShared
+  AllocationActions.cpp
+  OrcError.cpp
+  OrcRTBridge.cpp
+  SimpleRemoteEPCUtils.cpp
+  ADDITIONAL_HEADER_DIRS
+  ${LLVM_MAIN_INCLUDE_DIR}/llvm/ExecutionEngine/Orc
+
+  DEPENDS
+  intrinsics_gen
+
+  LINK_LIBS
+  ${LLVM_PTHREAD_LIB}
+
+  LINK_COMPONENTS
+  Support
+  )

@@ -1,3 +1,34 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:58143bbf74d547d7a73702a99bb29330df961e6f07b5ef2c2c9aced627e067d5
-size 1034
+;===- ./lib/Target/VE/LLVMBuild.txt ----------------------------*- Conf -*--===;
+;
+; Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.
+; See https://llvm.org/LICENSE.txt for license information.
+; SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
+;
+;===------------------------------------------------------------------------===;
+;
+; This is an LLVMBuild description file for the components in this subdirectory.
+;
+; For more information on the LLVMBuild system, please see:
+;
+;   http://llvm.org/docs/LLVMBuild.html
+;
+;===------------------------------------------------------------------------===;
+
+[common]
+subdirectories = InstPrinter MCTargetDesc TargetInfo
+
+[component_0]
+type = TargetGroup
+name = VE
+parent = Target
+has_asmparser = 0
+has_asmprinter = 1
+
+[component_1]
+type = Library
+name = VECodeGen
+parent = VE
+required_libraries = Analysis AsmPrinter CodeGen Core
+                     MC SelectionDAG VEAsmPrinter
+                     VEDesc VEInfo Support Target
+add_to_library_groups = VE

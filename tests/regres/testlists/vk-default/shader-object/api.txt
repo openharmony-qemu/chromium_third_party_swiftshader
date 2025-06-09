@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f7c6ada81defd36cd9471863b3291e80646df4a28c9a8d13e7fa8b3fc6683f27
-size 225
+dEQP-VK.shader_object.api.discard_rectangles
+dEQP-VK.shader_object.api.dynamic_rendering
+dEQP-VK.shader_object.api.get_device_proc_addr
+dEQP-VK.shader_object.api.scissor_exclusive
+dEQP-VK.shader_object.api.shader_binary_uuid

@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:18cc45f1a4ef90eb521cb583dee33757b3407eb30a06aec2f08f9478059fede9
-size 488
+;===------------------------------------------------------------*- Conf -*--===;
+;
+; Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.
+; See https://llvm.org/LICENSE.txt for license information.
+; SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
+;
+;===------------------------------------------------------------------------===;
+
+[component_0]
+type = Library
+name = ObjectYAML
+parent = Libraries
+required_libraries = Object Support DebugInfoCodeView MC

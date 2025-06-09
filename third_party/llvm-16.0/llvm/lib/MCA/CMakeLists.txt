@@ -1,3 +1,33 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8b9c7bd439d6a784ba0d405c8707d0145776bc0174e530a049c96878ed02c782
-size 726
+add_llvm_component_library(LLVMMCA
+  CodeEmitter.cpp
+  Context.cpp
+  CustomBehaviour.cpp
+  HWEventListener.cpp
+  HardwareUnits/HardwareUnit.cpp
+  HardwareUnits/LSUnit.cpp
+  HardwareUnits/RegisterFile.cpp
+  HardwareUnits/ResourceManager.cpp
+  HardwareUnits/RetireControlUnit.cpp
+  HardwareUnits/Scheduler.cpp
+  IncrementalSourceMgr.cpp
+  InstrBuilder.cpp
+  Instruction.cpp
+  Pipeline.cpp
+  Stages/DispatchStage.cpp
+  Stages/EntryStage.cpp
+  Stages/ExecuteStage.cpp
+  Stages/InOrderIssueStage.cpp
+  Stages/InstructionTables.cpp
+  Stages/MicroOpQueueStage.cpp
+  Stages/RetireStage.cpp
+  Stages/Stage.cpp
+  Support.cpp
+  View.cpp
+
+  ADDITIONAL_HEADER_DIRS
+  ${LLVM_MAIN_INCLUDE_DIR}/llvm/MCA
+
+  LINK_COMPONENTS
+  MC
+  Support
+  )

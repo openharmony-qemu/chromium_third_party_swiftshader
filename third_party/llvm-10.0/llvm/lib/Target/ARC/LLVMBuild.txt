@@ -1,3 +1,43 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1902ce70529934888611379af772dcaa8caf5bcd6917681c66fca1a9918b8def
-size 1013
+;===- ./lib/Target/ARC/LLVMBuild.txt -------------------------*- Conf -*--===;
+;
+; Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.
+; See https://llvm.org/LICENSE.txt for license information.
+; SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
+;
+;===------------------------------------------------------------------------===;
+;
+; This is an LLVMBuild description file for the components in this subdirectory.
+;
+; For more information on the LLVMBuild system, please see:
+;
+;   http://llvm.org/docs/LLVMBuild.html
+;
+;===------------------------------------------------------------------------===;
+
+[common]
+subdirectories = Disassembler MCTargetDesc TargetInfo
+
+[component_0]
+type = TargetGroup
+name = ARC
+parent = Target
+has_asmprinter = 1
+has_disassembler = 1
+
+[component_1]
+type = Library
+name = ARCCodeGen
+parent = ARC
+required_libraries =
+ Analysis
+ AsmPrinter
+ CodeGen
+ Core
+ MC
+ SelectionDAG
+ Support
+ Target
+ TransformUtils
+ ARCDesc
+ ARCInfo
+add_to_library_groups = ARC

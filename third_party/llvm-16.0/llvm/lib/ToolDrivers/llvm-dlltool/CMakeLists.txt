@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:17f8a30fd0bed7388e947cfa7f34a63a7851a1c2b7c3f09530c0368cac0702d9
-size 323
+set(LLVM_TARGET_DEFINITIONS Options.td)
+tablegen(LLVM Options.inc -gen-opt-parser-defs)
+add_public_tablegen_target(DllOptionsTableGen)
+
+add_llvm_component_library(LLVMDlltoolDriver
+  DlltoolDriver.cpp
+
+  LINK_COMPONENTS
+  Object
+  Option
+  Support
+  TargetParser
+  )
+
+add_dependencies(LLVMDlltoolDriver DllOptionsTableGen)

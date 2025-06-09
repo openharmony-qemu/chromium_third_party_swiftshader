@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3c434c67e8a11cc20439cd850f5224077e7137e04697eeaf9d71b299aabe5aa5
-size 332
+add_llvm_component_library(LLVMDebugInfoGSYM
+  Header.cpp
+  FileWriter.cpp
+  FunctionInfo.cpp
+  GsymCreator.cpp
+  GsymReader.cpp
+  InlineInfo.cpp
+  LineTable.cpp
+  LookupResult.cpp
+  Range.cpp
+
+  ADDITIONAL_HEADER_DIRS
+  ${LLVM_MAIN_INCLUDE_DIR}/llvm/DebugInfo/GSYM
+  ${LLVM_MAIN_INCLUDE_DIR}/llvm/DebugInfo
+
+  DEPENDS
+  LLVMMC
+  )

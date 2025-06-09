@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b763ad6f64483ce4802734fde0190d247cd96cd8bbe0be5ef20963a79bdeb56a
-size 364
+include_directories( ${CMAKE_CURRENT_BINARY_DIR}/.. ${CMAKE_CURRENT_SOURCE_DIR}/.. )
+
+add_llvm_component_library(LLVMAMDGPUDisassembler
+  AMDGPUDisassembler.cpp
+
+  LINK_COMPONENTS
+  AMDGPUDesc
+  AMDGPUInfo
+  AMDGPUUtils
+  MC
+  MCDisassembler
+  Support
+
+  ADD_TO_COMPONENT
+  AMDGPU
+  )
+
+add_dependencies(LLVMAMDGPUDisassembler AMDGPUCommonTableGen LLVMAMDGPUUtils)

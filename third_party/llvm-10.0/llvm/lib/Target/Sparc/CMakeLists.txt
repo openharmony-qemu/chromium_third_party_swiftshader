@@ -1,3 +1,34 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bea940e99d6eeef197f76349f8b6658d0b5eec5538f1069c03ebdb61032cee75
-size 1048
+set(LLVM_TARGET_DEFINITIONS Sparc.td)
+
+tablegen(LLVM SparcGenAsmMatcher.inc -gen-asm-matcher)
+tablegen(LLVM SparcGenAsmWriter.inc -gen-asm-writer)
+tablegen(LLVM SparcGenCallingConv.inc -gen-callingconv)
+tablegen(LLVM SparcGenDAGISel.inc -gen-dag-isel)
+tablegen(LLVM SparcGenDisassemblerTables.inc -gen-disassembler)
+tablegen(LLVM SparcGenInstrInfo.inc -gen-instr-info)
+tablegen(LLVM SparcGenMCCodeEmitter.inc -gen-emitter)
+tablegen(LLVM SparcGenRegisterInfo.inc -gen-register-info)
+tablegen(LLVM SparcGenSubtargetInfo.inc -gen-subtarget)
+
+add_public_tablegen_target(SparcCommonTableGen)
+
+add_llvm_target(SparcCodeGen
+  DelaySlotFiller.cpp
+  LeonPasses.cpp
+  SparcAsmPrinter.cpp
+  SparcInstrInfo.cpp
+  SparcISelDAGToDAG.cpp
+  SparcISelLowering.cpp
+  SparcFrameLowering.cpp
+  SparcMachineFunctionInfo.cpp
+  SparcRegisterInfo.cpp
+  SparcSubtarget.cpp
+  SparcTargetMachine.cpp
+  SparcMCInstLower.cpp
+  SparcTargetObjectFile.cpp
+  )
+
+add_subdirectory(AsmParser)
+add_subdirectory(Disassembler)
+add_subdirectory(MCTargetDesc)
+add_subdirectory(TargetInfo)

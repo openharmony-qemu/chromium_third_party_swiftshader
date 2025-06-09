@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8abcd8bfe5c048a6ca90b8e233cc002d5860fc52471cf7d2bdc110c6b0b799a6
-size 301
+add_llvm_component_library(LLVMBinaryFormat
+  AMDGPUMetadataVerifier.cpp
+  Dwarf.cpp
+  Magic.cpp
+  Minidump.cpp
+  MsgPackDocument.cpp
+  MsgPackDocumentYAML.cpp
+  MsgPackReader.cpp
+  MsgPackWriter.cpp
+  Wasm.cpp
+  XCOFF.cpp
+
+  ADDITIONAL_HEADER_DIRS
+  ${LLVM_MAIN_INCLUDE_DIR}/llvm/BinaryFormat
+  )
+  

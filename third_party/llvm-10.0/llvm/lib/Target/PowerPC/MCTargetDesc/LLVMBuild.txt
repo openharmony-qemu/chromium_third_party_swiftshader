@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ce779e14aa1373762906a89be5bb643292e7e5196e75ae5c01c402669e52c79c
-size 776
+;===- ./lib/Target/PowerPC/MCTargetDesc/LLVMBuild.txt ----------*- Conf -*--===;
+;
+; Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.
+; See https://llvm.org/LICENSE.txt for license information.
+; SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
+;
+;===------------------------------------------------------------------------===;
+;
+; This is an LLVMBuild description file for the components in this subdirectory.
+;
+; For more information on the LLVMBuild system, please see:
+;
+;   http://llvm.org/docs/LLVMBuild.html
+;
+;===------------------------------------------------------------------------===;
+
+[component_0]
+type = Library
+name = PowerPCDesc
+parent = PowerPC
+required_libraries = MC PowerPCInfo Support
+add_to_library_groups = PowerPC

@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:de6241f0c18524d249705ee7a8a53f279931a94b76f7cdcc6f1bbb4ac0550561
-size 184
+add_llvm_component_library(LLVMSymbolize
+  DIPrinter.cpp
+  SymbolizableObjectFile.cpp
+  Symbolize.cpp
+
+  ADDITIONAL_HEADER_DIRS
+  ${LLVM_MAIN_INCLUDE_DIR}/llvm/DebugInfo/Symbolize
+  )

@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4175df6a3ddfbb300b39180a968aa8ad0b58a1a923dde84c0741b8e5b73e3fc5
-size 755
+;===- ./lib/Target/Lanai/TargetInfo/LLVMBuild.txt --------------*- Conf -*--===;
+;
+; Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.
+; See https://llvm.org/LICENSE.txt for license information.
+; SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
+;
+;===------------------------------------------------------------------------===;
+;
+; This is an LLVMBuild description file for the components in this subdirectory.
+;
+; For more information on the LLVMBuild system, please see:
+;
+;   http://llvm.org/docs/LLVMBuild.html
+;
+;===------------------------------------------------------------------------===;
+
+[component_0]
+type = Library
+name = LanaiInfo
+parent = Lanai
+required_libraries = Support
+add_to_library_groups = Lanai

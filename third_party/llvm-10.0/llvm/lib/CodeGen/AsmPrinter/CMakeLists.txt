@@ -1,3 +1,30 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:62aa33cc3aac88dcaa9987b1e8a0aed3100266e0eb968106f87aa12131198eb1
-size 570
+add_llvm_component_library(LLVMAsmPrinter
+  AccelTable.cpp
+  AddressPool.cpp
+  ARMException.cpp
+  AsmPrinter.cpp
+  AsmPrinterDwarf.cpp
+  AsmPrinterInlineAsm.cpp
+  DbgEntityHistoryCalculator.cpp
+  DebugHandlerBase.cpp
+  DebugLocStream.cpp
+  DIE.cpp
+  DIEHash.cpp
+  DwarfCFIException.cpp
+  DwarfCompileUnit.cpp
+  DwarfDebug.cpp
+  DwarfExpression.cpp
+  DwarfFile.cpp
+  DwarfStringPool.cpp
+  DwarfUnit.cpp
+  EHStreamer.cpp
+  ErlangGCPrinter.cpp
+  OcamlGCPrinter.cpp
+  WinCFGuard.cpp
+  WinException.cpp
+  CodeViewDebug.cpp
+  WasmException.cpp
+
+  DEPENDS
+  intrinsics_gen
+  )

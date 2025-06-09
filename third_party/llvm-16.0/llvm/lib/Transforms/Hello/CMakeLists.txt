@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:05c273ac6a16f21c782ebaa44bf8449e0014d26c3b98d2029972a5aa32c320f9
-size 431
+# If we don't need RTTI or EH, there's no reason to export anything
+# from the hello plugin.
+if( NOT LLVM_REQUIRES_RTTI )
+  if( NOT LLVM_REQUIRES_EH )
+    set(LLVM_EXPORTED_SYMBOL_FILE ${CMAKE_CURRENT_SOURCE_DIR}/Hello.exports)
+  endif()
+endif()
+
+if(WIN32 OR CYGWIN)
+  set(LLVM_LINK_COMPONENTS Core Support)
+endif()
+
+add_llvm_library( LLVMHello MODULE BUILDTREE_ONLY
+  Hello.cpp
+
+  DEPENDS
+  intrinsics_gen
+  PLUGIN_TOOL
+  opt
+  )

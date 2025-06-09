@@ -1,3 +1,26 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:514bf1cf1433d3c942f1180b78b7d228d50158abcd1bf6ca9347b6abfa4f9aa1
-size 521
+if( CMAKE_HOST_UNIX AND HAVE_LIBRT )
+  set(rt_lib rt)
+endif()
+
+add_llvm_component_library(LLVMOrcTargetProcess
+  ExecutorSharedMemoryMapperService.cpp
+  JITLoaderGDB.cpp
+  OrcRTBootstrap.cpp
+  RegisterEHFrames.cpp
+  SimpleExecutorDylibManager.cpp
+  SimpleExecutorMemoryManager.cpp
+  SimpleRemoteEPCServer.cpp
+  TargetExecutionUtils.cpp
+
+  ADDITIONAL_HEADER_DIRS
+  ${LLVM_MAIN_INCLUDE_DIR}/llvm/ExecutionEngine/Orc
+
+  LINK_LIBS
+  ${LLVM_PTHREAD_LIB}
+  ${rt_lib}
+
+  LINK_COMPONENTS
+  OrcShared
+  Support
+  TargetParser
+  )

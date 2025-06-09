@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a9242d257fa155703c4d8fb586399e0849d029eb71e7e96e01a89db4243737ec
-size 784
+;===- ./lib/Target/ARM/MCTargetDesc/LLVMBuild.txt --------------*- Conf -*--===;
+;
+; Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.
+; See https://llvm.org/LICENSE.txt for license information.
+; SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
+;
+;===------------------------------------------------------------------------===;
+;
+; This is an LLVMBuild description file for the components in this subdirectory.
+;
+; For more information on the LLVMBuild system, please see:
+;
+;   http://llvm.org/docs/LLVMBuild.html
+;
+;===------------------------------------------------------------------------===;
+
+[component_0]
+type = Library
+name = ARMDesc
+parent = ARM
+required_libraries = ARMInfo ARMUtils MC MCDisassembler Support
+add_to_library_groups = ARM

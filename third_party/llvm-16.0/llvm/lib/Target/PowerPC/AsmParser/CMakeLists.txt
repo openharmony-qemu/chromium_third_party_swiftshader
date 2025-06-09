@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:45bc64459c1d749444e0f452e881c2addde020913d63e711a4efa4cf216b5fc7
-size 174
+add_llvm_component_library(LLVMPowerPCAsmParser
+  PPCAsmParser.cpp
+
+  LINK_COMPONENTS
+  MC
+  MCParser
+  PowerPCDesc
+  PowerPCInfo
+  Support
+
+  ADD_TO_COMPONENT
+  PowerPC
+  )

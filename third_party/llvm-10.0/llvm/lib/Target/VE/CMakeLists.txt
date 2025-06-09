@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f1b5066e1143f3bcd79d397f649ce927005bee6a10ee6b9ec12d177195451ca2
-size 693
+set(LLVM_TARGET_DEFINITIONS VE.td)
+
+tablegen(LLVM VEGenRegisterInfo.inc -gen-register-info)
+tablegen(LLVM VEGenInstrInfo.inc -gen-instr-info)
+tablegen(LLVM VEGenAsmWriter.inc -gen-asm-writer)
+tablegen(LLVM VEGenDAGISel.inc -gen-dag-isel)
+tablegen(LLVM VEGenSubtargetInfo.inc -gen-subtarget)
+tablegen(LLVM VEGenCallingConv.inc -gen-callingconv)
+add_public_tablegen_target(VECommonTableGen)
+
+add_llvm_target(VECodeGen
+  VEAsmPrinter.cpp
+  VEFrameLowering.cpp
+  VEISelDAGToDAG.cpp
+  VEISelLowering.cpp
+  VEInstrInfo.cpp
+  VEMCInstLower.cpp
+  VERegisterInfo.cpp
+  VESubtarget.cpp
+  VETargetMachine.cpp
+  )
+
+add_subdirectory(InstPrinter)
+add_subdirectory(TargetInfo)
+add_subdirectory(MCTargetDesc)

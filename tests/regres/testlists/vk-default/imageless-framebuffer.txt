@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:07e8bf2a7cc7796c8e6cd4298603332afe9763a53ca4e432c613688e7d2afdbe
-size 271
+dEQP-VK.imageless_framebuffer.color
+dEQP-VK.imageless_framebuffer.color_resolve
+dEQP-VK.imageless_framebuffer.depth_stencil
+dEQP-VK.imageless_framebuffer.depth_stencil_resolve
+dEQP-VK.imageless_framebuffer.different_attachments
+dEQP-VK.imageless_framebuffer.multisubpass

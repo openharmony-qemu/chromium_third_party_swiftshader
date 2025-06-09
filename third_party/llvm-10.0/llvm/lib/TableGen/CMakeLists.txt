@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:000053a23e33e93328ab8edfbf3cb10e416748f6f7bab4a26878a335e7e016d0
-size 252
+add_llvm_component_library(LLVMTableGen
+  Error.cpp
+  JSONBackend.cpp
+  Main.cpp
+  Record.cpp
+  SetTheory.cpp
+  StringMatcher.cpp
+  TableGenBackend.cpp
+  TGLexer.cpp
+  TGParser.cpp
+
+  ADDITIONAL_HEADER_DIRS
+  ${LLVM_MAIN_INCLUDE_DIR}/llvm/TableGen
+  )

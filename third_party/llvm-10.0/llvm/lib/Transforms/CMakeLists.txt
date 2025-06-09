@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:21fba0733d66e281c7f4bbb80a3e692f47a6955dc099383d67fd220f312788d2
-size 308
+add_subdirectory(Utils)
+add_subdirectory(Instrumentation)
+add_subdirectory(AggressiveInstCombine)
+add_subdirectory(InstCombine)
+add_subdirectory(Scalar)
+add_subdirectory(IPO)
+add_subdirectory(Vectorize)
+add_subdirectory(Hello)
+add_subdirectory(ObjCARC)
+add_subdirectory(Coroutines)
+add_subdirectory(CFGuard)

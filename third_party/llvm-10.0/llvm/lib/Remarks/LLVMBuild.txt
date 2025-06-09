@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:df28392ca9fc94d08b8fe026ef3769d533c4136f848c1e22ccd8425c32838da6
-size 743
+;===- ./lib/Remarks/LLVMBuild.txt ------------------------------*- Conf -*--===;
+;
+; Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.
+; See https://llvm.org/LICENSE.txt for license information.
+; SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
+;
+;===------------------------------------------------------------------------===;
+;
+; This is an LLVMBuild description file for the components in this subdirectory.
+;
+; For more information on the LLVMBuild system, please see:
+;
+;   http://llvm.org/docs/LLVMBuild.html
+;
+;===------------------------------------------------------------------------===;
+
+[component_0]
+type = Library
+name = Remarks
+parent = Libraries
+required_libraries = BitstreamReader Support

@@ -1,3 +1,40 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e3143840299347eab0e26e94c9a10c01a3446c24722859175de9cc2c646935bf
-size 731
+add_llvm_component_library(LLVMObjectYAML
+  ArchiveEmitter.cpp
+  ArchiveYAML.cpp
+  CodeViewYAMLDebugSections.cpp
+  CodeViewYAMLSymbols.cpp
+  CodeViewYAMLTypeHashing.cpp
+  CodeViewYAMLTypes.cpp
+  COFFEmitter.cpp
+  COFFYAML.cpp
+  DWARFEmitter.cpp
+  DWARFYAML.cpp
+  DXContainerEmitter.cpp
+  DXContainerYAML.cpp
+  ELFEmitter.cpp
+  ELFYAML.cpp
+  MachOEmitter.cpp
+  MachOYAML.cpp
+  ObjectYAML.cpp
+  MinidumpEmitter.cpp
+  MinidumpYAML.cpp
+  OffloadEmitter.cpp
+  OffloadYAML.cpp
+  WasmEmitter.cpp
+  WasmYAML.cpp
+  XCOFFEmitter.cpp
+  XCOFFYAML.cpp
+  YAML.cpp
+  yaml2obj.cpp
+
+  ADDITIONAL_HEADER_DIRS
+  ${LLVM_MAIN_INCLUDE_DIR}/llvm/ObjectYAML
+
+  LINK_COMPONENTS
+  BinaryFormat
+  Object
+  Support
+  TargetParser
+  DebugInfoCodeView
+  MC
+  )

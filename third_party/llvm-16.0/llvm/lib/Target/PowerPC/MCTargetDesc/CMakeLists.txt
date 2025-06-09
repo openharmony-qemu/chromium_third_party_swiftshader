@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cef1851e00395372ed47f77216c5401ed05b1e07dbea38142712c77f627da11f
-size 392
+add_llvm_component_library(LLVMPowerPCDesc
+  PPCAsmBackend.cpp
+  PPCInstPrinter.cpp
+  PPCMCTargetDesc.cpp
+  PPCMCAsmInfo.cpp
+  PPCMCCodeEmitter.cpp
+  PPCMCExpr.cpp
+  PPCPredicates.cpp
+  PPCELFObjectWriter.cpp
+  PPCXCOFFObjectWriter.cpp
+  PPCELFStreamer.cpp
+  PPCXCOFFStreamer.cpp
+
+  LINK_COMPONENTS
+  MC
+  PowerPCInfo
+  Support
+  BinaryFormat
+  TargetParser
+
+  ADD_TO_COMPONENT
+  PowerPC
+  )

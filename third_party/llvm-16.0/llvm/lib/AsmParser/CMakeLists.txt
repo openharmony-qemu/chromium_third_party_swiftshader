@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e115f8ac6178806784d94cd9540e1542fd653edd37ddf26c03b403f8b4c22693
-size 246
+# AsmParser
+add_llvm_component_library(LLVMAsmParser
+  LLLexer.cpp
+  LLParser.cpp
+  Parser.cpp
+
+  ADDITIONAL_HEADER_DIRS
+  ${LLVM_MAIN_INCLUDE_DIR}/llvm/ASMParser
+
+  DEPENDS
+  intrinsics_gen
+
+  LINK_COMPONENTS
+  BinaryFormat
+  Core
+  Support
+  )

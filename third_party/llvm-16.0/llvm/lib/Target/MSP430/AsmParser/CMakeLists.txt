@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:59e7deab0ea4eff6a683df4546d699573eb82d54a61cfd56091e4d46b238f3bf
-size 171
+add_llvm_component_library(LLVMMSP430AsmParser
+  MSP430AsmParser.cpp
+
+  LINK_COMPONENTS
+  MC
+  MCParser
+  MSP430Desc
+  MSP430Info
+  Support
+
+  ADD_TO_COMPONENT
+  MSP430
+)

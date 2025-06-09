@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f271778d00779c9716d3602d18c8d279c3e2f7349eaa0c83c8d6c67280810886
-size 229
+add_llvm_component_library(LLVMCoverage
+  CoverageMapping.cpp
+  CoverageMappingWriter.cpp
+  CoverageMappingReader.cpp
+
+  ADDITIONAL_HEADER_DIRS
+  ${LLVM_MAIN_INCLUDE_DIR}/llvm/ProfileData/Coverage
+
+  DEPENDS
+  intrinsics_gen
+  )

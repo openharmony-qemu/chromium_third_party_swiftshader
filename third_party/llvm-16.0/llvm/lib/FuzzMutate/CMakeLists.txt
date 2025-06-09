@@ -1,3 +1,39 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:437e89fd8a6b70a242b8eb1d9da18c60db884a2b556f37e81ae1e237d4375934
-size 697
+# Generic helper for fuzzer binaries.
+# This should not depend on LLVM IR etc.
+add_llvm_component_library(LLVMFuzzerCLI
+  FuzzerCLI.cpp
+  PARTIAL_SOURCES_INTENDED
+
+  ADDITIONAL_HEADER_DIRS
+  ${LLVM_MAIN_INCLUDE_DIR}/llvm/FuzzMutate
+
+  LINK_COMPONENTS
+  Support
+  TargetParser
+  )
+
+# Library for using LLVM IR together with fuzzers.
+add_llvm_component_library(LLVMFuzzMutate
+  IRMutator.cpp
+  OpDescriptor.cpp
+  Operations.cpp
+  RandomIRBuilder.cpp
+  PARTIAL_SOURCES_INTENDED
+
+  ADDITIONAL_HEADER_DIRS
+  ${LLVM_MAIN_INCLUDE_DIR}/llvm/FuzzMutate
+
+  DEPENDS
+  intrinsics_gen
+
+  LINK_COMPONENTS
+  Analysis
+  BitReader
+  BitWriter
+  Core
+  Scalar
+  Support
+  Target
+  TargetParser
+  TransformUtils
+  )
