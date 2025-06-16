@@ -1012,6 +1012,7 @@ swiftshader_llvm_source_set("swiftshader_llvm_transforms_scalar") {
     "llvm/lib/Transforms/Scalar/SROA.cpp",
     "llvm/lib/Transforms/Scalar/TailRecursionElimination.cpp",
     "llvm/lib/Transforms/Scalar/WarnMissedTransforms.cpp",
+    "llvm/lib/Transforms/Scalar/LowerAtomic.cpp",
   ]
 }
 

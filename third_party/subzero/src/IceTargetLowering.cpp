@@ -48,7 +48,6 @@
 //       createTargetHeaderLowering(Ice::GlobalContext *);
 //   void staticInit(::Ice::GlobalContext *);
 // }
-#if !defined(__arm__)
 #define SUBZERO_TARGET(X)                                                      \
   namespace X {                                                                \
   std::unique_ptr<::Ice::TargetLowering>                                       \
@@ -61,7 +60,6 @@
   bool shouldBePooled(const ::Ice::Constant *C);                               \
   ::Ice::Type getPointerType();                                                \
   } // end of namespace X
-#endif
 #include "SZTargets.def"
 #undef SUBZERO_TARGET
 
