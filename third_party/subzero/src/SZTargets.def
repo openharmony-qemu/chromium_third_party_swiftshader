@@ -20,9 +20,7 @@
 #error Please define the macro SUBZERO_TARGET(TargetName)
 #endif
 
-#ifndef SUBZERO_TARGET
 SUBZERO_TARGET(SZTARGET)
-#endif
 
 #undef SUBZERO_TARGET
 
