@@ -324808,6 +324808,7 @@ dEQP-VK.api.device_init.create_device_unsupported_features.rasterization_order_a
 dEQP-VK.api.device_init.create_device_unsupported_features.raw_access_chains_features_nv
 dEQP-VK.api.device_init.create_device_unsupported_features.ray_query_features_khr
 dEQP-VK.api.device_init.create_device_unsupported_features.ray_tracing_invocation_reorder_features_ext
+dEQP-VK.api.device_init.create_device_unsupported_features.ray_tracing_invocation_reorder_features_nv
 dEQP-VK.api.device_init.create_device_unsupported_features.ray_tracing_linear_swept_spheres_features_nv
 dEQP-VK.api.device_init.create_device_unsupported_features.ray_tracing_maintenance1_features_khr
 dEQP-VK.api.device_init.create_device_unsupported_features.ray_tracing_motion_blur_features_nv
@@ -327137,6 +327138,7 @@ dEQP-VK.api.frame_boundary.sync2.multi_frame_overlapping_submissions
 dEQP-VK.api.frame_boundary.sync2.single_frame
 dEQP-VK.api.frame_boundary.sync2.single_frame_multi_submissions
 dEQP-VK.api.frame_boundary.wsi.android
+dEQP-VK.api.frame_boundary.wsi.direct
 dEQP-VK.api.frame_boundary.wsi.direct_drm
 dEQP-VK.api.frame_boundary.wsi.headless
 dEQP-VK.api.frame_boundary.wsi.metal
@@ -373439,6 +373441,10 @@ dEQP-VK.api.image_compression_control.swapchain.android.default
 dEQP-VK.api.image_compression_control.swapchain.android.disabled
 dEQP-VK.api.image_compression_control.swapchain.android.explicit
 dEQP-VK.api.image_compression_control.swapchain.android.fixed_rate_default
+dEQP-VK.api.image_compression_control.swapchain.direct.default
+dEQP-VK.api.image_compression_control.swapchain.direct.disabled
+dEQP-VK.api.image_compression_control.swapchain.direct.explicit
+dEQP-VK.api.image_compression_control.swapchain.direct.fixed_rate_default
 dEQP-VK.api.image_compression_control.swapchain.direct_drm.default
 dEQP-VK.api.image_compression_control.swapchain.direct_drm.disabled
 dEQP-VK.api.image_compression_control.swapchain.direct_drm.explicit
