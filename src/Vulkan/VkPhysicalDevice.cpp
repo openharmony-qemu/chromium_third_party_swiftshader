@@ -413,6 +413,12 @@ static void getPhysicalDeviceHostImageCopyFeatures(T *features)
 }
 
 template<typename T>
+static void getPhysicalDeviceIndexTypeUint8Features(T *features)
+{
+	features->indexTypeUint8 = VK_TRUE;
+}
+
+template<typename T>
 static void getPhysicalDeviceVulkan12Features(T *features)
 {
 	features->samplerMirrorClampToEdge = VK_TRUE;
@@ -475,6 +481,13 @@ static void getPhysicalDeviceBlendOperationAdvancedFeaturesEXT(VkPhysicalDeviceB
 static void getPhysicalDeviceExtendedDynamicStateFeaturesEXT(VkPhysicalDeviceExtendedDynamicStateFeaturesEXT *features)
 {
 	features->extendedDynamicState = VK_TRUE;
+}
+
+static void getPhysicalDeviceExtendedDynamicState2FeaturesEXT(VkPhysicalDeviceExtendedDynamicState2FeaturesEXT *features)
+{
+	features->extendedDynamicState2 = VK_TRUE;
+	features->extendedDynamicState2LogicOp = VK_FALSE;
+	features->extendedDynamicState2PatchControlPoints = VK_FALSE;
 }
 
 static void getPhysicalDeviceVertexInputDynamicStateFeaturesEXT(VkPhysicalDeviceVertexInputDynamicStateFeaturesEXT *features)
@@ -612,6 +625,9 @@ void PhysicalDevice::getFeatures2(VkPhysicalDeviceFeatures2 *features) const
 		case VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTENDED_DYNAMIC_STATE_FEATURES_EXT:
 			getPhysicalDeviceExtendedDynamicStateFeaturesEXT(reinterpret_cast<VkPhysicalDeviceExtendedDynamicStateFeaturesEXT *>(curExtension));
 			break;
+		case VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTENDED_DYNAMIC_STATE_2_FEATURES_EXT:
+			getPhysicalDeviceExtendedDynamicState2FeaturesEXT(reinterpret_cast<VkPhysicalDeviceExtendedDynamicState2FeaturesEXT *>(curExtension));
+			break;
 		case VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VERTEX_INPUT_DYNAMIC_STATE_FEATURES_EXT:
 			getPhysicalDeviceVertexInputDynamicStateFeaturesEXT(reinterpret_cast<VkPhysicalDeviceVertexInputDynamicStateFeaturesEXT *>(curExtension));
 			break;
@@ -668,6 +684,9 @@ void PhysicalDevice::getFeatures2(VkPhysicalDeviceFeatures2 *features) const
 			break;
 		case VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_HOST_IMAGE_COPY_FEATURES_EXT:
 			getPhysicalDeviceHostImageCopyFeatures(reinterpret_cast<struct VkPhysicalDeviceHostImageCopyFeaturesEXT *>(curExtension));
+			break;
+		case VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INDEX_TYPE_UINT8_FEATURES_EXT:
+			getPhysicalDeviceIndexTypeUint8Features(reinterpret_cast<VkPhysicalDeviceIndexTypeUint8FeaturesEXT *>(curExtension));
 			break;
 		case VK_STRUCTURE_TYPE_MAX_ENUM:  // TODO(b/176893525): This may not be legal. dEQP tests that this value is ignored.
 			break;
@@ -1551,6 +1570,15 @@ bool PhysicalDevice::hasExtendedFeatures(const VkPhysicalDeviceLineRasterization
 	       CheckFeature(requested, supported, stippledSmoothLines);
 }
 
+bool PhysicalDevice::hasExtendedFeatures(const VkPhysicalDeviceExtendedDynamicState2FeaturesEXT *requested) const
+{
+	auto supported = getSupportedFeatures(requested);
+
+	return CheckFeature(requested, supported, extendedDynamicState2) &&
+	       CheckFeature(requested, supported, extendedDynamicState2LogicOp) &&
+	       CheckFeature(requested, supported, extendedDynamicState2PatchControlPoints);
+}
+
 bool PhysicalDevice::hasExtendedFeatures(const VkPhysicalDeviceProvokingVertexFeaturesEXT *requested) const
 {
 	auto supported = getSupportedFeatures(requested);
@@ -1764,6 +1792,13 @@ bool PhysicalDevice::hasExtendedFeatures(const VkPhysicalDeviceHostImageCopyFeat
 	auto supported = getSupportedFeatures(requested);
 
 	return CheckFeature(requested, supported, hostImageCopy);
+}
+
+bool PhysicalDevice::hasExtendedFeatures(const VkPhysicalDeviceIndexTypeUint8FeaturesEXT *requested) const
+{
+	auto supported = getSupportedFeatures(requested);
+
+	return CheckFeature(requested, supported, indexTypeUint8);
 }
 
 bool PhysicalDevice::hasExtendedFeatures(const VkPhysicalDeviceDescriptorIndexingFeatures *requested) const
