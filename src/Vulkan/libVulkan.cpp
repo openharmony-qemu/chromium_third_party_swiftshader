@@ -329,6 +329,8 @@ static const ExtensionProperties instanceExtensionProperties[] = {
 	{ { VK_KHR_SURFACE_EXTENSION_NAME, VK_KHR_SURFACE_SPEC_VERSION } },
 	{ { VK_EXT_SURFACE_MAINTENANCE_1_EXTENSION_NAME, VK_EXT_SURFACE_MAINTENANCE_1_SPEC_VERSION } },
 	{ { VK_KHR_GET_SURFACE_CAPABILITIES_2_EXTENSION_NAME, VK_KHR_GET_SURFACE_CAPABILITIES_2_SPEC_VERSION } },
+	// Used by ANGLE to properly advertise the supported list of EGL configs.
+	{ { VK_GOOGLE_SURFACELESS_QUERY_EXTENSION_NAME, VK_GOOGLE_SURFACELESS_QUERY_SPEC_VERSION } },
 #endif
 #ifdef VK_USE_PLATFORM_XCB_KHR
 	{ { VK_KHR_XCB_SURFACE_EXTENSION_NAME, VK_KHR_XCB_SURFACE_SPEC_VERSION }, [] { return vk::XcbSurfaceKHR::isSupported(); } },
@@ -425,6 +427,7 @@ static const ExtensionProperties deviceExtensionProperties[] = {
 	{ { VK_KHR_TIMELINE_SEMAPHORE_EXTENSION_NAME, VK_KHR_TIMELINE_SEMAPHORE_SPEC_VERSION } },
 	// Vulkan 1.3 promoted extensions
 	{ { VK_EXT_EXTENDED_DYNAMIC_STATE_EXTENSION_NAME, VK_EXT_EXTENDED_DYNAMIC_STATE_SPEC_VERSION } },
+	{ { VK_EXT_EXTENDED_DYNAMIC_STATE_2_EXTENSION_NAME, VK_EXT_EXTENDED_DYNAMIC_STATE_2_SPEC_VERSION } },
 	{ { VK_EXT_INLINE_UNIFORM_BLOCK_EXTENSION_NAME, VK_EXT_INLINE_UNIFORM_BLOCK_SPEC_VERSION } },
 	{ { VK_EXT_PIPELINE_CREATION_CACHE_CONTROL_EXTENSION_NAME, VK_EXT_PIPELINE_CREATION_CACHE_CONTROL_SPEC_VERSION } },
 	{ { VK_EXT_PIPELINE_CREATION_FEEDBACK_EXTENSION_NAME, VK_EXT_PIPELINE_CREATION_FEEDBACK_SPEC_VERSION } },
@@ -442,6 +445,11 @@ static const ExtensionProperties deviceExtensionProperties[] = {
 	{ { VK_KHR_SHADER_NON_SEMANTIC_INFO_EXTENSION_NAME, VK_KHR_SHADER_NON_SEMANTIC_INFO_SPEC_VERSION } },
 	{ { VK_KHR_SYNCHRONIZATION_2_EXTENSION_NAME, VK_KHR_SYNCHRONIZATION_2_SPEC_VERSION } },
 	{ { VK_KHR_ZERO_INITIALIZE_WORKGROUP_MEMORY_EXTENSION_NAME, VK_KHR_ZERO_INITIALIZE_WORKGROUP_MEMORY_SPEC_VERSION } },
+	// Vulkan 1.4 promoted extensions
+	{ { VK_EXT_INDEX_TYPE_UINT8_EXTENSION_NAME, VK_EXT_INDEX_TYPE_UINT8_SPEC_VERSION } },
+	{ { VK_KHR_INDEX_TYPE_UINT8_EXTENSION_NAME, VK_KHR_INDEX_TYPE_UINT8_SPEC_VERSION } },
+	{ { VK_EXT_HOST_IMAGE_COPY_EXTENSION_NAME, VK_EXT_HOST_IMAGE_COPY_SPEC_VERSION } },
+	{ { VK_EXT_PIPELINE_ROBUSTNESS_EXTENSION_NAME, VK_EXT_PIPELINE_ROBUSTNESS_SPEC_VERSION } },
 	// Roadmap 2022 extension
 	{ { VK_KHR_GLOBAL_PRIORITY_EXTENSION_NAME, VK_KHR_GLOBAL_PRIORITY_SPEC_VERSION } },
 	// Additional extension
@@ -472,9 +480,7 @@ static const ExtensionProperties deviceExtensionProperties[] = {
 	{ { VK_EXT_BLEND_OPERATION_ADVANCED_EXTENSION_NAME, VK_EXT_BLEND_OPERATION_ADVANCED_SPEC_VERSION } },
 	// Used by ANGLE to implement triangle/etc list restarts as possible in OpenGL
 	{ { VK_EXT_PRIMITIVE_TOPOLOGY_LIST_RESTART_EXTENSION_NAME, VK_EXT_PRIMITIVE_TOPOLOGY_LIST_RESTART_SPEC_VERSION } },
-	{ { VK_EXT_PIPELINE_ROBUSTNESS_EXTENSION_NAME, VK_EXT_PIPELINE_ROBUSTNESS_SPEC_VERSION } },
 	{ { VK_EXT_RASTERIZATION_ORDER_ATTACHMENT_ACCESS_EXTENSION_NAME, VK_EXT_RASTERIZATION_ORDER_ATTACHMENT_ACCESS_SPEC_VERSION } },
-	{ { VK_EXT_HOST_IMAGE_COPY_EXTENSION_NAME, VK_EXT_HOST_IMAGE_COPY_SPEC_VERSION } },
 	{ { VK_EXT_VERTEX_INPUT_DYNAMIC_STATE_EXTENSION_NAME, VK_EXT_VERTEX_INPUT_DYNAMIC_STATE_SPEC_VERSION } },
 };
 
@@ -1054,6 +1060,16 @@ VKAPI_ATTR VkResult VKAPI_CALL vkCreateDevice(VkPhysicalDevice physicalDevice, c
 				}
 			}
 			break;
+		case VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTENDED_DYNAMIC_STATE_2_FEATURES_EXT:
+			{
+				const auto *dynamicStateFeatures = reinterpret_cast<const VkPhysicalDeviceExtendedDynamicState2FeaturesEXT *>(extensionCreateInfo);
+				bool hasFeatures = vk::Cast(physicalDevice)->hasExtendedFeatures(dynamicStateFeatures);
+				if(!hasFeatures)
+				{
+					return VK_ERROR_FEATURE_NOT_PRESENT;
+				}
+			}
+			break;
 		case VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VERTEX_INPUT_DYNAMIC_STATE_FEATURES_EXT:
 			{
 				const auto *dynamicStateFeatures = reinterpret_cast<const VkPhysicalDeviceVertexInputDynamicStateFeaturesEXT *>(extensionCreateInfo);
@@ -1216,6 +1232,7 @@ VKAPI_ATTR VkResult VKAPI_CALL vkCreateDevice(VkPhysicalDevice physicalDevice, c
 		case VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEPTH_CLIP_CONTROL_FEATURES_EXT:
 		case VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PIPELINE_ROBUSTNESS_FEATURES_EXT:
 		case VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_HOST_IMAGE_COPY_FEATURES_EXT:
+		case VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INDEX_TYPE_UINT8_FEATURES_EXT:
 			break;
 		default:
 			// "the [driver] must skip over, without processing (other than reading the sType and pNext members) any structures in the chain with sType values not defined by [supported extenions]"
@@ -3075,6 +3092,20 @@ VKAPI_ATTR void VKAPI_CALL vkCmdSetPrimitiveRestartEnable(VkCommandBuffer comman
 	vk::Cast(commandBuffer)->setPrimitiveRestartEnable(primitiveRestartEnable);
 }
 
+VKAPI_ATTR void VKAPI_CALL vkCmdSetLogicOpEXT(VkCommandBuffer commandBuffer, VkLogicOp logicOp)
+{
+	TRACE("(VkCommandBuffer commandBuffer = %p, VkLogicOp logicOp = %d)", commandBuffer, logicOp);
+
+	UNREACHABLE("extendedDynamicState2LogicOp not supported");
+}
+
+VKAPI_ATTR void VKAPI_CALL vkCmdSetPatchControlPointsEXT(VkCommandBuffer commandBuffer, uint32_t patchControlPoints)
+{
+	TRACE("(VkCommandBuffer commandBuffer = %p, patchControlPoints = %d)", commandBuffer, patchControlPoints);
+
+	UNREACHABLE("extendedDynamicState2PatchControlPoints not supported");
+}
+
 VKAPI_ATTR void VKAPI_CALL vkCmdSetVertexInputEXT(VkCommandBuffer commandBuffer, uint32_t vertexBindingDescriptionCount,
                                                   const VkVertexInputBindingDescription2EXT *pVertexBindingDescriptions,
                                                   uint32_t vertexAttributeDescriptionCount,
@@ -4737,7 +4768,15 @@ VKAPI_ATTR VkResult VKAPI_CALL vkGetPhysicalDeviceSurfaceCapabilities2KHR(VkPhys
 	TRACE("(VkPhysicalDevice physicalDevice = %p, const VkPhysicalDeviceSurfaceInfo2KHR *pSurfaceInfo = %p, VkSurfaceCapabilities2KHR *pSurfaceCapabilities = %p)",
 	      physicalDevice, pSurfaceInfo, pSurfaceCapabilities);
 
-	return vk::Cast(pSurfaceInfo->surface)->getSurfaceCapabilities(pSurfaceInfo->pNext, &pSurfaceCapabilities->surfaceCapabilities, pSurfaceCapabilities->pNext);
+	if (pSurfaceInfo->surface != VK_NULL_HANDLE)
+	{
+		return vk::Cast(pSurfaceInfo->surface)->getSurfaceCapabilities(pSurfaceInfo->pNext, &pSurfaceCapabilities->surfaceCapabilities, pSurfaceCapabilities->pNext);
+	}
+	else
+	{
+		vk::SurfaceKHR::GetSurfacelessCapabilities(pSurfaceInfo->pNext, &pSurfaceCapabilities->surfaceCapabilities, pSurfaceCapabilities->pNext);
+		return VK_SUCCESS;
+	}
 }
 
 VKAPI_ATTR VkResult VKAPI_CALL vkGetPhysicalDeviceSurfaceFormatsKHR(VkPhysicalDevice physicalDevice, VkSurfaceKHR surface, uint32_t *pSurfaceFormatCount, VkSurfaceFormatKHR *pSurfaceFormats)
@@ -4747,13 +4786,13 @@ VKAPI_ATTR VkResult VKAPI_CALL vkGetPhysicalDeviceSurfaceFormatsKHR(VkPhysicalDe
 
 	if(!pSurfaceFormats)
 	{
-		*pSurfaceFormatCount = vk::Cast(surface)->getSurfaceFormatsCount(nullptr);
+		*pSurfaceFormatCount = vk::SurfaceKHR::GetSurfaceFormatsCount(nullptr);
 		return VK_SUCCESS;
 	}
 
 	std::vector<VkSurfaceFormat2KHR> formats(*pSurfaceFormatCount);
 
-	VkResult result = vk::Cast(surface)->getSurfaceFormats(nullptr, pSurfaceFormatCount, formats.data());
+	VkResult result = vk::SurfaceKHR::GetSurfaceFormats(nullptr, pSurfaceFormatCount, formats.data());
 
 	if(result == VK_SUCCESS || result == VK_INCOMPLETE)
 	{
@@ -4777,11 +4816,11 @@ VKAPI_ATTR VkResult VKAPI_CALL vkGetPhysicalDeviceSurfaceFormats2KHR(VkPhysicalD
 
 	if(!pSurfaceFormats)
 	{
-		*pSurfaceFormatCount = vk::Cast(pSurfaceInfo->surface)->getSurfaceFormatsCount(pSurfaceInfo->pNext);
+		*pSurfaceFormatCount = vk::SurfaceKHR::GetSurfaceFormatsCount(pSurfaceInfo->pNext);
 		return VK_SUCCESS;
 	}
 
-	return vk::Cast(pSurfaceInfo->surface)->getSurfaceFormats(pSurfaceInfo->pNext, pSurfaceFormatCount, pSurfaceFormats);
+	return vk::SurfaceKHR::GetSurfaceFormats(pSurfaceInfo->pNext, pSurfaceFormatCount, pSurfaceFormats);
 }
 
 VKAPI_ATTR VkResult VKAPI_CALL vkGetPhysicalDeviceSurfacePresentModesKHR(VkPhysicalDevice physicalDevice, VkSurfaceKHR surface, uint32_t *pPresentModeCount, VkPresentModeKHR *pPresentModes)
@@ -4791,11 +4830,11 @@ VKAPI_ATTR VkResult VKAPI_CALL vkGetPhysicalDeviceSurfacePresentModesKHR(VkPhysi
 
 	if(!pPresentModes)
 	{
-		*pPresentModeCount = vk::Cast(surface)->getPresentModeCount();
+		*pPresentModeCount = vk::SurfaceKHR::GetPresentModeCount();
 		return VK_SUCCESS;
 	}
 
-	return vk::Cast(surface)->getPresentModes(pPresentModeCount, pPresentModes);
+	return vk::SurfaceKHR::GetPresentModes(pPresentModeCount, pPresentModes);
 }
 
 VKAPI_ATTR VkResult VKAPI_CALL vkCreateSwapchainKHR(VkDevice device, const VkSwapchainCreateInfoKHR *pCreateInfo, const VkAllocationCallbacks *pAllocator, VkSwapchainKHR *pSwapchain)
