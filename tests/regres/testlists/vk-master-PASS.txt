@@ -75558,6 +75558,7 @@ dEQP-VK.binding_model.descriptor_copy.graphics_uab.uniform_texel_buffer_5
 dEQP-VK.binding_model.descriptor_copy.graphics_uab.uniform_texel_buffer_array0
 dEQP-VK.binding_model.descriptor_copy.graphics_uab.uniform_texel_buffer_array1
 dEQP-VK.binding_model.descriptor_copy.graphics_uab.uniform_texel_buffer_array2
+dEQP-VK.binding_model.descriptor_copy.misc.copy_immutable_sampler_1_images
 dEQP-VK.binding_model.descriptor_copy.misc.copy_immutable_sampler_1_images_buffer_first
 dEQP-VK.binding_model.descriptor_copy.misc.copy_immutable_sampler_4_images
 dEQP-VK.binding_model.descriptor_copy.misc.copy_immutable_sampler_4_images_buffer_first
@@ -77670,8 +77671,10 @@ dEQP-VK.binding_model.dynamic_offset.two_pipelines_pc_first
 dEQP-VK.binding_model.dynamic_offset.two_pipelines_pc_first_different_sets
 dEQP-VK.binding_model.dynamic_offset.two_pipelines_pc_first_single_layout
 dEQP-VK.binding_model.dynamic_offset.two_pipelines_separate_offsets
+dEQP-VK.binding_model.dynamic_offset.two_pipelines_separate_offsets_different_sets
 dEQP-VK.binding_model.dynamic_offset.two_pipelines_separate_offsets_pc_first
 dEQP-VK.binding_model.dynamic_offset.two_pipelines_separate_offsets_pc_first_different_sets
+dEQP-VK.binding_model.dynamic_offset.two_pipelines_separate_offsets_pc_first_single_layout
 dEQP-VK.binding_model.dynamic_offset.two_pipelines_separate_offsets_single_layout
 dEQP-VK.binding_model.dynamic_offset.two_pipelines_single_layout
 dEQP-VK.binding_model.inline_uniform_blocks.copy_size_16
@@ -171936,6 +171939,7 @@ dEQP-VK.pipeline.fast_linked_library.misc.descriptor_bind_test_backwards_holes
 dEQP-VK.pipeline.fast_linked_library.misc.descriptor_bind_test_holes
 dEQP-VK.pipeline.fast_linked_library.misc.frag_lib_varying_samples_4
 dEQP-VK.pipeline.fast_linked_library.misc.interpolate_at_sample_no_sample_shading
+dEQP-VK.pipeline.fast_linked_library.misc.no_rendering
 dEQP-VK.pipeline.fast_linked_library.multisample.3d.64x64x8_1.r8g8b8a8_unorm.samples_4
 dEQP-VK.pipeline.fast_linked_library.multisample.alpha_to_coverage.samples_4.alpha_invisible
 dEQP-VK.pipeline.fast_linked_library.multisample.alpha_to_coverage.samples_4.alpha_invisible_check_depth
@@ -238599,6 +238603,7 @@ dEQP-VK.pipeline.monolithic.misc.array_of_structs_interface
 dEQP-VK.pipeline.monolithic.misc.descriptor_bind_test_backwards
 dEQP-VK.pipeline.monolithic.misc.descriptor_bind_test_backwards_holes
 dEQP-VK.pipeline.monolithic.misc.descriptor_bind_test_holes
+dEQP-VK.pipeline.monolithic.misc.no_rendering
 dEQP-VK.pipeline.monolithic.misc.position_to_ssbo
 dEQP-VK.pipeline.monolithic.multisample.3d.64x64x8_1.r8g8b8a8_unorm.samples_4
 dEQP-VK.pipeline.monolithic.multisample.alpha_to_coverage.samples_4.alpha_invisible
@@ -307679,6 +307684,7 @@ dEQP-VK.pipeline.pipeline_library.misc.descriptor_bind_test_backwards
 dEQP-VK.pipeline.pipeline_library.misc.descriptor_bind_test_backwards_holes
 dEQP-VK.pipeline.pipeline_library.misc.descriptor_bind_test_holes
 dEQP-VK.pipeline.pipeline_library.misc.frag_lib_varying_samples_4
+dEQP-VK.pipeline.pipeline_library.misc.no_rendering
 dEQP-VK.pipeline.pipeline_library.multisample.3d.64x64x8_1.r8g8b8a8_unorm.samples_4
 dEQP-VK.pipeline.pipeline_library.multisample.alpha_to_coverage.samples_4.alpha_invisible
 dEQP-VK.pipeline.pipeline_library.multisample.alpha_to_coverage.samples_4.alpha_invisible_check_depth
@@ -342018,7 +342024,6 @@ dEQP-VK.renderpasses.dynamic_rendering.primary_cmd_buff.basic.contents_primary_s
 dEQP-VK.renderpasses.dynamic_rendering.primary_cmd_buff.basic.contents_secondary_2_primary_cmdbuffers_resuming
 dEQP-VK.renderpasses.dynamic_rendering.primary_cmd_buff.basic.contents_secondary_cmdbuffers
 dEQP-VK.renderpasses.dynamic_rendering.primary_cmd_buff.basic.contents_secondary_primary_cmdbuffers_resuming
-dEQP-VK.renderpasses.dynamic_rendering.primary_cmd_buff.basic.partial_binding_depth_stencil
 dEQP-VK.renderpasses.dynamic_rendering.primary_cmd_buff.basic.secondary_cmdbuffer_out_of_rendering_commands
 dEQP-VK.renderpasses.dynamic_rendering.primary_cmd_buff.basic.single_cmdbuffer
 dEQP-VK.renderpasses.dynamic_rendering.primary_cmd_buff.basic.single_cmdbuffer_resuming

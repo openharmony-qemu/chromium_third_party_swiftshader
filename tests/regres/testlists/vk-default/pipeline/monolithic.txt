@@ -112986,6 +112986,7 @@ dEQP-VK.pipeline.monolithic.misc.implicit_primitive_id
 dEQP-VK.pipeline.monolithic.misc.implicit_primitive_id_with_tessellation
 dEQP-VK.pipeline.monolithic.misc.layer_read_from_frag
 dEQP-VK.pipeline.monolithic.misc.no_rendering
+dEQP-VK.pipeline.monolithic.misc.no_rendering_unused_attachment
 dEQP-VK.pipeline.monolithic.misc.position_to_ssbo
 dEQP-VK.pipeline.monolithic.misc.primitive_id_from_tess
 dEQP-VK.pipeline.monolithic.multisample.3d.64x64x8_1.r8g8b8a8_unorm.samples_16
@@ -284119,6 +284120,8 @@ dEQP-VK.pipeline.monolithic.vertex_input.misc.stride_change_vert_tess_frag
 dEQP-VK.pipeline.monolithic.vertex_input.misc.stride_change_vert_tess_geom_frag
 dEQP-VK.pipeline.monolithic.vertex_input.misc.unbound_input
 dEQP-VK.pipeline.monolithic.vertex_input.misc.unbound_input_dynamic
+dEQP-VK.pipeline.monolithic.vertex_input.misc.unbound_input_dynamic_integer
+dEQP-VK.pipeline.monolithic.vertex_input.misc.unbound_input_integer
 dEQP-VK.pipeline.monolithic.vertex_input.misc.unused_binding
 dEQP-VK.pipeline.monolithic.vertex_input.misc.unused_binding_dynamic
 dEQP-VK.pipeline.monolithic.vertex_input.multiple_attributes.binding_one_to_many.attributes.f16vec2.f16vec3.f16vec4
