@@ -320445,6 +320445,7 @@ dEQP-VK.api.info.vulkan1p4.features
 dEQP-VK.api.info.vulkan1p4.properties
 dEQP-VK.api.info.vulkan1p4.property_extensions_consistency
 dEQP-VK.api.info.vulkan1p4_limits_validation.general
+dEQP-VK.api.invariance.memory_dedicated_requirements_matching
 dEQP-VK.api.invariance.memory_requirements_matching
 dEQP-VK.api.invariance.random
 dEQP-VK.api.maintenance3_check.descriptor_set
