@@ -43017,6 +43017,7 @@ dEQP-VK.api.copy_and_blit.copy_commands2.resolve_image.with_regions.32_bit
 dEQP-VK.api.copy_and_blit.copy_commands2.resolve_image.with_regions.4_bit
 dEQP-VK.api.copy_and_blit.copy_commands2.resolve_image.with_regions.64_bit
 dEQP-VK.api.copy_and_blit.copy_commands2.resolve_image.with_regions.8_bit
+dEQP-VK.api.copy_and_blit.copy_memory_indirect.mandatory_formats.memory_to_image
 dEQP-VK.api.copy_and_blit.copy_memory_indirect.protected_memory.graphics
 dEQP-VK.api.copy_and_blit.copy_memory_indirect.size_12.offset_0.count_0.long_stride.compute
 dEQP-VK.api.copy_and_blit.copy_memory_indirect.size_12.offset_0.count_0.long_stride.graphics
