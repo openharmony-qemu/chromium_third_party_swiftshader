@@ -64,7 +64,7 @@ if (supports_subzero) {
     if (current_cpu == "x64") {
       defines += [
         "SZTARGET=X8664",
-        "SUBZERO_TARGET=X8664",
+        # "SUBZERO_TARGET=X8664",
       ]
     } else if (current_cpu == "x86") {
       defines += [
@@ -79,7 +79,7 @@ if (supports_subzero) {
     } else if (current_cpu == "arm") {
       defines += [
         "SZTARGET=ARM32",
-        "SUBZERO_TARGET=ARM32",
+        # "SUBZERO_TARGET=ARM32",
       ]
     }
 
@@ -99,6 +99,8 @@ if (supports_subzero) {
           [ "../../third_party/llvm-subzero/build/Fuchsia/include/" ]
     } else if (is_mac) {
       include_dirs += [ "../../third_party/llvm-subzero/build/MacOS/include/" ]
+    } else {
+      include_dirs += [ "../../third_party/llvm-subzero/build/Linux/include/" ]
     }
   }
 
@@ -324,7 +326,7 @@ if (supports_llvm) {
       "$llvm_dir/configs/common/include/",
     ]
 
-    if (is_linux || is_chromeos) {
+    if (is_linux || is_chromeos || is_ohos) {
       include_dirs += [ "$llvm_dir/configs/linux/include/" ]
     } else if (is_fuchsia) {
       include_dirs += [ "$llvm_dir/configs/fuchsia/include/" ]
