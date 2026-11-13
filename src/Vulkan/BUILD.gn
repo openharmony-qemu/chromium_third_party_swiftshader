@@ -22,6 +22,9 @@ import("vulkan.gni")
 config("swiftshader_libvulkan_private_config") {
   if (is_linux || is_ohos) {
     defines = [ "VK_EXPORT=__attribute__((visibility(\"default\")))" ]
+    if (is_ohos) {
+      defines += [ "VK_USE_PLATFORM_OHOS" ]
+    }
     if (ozone_platform_x11) {
       defines += [ "VK_USE_PLATFORM_XCB_KHR" ]
     }
@@ -226,6 +229,11 @@ swiftshader_shared_library("swiftshader_libvulkan") {
       "-Wl,--version-script=" +
           rebase_path("vk_swiftshader.lds", root_build_dir),
     ]
+  }
+  if (is_ohos) {
+    # musl retains SwiftShader's C++ atexit callbacks after the Vulkan loader
+    # closes an ICD. Keep the image mapped so exit cannot call unmapped code.
+    ldflags += [ "-Wl,-z,nodelete" ]
   }
 
   deps = [ ":_swiftshader_libvulkan" ]

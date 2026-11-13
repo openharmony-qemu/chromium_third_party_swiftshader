@@ -35,6 +35,14 @@ swiftshader_source_set("WSI") {
     "VkSwapchainKHR.hpp",
   ]
 
+  if (is_ohos) {
+    sources += [
+      "OHOSSurfaceKHR.cpp",
+      "OHOSSurfaceKHR.hpp",
+      "OHOSPresentCopy.hpp",
+    ]
+  }
+
   if (is_linux) {
     if (ozone_platform_x11) {
       sources += [

@@ -14,6 +14,9 @@
 
 #include "VkGetProcAddress.hpp"
 #include "VkDevice.hpp"
+#ifdef VK_USE_PLATFORM_OHOS
+#	include <vulkan/vulkan_ohos.h>
+#endif
 
 #include <string>
 #include <tuple>
@@ -190,6 +193,9 @@ static const std::unordered_map<std::string, InstanceFunctionEntry> instanceFunc
 	// VK_KHR_win32_surface
 	MAKE_VULKAN_INSTANCE_ENTRY(vkCreateWin32SurfaceKHR),
 	MAKE_VULKAN_INSTANCE_ENTRY(vkGetPhysicalDeviceWin32PresentationSupportKHR),
+#endif
+#ifdef VK_USE_PLATFORM_OHOS
+	MAKE_VULKAN_INSTANCE_ENTRY(vkCreateSurfaceOHOS),
 #endif
 	MAKE_VULKAN_INSTANCE_ENTRY(vkCreateHeadlessSurfaceEXT),
 };

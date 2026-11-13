@@ -51,6 +51,9 @@
 #include "System/SwiftConfig.hpp"
 #include "WSI/HeadlessSurfaceKHR.hpp"
 #include "WSI/VkSwapchainKHR.hpp"
+#ifdef VK_USE_PLATFORM_OHOS
+#	include "WSI/OHOSSurfaceKHR.hpp"
+#endif
 
 #if defined(VK_USE_PLATFORM_METAL_EXT) || defined(VK_USE_PLATFORM_MACOS_MVK)
 #	include "WSI/MetalSurface.hpp"
@@ -322,6 +325,9 @@ static const ExtensionProperties instanceExtensionProperties[] = {
 	{ { VK_KHR_GET_PHYSICAL_DEVICE_PROPERTIES_2_EXTENSION_NAME, VK_KHR_GET_PHYSICAL_DEVICE_PROPERTIES_2_SPEC_VERSION } },
 	{ { VK_EXT_DEBUG_UTILS_EXTENSION_NAME, VK_EXT_DEBUG_UTILS_SPEC_VERSION } },
 	{ { VK_EXT_HEADLESS_SURFACE_EXTENSION_NAME, VK_EXT_HEADLESS_SURFACE_SPEC_VERSION } },
+#ifdef VK_USE_PLATFORM_OHOS
+	{ { VK_OHOS_SURFACE_EXTENSION_NAME, VK_OHOS_SURFACE_SPEC_VERSION }, [] { return vk::OHOSSurfaceKHR::isSupported(); } },
+#endif
 #if defined(OSOHOS)
 	{ { VK_KHR_DISPLAY_EXTENSION_NAME, VK_KHR_DISPLAY_SPEC_VERSION } },
 #endif
@@ -4739,6 +4745,26 @@ VKAPI_ATTR VkBool32 VKAPI_CALL vkGetPhysicalDeviceWin32PresentationSupportKHR(Vk
 	TRACE("(VkPhysicalDevice physicalDevice = %p, uint32_t queueFamilyIndex = %d)",
 	      physicalDevice, queueFamilyIndex);
 	return VK_TRUE;
+}
+#endif
+
+#ifdef VK_USE_PLATFORM_OHOS
+VKAPI_ATTR VkResult VKAPI_CALL vkCreateSurfaceOHOS(VkInstance instance, const VkSurfaceCreateInfoOHOS *pCreateInfo, const VkAllocationCallbacks *pAllocator, VkSurfaceKHR *pSurface)
+{
+	if(!pSurface) { return VK_ERROR_INITIALIZATION_FAILED; }
+	*pSurface = VK_NULL_HANDLE;
+	if(!pCreateInfo || !pCreateInfo->window || pCreateInfo->flags || !vk::OHOSSurfaceKHR::isSupported())
+	{
+		return VK_ERROR_INITIALIZATION_FAILED;
+	}
+	VkResult result = vk::OHOSSurfaceKHR::Create(pAllocator, pCreateInfo, pSurface);
+	if(result == VK_SUCCESS && !static_cast<vk::OHOSSurfaceKHR *>(vk::Cast(*pSurface))->isReady())
+	{
+		vk::destroy(*pSurface, pAllocator);
+		*pSurface = VK_NULL_HANDLE;
+		return VK_ERROR_INITIALIZATION_FAILED;
+	}
+	return result;
 }
 #endif
 
